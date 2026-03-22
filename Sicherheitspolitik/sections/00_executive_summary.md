@@ -23,7 +23,7 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 |----------|------------|
 | `01_manifest_ueberbrueckung` | Das Ueberbrueckungsproblem: Wir ruesten auf um nie zu kaempfen — bis Kaempfen obsolet wird |
 | `02_vision_2100_post_scarcity` | Endpunkt: Energiesingularitaet + Robotik + RSSP-Dividenden → Knappheit endet, Kriege enden |
-| `02b_vision_meilensteine` | Checkpoints 2030/2035/2040/2050; Go/No-Go-Kriterien; 2040-Gabel (DFR/Fusion-Entscheidung); Plan B |
+| `02a_vision_meilensteine` | Checkpoints 2030/2035/2040/2050; Go/No-Go-Kriterien; 2040-Gabel (DFR/Fusion-Entscheidung); Plan B |
 
 ### Schicht 2: Geopolitik (Sektionen 03-07)
 
@@ -42,7 +42,7 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 |----------|------------|
 | `08_architektur_des_schildes` | 3-Ringe-Doktrin: Polnische Vorhut → Deutsche Tiefenwirkung → Franzoesischer Nuklearschirm |
 | `09_drohnen_doktrin` | 500.000 Volks-Drohnen, Euro-Stachel-Konsortium (DE/PL/IL), 11 Mrd. EUR, 3-5 Jahre; Masse statt Klasse |
-| `10_abschreckungsarchitektur` | 4 Saeulen: Sensor-Netzwerk (25 Mrd.), Container-Deep-Strike (7,5 Mrd.), European Defence OS (9 Mrd.), Hyper-Mobilitaet (12 Mrd.) = 64,5 Mrd. total |
+| `10_abschreckungsarchitektur` | 4 Saeulen: Sensor-Netzwerk (25 Mrd.), Container-Deep-Strike (7,5 Mrd.), European Defence OS (9 Mrd.), Hyper-Mobilitaet (12 Mrd.) = 53,5 Mrd. total (OHNE Drohnen-Doktrin, die separat in 09 ausgewiesen wird) |
 | `10b_cyber_eskalationsstufe` | Dritte Option zwischen konventionell und nuklear; Israel-Kooperation; 8-10 Mrd. EUR offensiv + 6,5 Mrd. defensiv; Signaling-Problem; Einsatzregeln |
 
 ### Schicht 4: Fundament (Sektionen 11-12)
@@ -63,14 +63,17 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 
 | Posten | Budget | Zeithorizont |
 |--------|--------|-------------|
-| Drohnen-Doktrin | ~11 Mrd. EUR | 2025-2032 |
-| Abschreckungsarchitektur (Sensor+DeepStrike+EDOS+Mobilitaet) | ~64,5 Mrd. EUR | 2025-2035 |
+| Drohnen-Doktrin (09_drohnen_doktrin) | ~11 Mrd. EUR | 2025-2032 |
+| Abschreckungsarchitektur (Sensor+DeepStrike+EDOS+Mobilitaet, OHNE Drohnen) | ~53,5 Mrd. EUR | 2025-2035 |
+| Cyber (10b_cyber_eskalationsstufe: offensiv + defensiv) | ~14,5-16,5 Mrd. EUR | 2025-2035 |
 | DFR Material-Offensive | ~6-8 Mrd. EUR | 2027-2035 |
 | DFR-MatAI (KI-Beschleunigung) | ~285 Mio. EUR | 2027-2029 |
-| **Gesamt** | **~82-84 Mrd. EUR** | **10 Jahre** |
-| **Pro Jahr** | **~8,2-8,4 Mrd. EUR** | |
+| **Gesamt** | **~85-89 Mrd. EUR** | **10 Jahre** |
+| **Pro Jahr** | **~8,5-8,9 Mrd. EUR** | |
 
-**Kontext:** ~8,3 Mrd. EUR/Jahr = ~11% des Verteidigungshaushalts (75 Mrd.). Oder: Der Preis von 2 BER-Flughaefen — fuer Energiesouveraenitaet + militaerische Unantastbarkeit.
+**Anmerkung zur Abschreckungsarchitektur:** Die 53,5 Mrd. EUR fuer die Abschreckungsarchitektur sind die Summe der 4 Saeulen (Sensor-Netzwerk 25 Mrd. + Container-Deep-Strike 7,5 Mrd. + EDOS 9 Mrd. + Hyper-Mobilitaet 12 Mrd. = 53,5 Mrd.) *ohne* die Drohnen-Doktrin, die separat ausgewiesen wird. Die frueheren 64,5 Mrd. enthielten die Drohnen doppelt.
+
+**Kontext:** ~8,7 Mrd. EUR/Jahr = ~12% des Verteidigungshaushalts (75 Mrd.). Oder: Der Preis von 2 BER-Flughaefen — fuer Energiesouveraenitaet + militaerische Unantastbarkeit.
 
 ## Offene Luecken
 
@@ -78,7 +81,7 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 |--------|--------|-----------|
 | **China-Kapitel** | ✅ Fertig (06_china_strategie) | Abgeschlossen |
 | **Cyber-Eskalationsstufe** | ✅ Fertig (10b_cyber_eskalationsstufe) | Abgeschlossen |
-| **Vision-Meilensteine** | ✅ Fertig (02b_vision_meilensteine) | Abgeschlossen |
+| **Vision-Meilensteine** | ✅ Fertig (02a_vision_meilensteine) | Abgeschlossen |
 | **System-Stresstest** (korrelierte Ausfaelle) | Fehlend | MITTEL — naechste Prioritaet |
 
 ## Rigor Statement

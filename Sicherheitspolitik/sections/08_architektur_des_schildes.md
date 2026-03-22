@@ -18,7 +18,7 @@ Deutschland wird zum Igel.
 
 2.  **Der Mittlere Ring (Das Schwert): Der Deutsche "Deep Strike"**
     *   Anstatt Soldaten an die Front zu schicken, schicken wir **Technologie**.
-    *   **Massen-Drohnen:** 1 Million autonome Drohnen (Initiative Phoenix).
+    *   **Massen-Drohnen:** 500.000 autonome Drohnen (Initiative Phoenix).
     *   **Container-Missiles:** Tausende Marschflugkörper auf LKW und Schiffen.
     *   **Doktrin:** "Wer uns angreift, dessen Nachschublinien brechen 500km hinter der Front zusammen."
 
@@ -28,7 +28,7 @@ Deutschland wird zum Igel.
 
 ## 3. Die Drohnen-Initiative "Phoenix" als Friedensstifter
 
-Die Ankündigung der Massenproduktion (1 Mio. Drohnen/Jahr) und die Lieferung an die Ukraine ist der entscheidende Schachzug.
+Die Ankündigung der Massenproduktion (200.000 Drohnen/Jahr) und die Lieferung an die Ukraine ist der entscheidende Schachzug.
 *   Er zeigt Russland: "Ihr könnt den Westen nicht 'out-producen'."
 *   Er zwingt Moskau an den Verhandlungstisch, weil die mathematische Gewissheit der Niederlage sichtbar wird.
 
@@ -41,3 +41,12 @@ Wir nutzen unseren Reichtum und unsere Industrie, um den Krieg zu automatisieren
 
 ---
 *Konsequenz: Deutschland wird militärisch unangreifbar, ohne militaristisch zu werden.*
+
+---
+
+**Querverweise:** Die hier skizzierte Doktrin wird in folgenden Dokumenten detailliert:
+- `09_drohnen_doktrin.md` — Vollstaendige Drohnen-Strategie (Systeme, Kosten, Israel-Kooperation)
+- `10_abschreckungsarchitektur.md` — Universelle Abschreckung (Sensor-Netzwerk, Deep Strike, EDOS, Mobilitaet)
+- `10b_cyber_eskalationsstufe.md` — Cyber als dritte Eskalationsstufe
+- `07_polen_perspektive.md` — Euro-Stachel-Konsortium (DE/PL/IL) fuer Drohnenproduktion
+- `05b_frankreich_perspektive.md` — Franzoesischer Nuklearschirm (Ring 3)

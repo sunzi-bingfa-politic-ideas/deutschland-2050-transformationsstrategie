@@ -33,6 +33,8 @@ Wir nutzen die komparativen Vorteile beider Nationen für einen radikalen Sprung
 | **Software / KI / Sensorik** | **Israel** | Anti-Jamming, Computer Vision (Targeting), Schwarm-Logik, Cyber-Offense. | Elbit, Rafael, IAI, Unit 8200 Alumni |
 | **Operation** | **Bundeswehr** | Doktrin, Vernetzung, "Man-in-the-Loop" Steuerung. | Cyber- & Informationsraum (CIR) |
 
+**Aktualisierung:** Die industrielle Umsetzung wurde in `07_polen_perspektive.md` als trilaterales **Euro-Stachel-Konsortium** konkretisiert: PGZ (Polen) 51% Anteil mit Endmontage in Breslau/Kattowitz, deutsche Partner (Rheinmetall, Bosch, Hensoldt) 49%, Israel (Elbit/Rafael/IAI) als Technologielizenzgeber. Produktionskapazitaet: 200.000 Einheiten/Jahr. Siehe `07_polen_perspektive.md` Abschnitt 5.1 fuer Details.
+
 ---
 
 ## 29.4 Die Kern-Projekte (2025-2030)

@@ -19,7 +19,7 @@ Dieser Abschnitt definiert messbare Checkpoints alle 5-10 Jahre. An jedem Checkp
 | **Sicherheit** | Drohnen-Doktrin operativ: 100.000+ Einheiten, Euro-Stachel-Fabrik laeuft | Stueckzahlen, Fabrik-Output | Konventionelle Aufruestung beschleunigen (teurer, langsamer) |
 | **Energie** | DFR Phase 1 abgeschlossen: Material down-selected; non-nuklearer Prototyp im Bau | Gate-2-Entscheidung | Umschwenken auf MSR/konventionelle Gen-IV |
 | **Wirtschaft** | RSSP-Kapitalstock >500 Mrd. EUR; GSP-Konten fuer 74 Mio. Versicherte | Fondsvolumen, Kontoanzahl | Beitragssatz erhoehen oder Starttermin war zu spaet |
-| **Geopolitik** | Karolinger-Vertrag unterzeichnet (DE+FR+IT+PL); erste gemeinsame Manoever | Vertragstext, Manoeverzahlen | Bilaterale Abkommen statt Block — schwaecher aber machbar |
+| **Geopolitik** | Karolinger-Vertrag unterzeichnet (DE+FR+IT+PL) — Verhandlung muss VOR franzoesischer Praesidentschaftswahl 2027 beginnen (siehe 05b_frankreich_perspektive.md); Unterzeichnung bis 2028 anstreben, spaetestens 2030; erste gemeinsame Manoever | Vertragstext, Manoeverzahlen | Bilaterale Abkommen statt Block — schwaecher aber machbar |
 | **Technologie** | EU Chips Act: TSMC Dresden produziert; EDOS-Pilotintegration laeuft | Chip-Output, EDOS-Testberichte | Chip-Abhaengigkeit bleibt — Risiko Taiwan unvermindert |
 | **Bildung** | GOUDE: 200.000+ Studenten; Gemeinschaftsschule in 3 Bundeslaendern pilotiert | Studentenzahlen, Pilotberichte | Bildungsreform politisch blockiert — Langzeitkosten steigen |
 

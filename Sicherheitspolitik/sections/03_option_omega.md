@@ -56,6 +56,8 @@ Polen darf nicht zum Feind werden (Gefahr der "Einkreisung"). Es muss eingebunde
 
 **Ziel:** Polen wird vom US-Proxy zum integrierten Partner Kerneuropas.
 
+**Aktualisierung:** Die operative Umsetzung dieser Strategie wurde in `07_polen_perspektive.md` erheblich weiterentwickelt. Die Kernstrategie ist nicht mehr "Umarmung durch Wohlstand" (als Patronage wahrgenommen), sondern **System-Integration durch Status**: Industrieller Deep Link (Euro-Stachel-Konsortium, PGZ 51%), Nukleare Planungsgruppe (Trilateral DE/FR/PL), und Infrastrukturbindung (Berlin-Warschau-Korridor). Polen ist Gruendungsmitglied des Karolinger-Pakts (DE+FR+IT+PL), nicht nachtraeglicher Beitritt. Siehe `07_polen_perspektive.md` fuer Details.
+
 ---
 
 ## 28.5 Phase 3: Die Russische Option (2035+)
@@ -73,6 +75,8 @@ Erst *nachdem* Deutschland militärisch stark (3% BIP), nuklear abgesichert (FR)
 
 **Strategisches Ziel:**
 Russland langfristig von China lösen und als Rohstofflieferant an Europa binden – aber zu unseren Bedingungen.
+
+**Aktualisierung:** Die starre Zeitvorgabe "2035+" wurde in `04_post_putin_szenarien.md` durch eine flexible Zeitfenster-Strategie ersetzt. Deutschland muss JEDERZEIT bereit sein (Putin koennte morgen sterben). Abschreckung und Verhandlungsbereitschaft laufen parallel, nicht sequenziell. Siehe `04_post_putin_szenarien.md` fuer die 4 Nachfolger-Szenarien.
 
 ---
 

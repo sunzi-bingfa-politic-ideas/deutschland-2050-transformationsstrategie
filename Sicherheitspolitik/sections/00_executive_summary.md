@@ -23,6 +23,7 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 |----------|------------|
 | `01_manifest_ueberbrueckung` | Das Ueberbrueckungsproblem: Wir ruesten auf um nie zu kaempfen — bis Kaempfen obsolet wird |
 | `02_vision_2100_post_scarcity` | Endpunkt: Energiesingularitaet + Robotik + RSSP-Dividenden → Knappheit endet, Kriege enden |
+| `02b_vision_meilensteine` | Checkpoints 2030/2035/2040/2050; Go/No-Go-Kriterien; 2040-Gabel (DFR/Fusion-Entscheidung); Plan B |
 
 ### Schicht 2: Geopolitik (Sektionen 03-07)
 
@@ -41,6 +42,7 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 | `08_architektur_des_schildes` | 3-Ringe-Doktrin: Polnische Vorhut → Deutsche Tiefenwirkung → Franzoesischer Nuklearschirm |
 | `09_drohnen_doktrin` | 500.000 Volks-Drohnen, Euro-Stachel-Konsortium (DE/PL/IL), 11 Mrd. EUR, 3-5 Jahre; Masse statt Klasse |
 | `10_abschreckungsarchitektur` | 4 Saeulen: Sensor-Netzwerk (25 Mrd.), Container-Deep-Strike (7,5 Mrd.), European Defence OS (9 Mrd.), Hyper-Mobilitaet (12 Mrd.) = 64,5 Mrd. total |
+| `10b_cyber_eskalationsstufe` | Dritte Option zwischen konventionell und nuklear; Israel-Kooperation; 8-10 Mrd. EUR offensiv + 6,5 Mrd. defensiv; Signaling-Problem; Einsatzregeln |
 
 ### Schicht 4: Fundament (Sektionen 11-12)
 
@@ -74,9 +76,9 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 | Luecke | Status | Prioritaet |
 |--------|--------|-----------|
 | **China-Kapitel** | ✅ Fertig (06_china_strategie) | Abgeschlossen |
-| **Cyber-Eskalationsstufe** | Konzeptionell skizziert, nicht ausgearbeitet | MITTEL |
-| **Vision-Meilensteine** (2030/2035/2040/2050) | Fehlend | MITTEL |
-| **System-Stresstest** (korrelierte Ausfaelle) | Fehlend | MITTEL |
+| **Cyber-Eskalationsstufe** | ✅ Fertig (10b_cyber_eskalationsstufe) | Abgeschlossen |
+| **Vision-Meilensteine** | ✅ Fertig (02b_vision_meilensteine) | Abgeschlossen |
+| **System-Stresstest** (korrelierte Ausfaelle) | Fehlend | MITTEL — naechste Prioritaet |
 
 ## Rigor Statement
 

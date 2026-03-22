@@ -9,7 +9,13 @@ Deutschland gibt **12,7% des BIP** fuer Gesundheit aus — mehr als fast jedes a
 ```
 GESUNDHEITSAUSGABEN DEUTSCHLAND 2024: ~474 Mrd. EUR
 
-Davon sind ~60-80 Mrd. EUR/Jahr STRUKTURELLE INEFFIZIENZ
+Davon sind geschaetzt ~60-80 Mrd. EUR/Jahr STRUKTURELLE INEFFIZIENZ
+    (Herleitung: 13 Mrd. Verwaltung bei 96 Kassen vs. ~7 Mrd. bei
+     Konsolidierung; ~15 Mrd. ueberteuerte Generika vs. EU-Durchschnitt
+     (BKK-Dachverband 2023); ~10 Mrd. vermeidbare KH-Aufenthalte (WIdO
+     Fehlbelegungsstudie); ~10 Mrd. Doppeluntersuchungen (ePA-Potenzial-
+     analyse McKinsey/BMG 2022); ~15-25 Mrd. vermeidbare Spaetkosten
+     durch fehlende Praevention (OECD Health at a Glance 2023))
     = Einkommen organisierter Lobby-Gruppen
     = Politisch geschuetzt durch:
         - 180+ gesetzliche Krankenkassen
@@ -53,7 +59,7 @@ Jede Reform, die Effizienz steigert, bedroht jemandes Einkommen.
 
 > "Die Verwaltungskosten der Kassen sind mit 4,8% schon niedrig"
 
-**Gegenargument:** 4,8% von 280 Mrd. EUR = 13,4 Mrd. EUR/Jahr fuer Verwaltung. Singapurs CPF verwaltet MediSave mit <1% Kosten. Norwegens Staatsfonds verwaltet 1,7 Bio. EUR mit 0,05% Kosten. Die Frage ist nicht, ob 4,8% "niedrig" ist, sondern ob 96 redundante Verwaltungsapparate noetig sind.
+**Gegenargument:** 4,8% von 280 Mrd. EUR = 13,4 Mrd. EUR/Jahr fuer Verwaltung. Ein fairer Vergleich: Suedkoreas NHIS (National Health Insurance Service) verwaltet 53 Mio. Versicherte als Single-Payer mit 2,5% Verwaltungskosten — halb so viel wie Deutschlands 96 Kassen fuer 74 Mio. Versicherte. Taiwans NHI (National Health Insurance) schafft 1,5% bei 24 Mio. Versicherten. Die Frage ist nicht, ob jede einzelne Kasse effizient arbeitet, sondern ob 96 separate IT-Systeme, Marketing-Abteilungen und Vorstands-Etagen fuer ein einheitliches Leistungspaket sinnvoll sind. Die Konsolidierung von 370 auf 1 in Suedkorea (2000) senkte die Verwaltungskosten um 40% — bei besserem Risikoausgleich.
 
 **Strategie gegenueber Kassen:**
 - Kassen werden **nicht abgeschafft**, sondern bekommen eine **neue Rolle**: GSP-Kontoverwaltung
@@ -233,6 +239,40 @@ Pflegekraefte sind die groessten **Gewinner** der Reform:
 
 ---
 
+### 1.7 Gemeinsamer Bundesausschuss (G-BA) und Selbstverwaltung
+
+**Akteur:** Der G-BA ist das oberste Beschlussgremium der gemeinsamen Selbstverwaltung im Gesundheitswesen. Er bestimmt, welche Leistungen die GKV bezahlt, und erlässt Richtlinien fuer ~74 Mio. Versicherte. Besetzung: GKV-Spitzenverband, KBV/KZBV, DKG — plus unparteiische Mitglieder.
+
+**Kerninteresse:** Erhalt des Selbstverwaltungsprinzips. Der G-BA ist eine der maechtigsten nicht-staatlichen Institutionen Deutschlands. Seine Macht beruht darauf, dass der Staat die Detailsteuerung an Kassen und Leistungserbringer delegiert. Jede Reform, die diese Delegation in Frage stellt, bedroht die Existenzberechtigung des G-BA.
+
+**Warum der G-BA das groesste strukturelle Hindernis ist:**
+
+| Problem | Mechanismus | Konsequenz |
+|---------|-------------|------------|
+| **Korporatistisches Veto** | Kassen UND Aerzte UND Kliniken muessen zustimmen | Jede Reform, die einem der drei schadet, wird blockiert |
+| **Regulatorische Traegheit** | Neue Leistungen brauchen 2-5 Jahre Bewertung | KI-Diagnostik, Praevention, Telemedizin werden verschleppt |
+| **Interessenkonflikt** | G-BA-Mitglieder vertreten ihre Verbaende, nicht Patienten | Patientenvertreter haben kein Stimmrecht |
+| **Intransparenz** | Viele Entscheidungen in nicht-oeffentlichen Sitzungen | Demokratische Kontrolle eingeschraenkt |
+
+**Typische Argumente der Selbstverwaltung:**
+
+> "Die Selbstverwaltung sichert fachliche Expertise und Praxisnaehe"
+
+**Gegenargument:** Fachliche Expertise ist nicht an korporatistische Strukturen gebunden. Singapurs Health Sciences Authority, Japans PMDA und Suedkoreas HIRA treffen medizinische Bewertungsentscheidungen schneller und evidenzbasierter — mit wissenschaftlichen Gremien statt Verbandsvertretern. Der G-BA hat keine systematische Ueberlegenheit gegenueber unabhaengigen wissenschaftlichen Agenturen; seine Staerke ist politisch, nicht fachlich.
+
+> "Ohne Selbstverwaltung wuerde der Staat alles bestimmen"
+
+**Gegenargument:** Das GSP-Modell schlaegt gerade NICHT staatliche Kontrolle vor, sondern individuelle Konten + marktbasierte Anreize. Es umgeht den G-BA nicht, indem der Staat die Kontrolle uebernimmt, sondern indem Patienten sie uebernehmen. Das GSP-Konto entzieht dem G-BA den Bereich, in dem Eigenverantwortung sinnvoll ist (Zahnersatz, Praevention, Wahlleistungen) — und laesst ihm den Bereich, in dem kollektive Entscheidung noetig ist (Akutversorgung, Arzneimittelbewertung).
+
+**Strategie gegenueber G-BA/Selbstverwaltung:**
+- **Nicht frontal angreifen:** Die Selbstverwaltung hat Verfassungsrang (Art. 87 Abs. 2 GG). Frontaler Angriff scheitert juristisch und politisch.
+- **GSP als Parallel-System:** Das GSP operiert *neben* der GKV-Selbstverwaltung, nicht innerhalb. Der G-BA regelt weiterhin GKV-Leistungen — das GSP ist davon getrennt (eigenes Sozialgesetzbuch XIV).
+- **IQWiG staerken, nicht G-BA schwaaechen:** Die wissenschaftliche Bewertung (IQWiG) wird ausgebaut und beschleunigt. Der G-BA muss IQWiG-Empfehlungen schneller umsetzen (Frist: 12 Monate statt unbefristet).
+- **Patientenvertreter staerken:** Stimmrecht fuer Patientenvertreter im G-BA (aktuell nur Mitberatungsrecht). Das veraendert die Dynamik ohne die Struktur zu zerstoeren.
+- **Praevention aus G-BA-Zustaendigkeit herausnehmen:** GSP-finanzierte Praevention braucht keine G-BA-Bewertung — sie wird durch individuelle Entscheidung und Bonus-Anreize gesteuert.
+
+---
+
 ## 2. Koalitionsmatrix: Wer gewinnt, wer verliert?
 
 ```
@@ -383,11 +423,11 @@ KOSTEN DES NICHTSTUNS:
 **Wahrheit 1: Deutschland hat kein Finanzierungsproblem — es hat ein Ausgabenproblem.**
 
 474 Mrd. EUR/Jahr sind genug, um jede/n Buerger/in auf Singapur-Niveau zu versorgen. Das Geld versickert in:
-- 96 redundanten Krankenkassen-Verwaltungen (13,4 Mrd. EUR)
-- 400+ Krankenhaeusern, die medizinisch nicht noetig sind (~15 Mrd. EUR)
-- Generika, die 3-5x teurer sind als in anderen EU-Laendern (~8 Mrd. EUR)
-- Doppeluntersuchungen mangels digitaler Patientenakte (~10 Mrd. EUR)
-- Fehlende Praevention → teure Spaetbehandlung (~20-30 Mrd. EUR)
+- Redundanter Kassenverwaltung: ~6 Mrd. EUR Einsparpotenzial bei Konsolidierung (vgl. Suedkorea NHIS: 2,5% vs. DE 4,8%)
+- Ueberteuerte Generika: ~15 Mrd. EUR ueber EU-Durchschnitt (BKK-Dachverband Arzneimittelreport 2023)
+- Vermeidbare stationaere Aufnahmen: ~10 Mrd. EUR (WIdO Fehlbelegungsanalyse: DE hat 2x so viele Betten/Kopf wie NL bei schlechteren Outcomes)
+- Doppeluntersuchungen mangels ePA: ~10 Mrd. EUR (McKinsey/BMG ePA-Potenzialanalyse 2022)
+- Fehlende Praevention → teure Spaetbehandlung: ~15-25 Mrd. EUR (OECD Health at a Glance 2023: DE gibt nur 3,1% der Gesundheitsausgaben fuer Praevention aus vs. 6,1% OECD-Spitze)
 
 **Wahrheit 2: Die Lobby der Verlierer ist organisiert, die Mehrheit der Gewinner nicht.**
 

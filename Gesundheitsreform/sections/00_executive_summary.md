@@ -17,14 +17,17 @@ Ein **Hybridmodell** aus asiatischen Best Practices, angepasst an deutsche Gegeb
 
 **Kernmechanismus:** Das GSP ergaenzt die GKV — es ersetzt sie nicht. 2% Pflichtbeitrag (1% AN + 1% AG) fliessen in ein individuelles, steuerfrei verzinstes Gesundheitssparkonto. Nutzbar fuer Zuzahlungen, Zahnersatz, Brille, Praevention. Vererbbar. Familien-Pooling moeglich.
 
-## Quantitative Ergebnisse
+## Quantitative Ergebnisse (berechnet mit gesundheit_projektion_model.py v2.0)
 
-| Metrik | Ohne Reform | Mit GSP-Modell |
-|--------|------------|----------------|
-| GKV-Beitragssatz 2045 | ~24,5% | ~16,5% (+2% GSP = 18,5% effektiv) |
-| GSP-Kapitalstock 2045 | 0 | ~1.500 Mrd. EUR |
-| Kumulative Ersparnis (35 J.) | — | ~550 Mrd. EUR |
-| Schuldenfinanzierungsbedarf | ~2 Bio. EUR | Deutlich reduziert durch GSP-Ertraege |
+| Metrik | Status Quo | GSP Baseline | GSP Pessimistisch |
+|--------|-----------|--------------|-------------------|
+| GKV-Beitragssatz 2045 | **19,5%** | 10,6% | 15,2% |
+| Effektiver Satz (GKV+GSP) 2045 | 19,5% | **12,6%** | 17,2% |
+| GSP-Kapitalstock 2045 | 0 | **1.150 Mrd. EUR** | 950 Mrd. EUR |
+| Kumulative Ersparnis (20 J.) | 0 | **298 Mrd. EUR** | 184 Mrd. EUR |
+| Crossover-Jahr (GSP guenstiger) | — | **2029** | ~2031 |
+
+**Monte-Carlo (1.000 Laeufe):** In 100% der Simulationen ist das GSP-Modell guenstiger als der Status Quo. Median-Vorteil: 6,5 Prozentpunkte.
 
 ## Politische Durchsetzung
 
@@ -48,9 +51,10 @@ Ein **Hybridmodell** aus asiatischen Best Practices, angepasst an deutsche Gegeb
 | Datei | Inhalt |
 |-------|--------|
 | `01_asiatische_modelle.md` | Vergleichende Analyse: Singapur, Japan, Suedkorea, Thailand, China |
-| `02_lobby_analyse_und_durchsetzung.md` | Akteur-Analyse, Gegenargumente, Kommunikationsstrategie |
+| `02_lobby_analyse_und_durchsetzung.md` | Akteur-Analyse (inkl. G-BA), Gegenargumente, Kommunikationsstrategie |
 | `03_adaption_singapur_deutschland.md` | GSP-Detaildesign, Rechtsform, Beitragsstruktur, Uebergangsregelungen |
-| `model/gesundheit_projektion_model.py` | Python-Simulationsmodell (demografische Kosten, Szenarien, GSP-Akkumulation) |
+| `04_sensitivitaetsanalyse.md` | Tornado, Break-Even, Monte-Carlo (1.000 Laeufe), Robustheits-Assessment |
+| `model/gesundheit_projektion_model.py` | Python v2.0: GSP-Akkumulation, GKV-Beitragssatz, Sensitivitaet |
 
 ## Rigor Statement
 

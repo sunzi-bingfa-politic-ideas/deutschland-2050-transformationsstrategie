@@ -135,6 +135,16 @@ Beitragssatz-Entwicklung:
 
 **Kernergebnis:** In keinem einzigen der 1.000 Simulationslaeufe ist das GSP-Modell teurer als der Status Quo. Der Vorteil betraegt im Median 6,5 Prozentpunkte — selbst im schlechtesten 5% der Faelle noch 2,6 PP.
 
+### Methodische Einschraenkung der Monte-Carlo-Analyse
+
+Die 100%-Dominanz des GSP-Modells ist teilweise ein **strukturelles Artefakt** der Modellarchitektur, nicht nur ein empirisches Ergebnis. Zwei Gruende:
+
+1. **Asymmetrische Effizienzannahme:** Die Monte-Carlo-Laeufe variieren den Effizienzgewinn zwischen 0,5% und 3,0% — aber der Status Quo hat per Definition 0%. Selbst der schlechteste Monte-Carlo-Lauf hat also 0,5% Effizienzgewinn, die dem Status Quo fehlen. Eine fairere Modellierung wuerde den Status Quo ebenfalls mit einem Effizienz-Range (z.B. 0-1%) versehen.
+
+2. **Unabhaengige Parametervariation:** Die Monte-Carlo-Simulation variiert alle Parameter unabhaengig (Gleichverteilung). In der Realitaet sind manche Parameter korreliert: Niedrige Rendite tritt oft gemeinsam mit hoher Inflation auf (Stagflation), und hohe medizinische Inflation korreliert mit niedrigen Effizienzgewinnen (Reformblockade). Eine korrelierte Simulation (Copula-Ansatz) koennte das P95-Ergebnis verschlechtern.
+
+**Konsequenz:** Die qualitative Aussage (GSP dominiert Status Quo) ist robust, aber die quantitativen Konfidenzintervalle sind optimistischer als in der Realitaet. Ein realistischerer Worst Case laege vermutlich bei 1-2 PP Vorteil statt 2,6 PP.
+
 ---
 
 ## 5. Kritische Wuerdigung
@@ -151,6 +161,7 @@ Beitragssatz-Entwicklung:
 - **Wechselwirkungen:** Der GSP-Kapitalstock interagiert mit dem RSSP (Renten-Modell) und der Eurozone-Strategie. Diese Interaktionen sind nicht modelliert.
 - **Regionale Unterschiede:** Gesundheitskosten variieren stark zwischen Bundeslaendern (Bayern vs. NRW). Das Modell arbeitet mit Bundesdurchschnitten.
 - **Technologiebrueche:** KI-Diagnostik, mRNA-Therapien oder Praezisionsmedizin koennten die Kostenstruktur fundamental veraendern — in beide Richtungen.
+- **Status-Quo-Unterschaetzung:** Das Modell projiziert den Status-Quo-Beitragssatz auf 19,5% (2045). Schaetzungen in der Fachliteratur (u.a. Prognos, Bertelsmann) liegen bei 22-25%, weil sie Leistungsausweitungen, technologiegetriebene Kostensteigerungen und politischen Reformstau einpreisen, die das Modell nicht abbildet. Der modellierte GSP-Vorteil ist daher eine **konservative Untergrenze**.
 
 ### Robustheit-Assessment
 

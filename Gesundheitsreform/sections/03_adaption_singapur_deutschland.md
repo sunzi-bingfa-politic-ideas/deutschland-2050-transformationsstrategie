@@ -280,27 +280,28 @@ GSP-DIGITALE ARCHITEKTUR
 
 ### 5.2 GKV-Beitragssatz-Effekt
 
+Berechnet mit `gesundheit_projektion_model.py` v2.0 (GSP-Baseline-Szenario).
+
 ```
-BEITRAGSSATZ-PROJEKTION MIT GSP
+BEITRAGSSATZ-PROJEKTION MIT GSP (Modell-Output)
 
-Jahr    Ohne GSP    Mit GSP     Differenz   GSP-Kapitalstock
-----    --------    -------     ---------   ----------------
-2025    15,9%       15,9%+2,0%  +2,0%        0 Mrd. EUR
-2030    17,5%       16,3%+2,0%  +0,8%       320 Mrd. EUR
-2035    19,8%       16,5%+2,0%  -1,3%       700 Mrd. EUR
-2040    22,1%       16,5%+2,0%  -3,6%      1.100 Mrd. EUR
-2045    24,5%       16,5%+2,0%  -6,0%      1.500 Mrd. EUR
-2050    22,0%       16,0%+2,0%  -4,0%      2.000 Mrd. EUR
+Jahr    Ohne GSP    GSP: GKV    GSP: GKV+GSP  Vorteil   GSP-Kapitalstock
+----    --------    --------    ------------  -------   ----------------
+2025    15,9%       15,9%       17,9%         -2,0 PP       0 Mrd. EUR
+2030    16,8%       14,1%       16,1%         +0,7 PP     177 Mrd. EUR
+2035    17,8%       12,5%       14,5%         +3,3 PP     442 Mrd. EUR
+2040    18,6%       11,5%       13,5%         +5,1 PP     763 Mrd. EUR
+2045    19,5%       10,6%       12,6%         +6,9 PP   1.150 Mrd. EUR
+2050    18,9%        9,1%       11,1%         +7,8 PP   1.611 Mrd. EUR
+2055    18,2%        7,7%        9,7%         +8,5 PP   2.160 Mrd. EUR
+2060    17,4%        6,5%        8,5%         +8,9 PP   2.810 Mrd. EUR
 
-Effektiver Gesamtbeitrag:
-  Ohne GSP 2045: 24,5% (nur GKV)
-  Mit  GSP 2045: 18,5% (16,5% GKV + 2,0% GSP)
-  Ersparnis:      6,0 Prozentpunkte
-
-  PLUS: 1.500 Mrd. EUR Kapitalstock als Eigenvermoegen
+Crossover-Jahr (GSP effektiv guenstiger als Status Quo): 2029
 ```
 
-**Das zentrale Argument:** Der GSP-Beitrag von 2% wird durch GKV-Beitragssenkungen ueberkompensiert. Ab ~2033 ist der Gesamtbeitrag (GKV + GSP) *niedriger* als der GKV-Beitrag allein ohne Reform.
+**Anmerkung zum Status-Quo-Beitragssatz:** Das Modell projiziert einen Anstieg auf 19,5% bis 2045, nicht auf die in der oeffentlichen Debatte oft genannten 24-25%. Die Differenz erklaert sich dadurch, dass dieses Modell nur den demografischen Effekt + medizinische Inflation modelliert, waehrend Schaetzungen von 24-25% zusaetzlich Leistungsausweitungen, technologiegetriebene Kostensteigerungen und politische Dynamiken (Reformstau) einpreisen. Der Modellwert von 19,5% ist daher als **konservative Untergrenze** des Status-Quo-Problems zu verstehen — das reale Problem ist wahrscheinlich groesser.
+
+**Das zentrale Argument:** Der GSP-Beitrag von 2% wird durch GKV-Beitragssenkungen ueberkompensiert. Ab **2029** (Crossover) ist der Gesamtbeitrag (GKV + GSP) niedriger als der GKV-Beitrag allein ohne Reform. Die Uebergangsphase betraegt nur 4 Jahre.
 
 ---
 

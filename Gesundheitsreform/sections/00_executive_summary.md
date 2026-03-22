@@ -2,7 +2,7 @@
 
 ## Das Problem
 
-Deutschland gibt **12,7% des BIP** (474 Mrd. EUR/Jahr) fuer Gesundheit aus — das dritthöchste weltweit — und erzielt dabei mittelmäßige Ergebnisse: Lebenserwartung 81,3 Jahre (Rang 33), Säuglingssterblichkeit 3,2/1000 (schlechter als Singapur, Japan, Suedkorea). Das demografische Problem verschaerft die Lage: Die Babyboomer (Jg. 1955-1969) treten jetzt in die kostenintensivste Lebensphase ein. Ohne Reform steigt der GKV-Beitragssatz auf **~25% bis 2045**.
+Deutschland gibt **12,7% des BIP** (474 Mrd. EUR/Jahr) fuer Gesundheit aus — das dritthöchste weltweit — und erzielt dabei mittelmäßige Ergebnisse: Lebenserwartung 81,3 Jahre (Rang 33), Säuglingssterblichkeit 3,2/1000 (schlechter als Singapur, Japan, Suedkorea). Das demografische Problem verschaerft die Lage: Die Babyboomer (Jg. 1955-1969) treten jetzt in die kostenintensivste Lebensphase ein. Ohne Reform steigt der GKV-Beitragssatz auf **~19,5% bis 2045** (Modellprojektion; externe Schaetzungen von Prognos/Bertelsmann liegen bei 22-25% wegen zusaetzlicher Kostentreiber, die das Modell nicht abbildet).
 
 ## Die Loesung: Deutsches Gesundheitskonto (GSP)
 

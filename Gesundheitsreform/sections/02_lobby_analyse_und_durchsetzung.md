@@ -339,8 +339,10 @@ GESUNDHEITSAUSGABEN OHNE REFORM:
 2035:  620 Mrd. EUR (~15% BIP)
 2045:  747 Mrd. EUR (~17% BIP)  ← PEAK
 
-Beitragssatz muesste steigen auf: ~25%
-→ Wirtschaft bricht unter Lohnnebenkosten zusammen
+Beitragssatz muesste steigen auf: 19,5-25%
+  (19,5% = eigene Modellprojektion; 22-25% = Prognos/Bertelsmann
+   inkl. Leistungsausweitungen + technolog. Kostensteigerungen)
+→ Wirtschaft leidet unter steigenden Lohnnebenkosten
 → Unternehmen wandern ab
 → Steuereinnahmen sinken
 → Todesspirale
@@ -373,7 +375,7 @@ KOSTEN DER REFORM:
 - NETTO: Reform SPART Geld ab Jahr 5
 
 KOSTEN DES NICHTSTUNS:
-- Beitragssatz 25% bis 2045
+- Beitragssatz 19,5-25% bis 2045 (je nach Quelle)
 - Wirtschaftsschaden: ~200 Mrd. EUR kumuliert
 - Soziale Kosten: Altersarmut durch Gesundheitskosten
 ```
@@ -412,7 +414,7 @@ KOSTEN DES NICHTSTUNS:
 
 9/ Die gute Nachricht: Der demografische Kostenberg hat ein ENDE. Nach 2045 sinken die Kosten natuerlich. Wir muessen nur 20 Jahre ueberbruecken — genau dafuer ist das GSP da.
 
-10/ Die Frage ist nicht: "Koennen wir uns die Reform leisten?" Die Frage ist: "Koennen wir es uns leisten, NICHTS zu tun?" Bei 25% Beitragssatz bis 2045 ist die Antwort: Nein.
+10/ Die Frage ist nicht: "Koennen wir uns die Reform leisten?" Die Frage ist: "Koennen wir es uns leisten, NICHTS zu tun?" Bei mindestens 19,5% Beitragssatz bis 2045 — realistisch eher 22-25% — ist die Antwort: Nein.
 
 ---
 
@@ -435,7 +437,7 @@ KOSTEN DES NICHTSTUNS:
 
 **Wahrheit 3: Die demografische Uhr tickt.**
 
-Die Babyboomer (Jg. 1955-1969) kommen jetzt in die teuerste Lebensphase. Ohne Reform steigt der GKV-Beitragssatz auf 20-25% bis 2045. Das ist kein Worst-Case — das ist die demografische Grundrechnung. GSP + Effizienz + temporaere Schuldenfinanzierung sind die einzige Alternative zu einer Beitragsexplosion.
+Die Babyboomer (Jg. 1955-1969) kommen jetzt in die teuerste Lebensphase. Ohne Reform steigt der GKV-Beitragssatz auf mindestens 19,5% bis 2045 (eigene Modellprojektion) — externe Studien (Prognos, Bertelsmann) schaetzen 22-25% unter Einbeziehung von Leistungsausweitungen und Technologiekosten. GSP + Effizienz + temporaere Schuldenfinanzierung sind die einzige Alternative zu einer Beitragsexplosion.
 
 ---
 
@@ -536,7 +538,7 @@ Jede Gesundheitsreform, die alle Akteure gleichzeitig angreift, scheitert. Die K
 
 2. **"Singapur beweist es"** — Kein Experiment, kein Risiko. 40 Jahre Praxis. Beste Gesundheitsergebnisse der Welt. Halb so teuer wie Deutschland.
 
-3. **"Die Alternative ist 25% Beitragssatz"** — Ohne Reform steigt der Beitrag auf 25% bis 2045. Das ist keine Panikmache — das ist Demografie.
+3. **"Die Alternative ist 20%+ Beitragssatz"** — Ohne Reform steigt der Beitrag auf mindestens 19,5% bis 2045 (Modell) — realistisch eher 22-25% (Prognos/Bertelsmann). Das ist keine Panikmache — das ist Demografie.
 
 ---
 

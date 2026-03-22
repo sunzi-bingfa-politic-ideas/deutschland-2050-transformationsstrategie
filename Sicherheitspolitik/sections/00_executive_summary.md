@@ -32,6 +32,7 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 | `03_option_omega` | Karolinger-Pakt (DE+FR+IT+PL): Fiskalunion fuer Nuklearschirm; Polnische Bruecke; Russland-Option ab 2035 |
 | `04_post_putin_szenarien` | 4 Nachfolger-Szenarien (Technokrat 30%, Hardliner 25%, Kollektiv 25%, Fragmentierung 5-10%); Zeitfenster-Strategie; Ukraine-Formel |
 | `05_usa_neupositionierung` | USA als aktiver Antagonist (nicht nur passiver Rueckzug); 5 US-Hebel; Strategische Ambiguitaet: oeffentlich kooperieren, faktisch emanzipieren |
+| `05b_frankreich_perspektive` | Grande Nation von innen; Gaullistische Souveraenitaet; Le-Pen-Risiko; Nuklear-Konsultation; Ruestungs-Arbeitsteilung; Zeitfenster 2027 |
 | `06_china_strategie` | Chinas 3-Saeulen-Expansion; Europas De-Risking (5 Gegenstrategien); China-Russland-Achse; Europa als "Dritter Pol"; Taiwan-Versicherung; Global Gateway Plus |
 | `07_polen_perspektive` | Polens Identitaet von innen; 3 Hebel: Industrieller Deep Link (Euro-Stachel-Konsortium PGZ 51%), Nukleare Planungsgruppe, Infrastrukturbindung; Status statt Geld |
 

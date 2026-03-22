@@ -24,29 +24,30 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 | `01_manifest_ueberbrueckung` | Das Ueberbrueckungsproblem: Wir ruesten auf um nie zu kaempfen — bis Kaempfen obsolet wird |
 | `02_vision_2100_post_scarcity` | Endpunkt: Energiesingularitaet + Robotik + RSSP-Dividenden → Knappheit endet, Kriege enden |
 
-### Schicht 2: Geopolitik (Sektionen 03-06)
+### Schicht 2: Geopolitik (Sektionen 03-07)
 
 | Dokument | Kernaussage |
 |----------|------------|
 | `03_option_omega` | Karolinger-Pakt (DE+FR+IT+PL): Fiskalunion fuer Nuklearschirm; Polnische Bruecke; Russland-Option ab 2035 |
 | `04_post_putin_szenarien` | 4 Nachfolger-Szenarien (Technokrat 30%, Hardliner 25%, Kollektiv 25%, Fragmentierung 5-10%); Zeitfenster-Strategie; Ukraine-Formel |
 | `05_usa_neupositionierung` | USA als aktiver Antagonist (nicht nur passiver Rueckzug); 5 US-Hebel; Strategische Ambiguitaet: oeffentlich kooperieren, faktisch emanzipieren |
-| `06_polen_perspektive` | Polens Identitaet von innen; 3 Hebel: Industrieller Deep Link (Euro-Stachel-Konsortium PGZ 51%), Nukleare Planungsgruppe, Infrastrukturbindung; Status statt Geld |
+| `06_china_strategie` | Chinas 3-Saeulen-Expansion; Europas De-Risking (5 Gegenstrategien); China-Russland-Achse; Europa als "Dritter Pol"; Taiwan-Versicherung; Global Gateway Plus |
+| `07_polen_perspektive` | Polens Identitaet von innen; 3 Hebel: Industrieller Deep Link (Euro-Stachel-Konsortium PGZ 51%), Nukleare Planungsgruppe, Infrastrukturbindung; Status statt Geld |
 
-### Schicht 3: Militaer & Technologie (Sektionen 07-09)
-
-| Dokument | Kernaussage |
-|----------|------------|
-| `07_architektur_des_schildes` | 3-Ringe-Doktrin: Polnische Vorhut → Deutsche Tiefenwirkung → Franzoesischer Nuklearschirm |
-| `08_drohnen_doktrin` | 500.000 Volks-Drohnen, Euro-Stachel-Konsortium (DE/PL/IL), 11 Mrd. EUR, 3-5 Jahre; Masse statt Klasse |
-| `09_abschreckungsarchitektur` | 4 Saeulen: Sensor-Netzwerk (25 Mrd.), Container-Deep-Strike (7,5 Mrd.), European Defence OS (9 Mrd.), Hyper-Mobilitaet (12 Mrd.) = 64,5 Mrd. total |
-
-### Schicht 4: Fundament (Sektionen 10-11)
+### Schicht 3: Militaer & Technologie (Sektionen 08-10)
 
 | Dokument | Kernaussage |
 |----------|------------|
-| `10_historische_analyse` | Bismarck, Kalter Krieg, Schweiz als Erfolgsmodelle; 1914, Appeasement als Warnungen; Diplomatische Narrative fuer FR/PL/RU/USA |
-| `11_kommunikation_der_wahrheit` | "Patriotische Rationalitaet"; Audience-spezifische Botschaften; Gesellschaftliche Resilienz |
+| `08_architektur_des_schildes` | 3-Ringe-Doktrin: Polnische Vorhut → Deutsche Tiefenwirkung → Franzoesischer Nuklearschirm |
+| `09_drohnen_doktrin` | 500.000 Volks-Drohnen, Euro-Stachel-Konsortium (DE/PL/IL), 11 Mrd. EUR, 3-5 Jahre; Masse statt Klasse |
+| `10_abschreckungsarchitektur` | 4 Saeulen: Sensor-Netzwerk (25 Mrd.), Container-Deep-Strike (7,5 Mrd.), European Defence OS (9 Mrd.), Hyper-Mobilitaet (12 Mrd.) = 64,5 Mrd. total |
+
+### Schicht 4: Fundament (Sektionen 11-12)
+
+| Dokument | Kernaussage |
+|----------|------------|
+| `11_historische_analyse` | Bismarck, Kalter Krieg, Schweiz als Erfolgsmodelle; 1914, Appeasement als Warnungen; Diplomatische Narrative fuer FR/PL/RU/USA |
+| `12_kommunikation_der_wahrheit` | "Patriotische Rationalitaet"; Audience-spezifische Botschaften; Gesellschaftliche Resilienz |
 
 ### Querschnitt: Energiesouveraenitaet (→ Energiesektor)
 
@@ -72,7 +73,7 @@ Frieden ist nicht die Abwesenheit von Waffen — Frieden ist der Zustand in dem 
 
 | Luecke | Status | Prioritaet |
 |--------|--------|-----------|
-| **China-Kapitel** | Fehlend | HOCH — groesste analytische Luecke |
+| **China-Kapitel** | ✅ Fertig (06_china_strategie) | Abgeschlossen |
 | **Cyber-Eskalationsstufe** | Konzeptionell skizziert, nicht ausgearbeitet | MITTEL |
 | **Vision-Meilensteine** (2030/2035/2040/2050) | Fehlend | MITTEL |
 | **System-Stresstest** (korrelierte Ausfaelle) | Fehlend | MITTEL |

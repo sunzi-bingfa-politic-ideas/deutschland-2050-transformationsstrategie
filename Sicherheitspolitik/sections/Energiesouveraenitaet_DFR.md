@@ -184,6 +184,73 @@ MATERIAL-OFFENSIVE 2027 — PROGRAMMSTRUKTUR
 
 **Kontext:** 8 Mrd. EUR ueber 8 Jahre = **0,2% des jaehrlichen Bundeshaushalts**. Das ist ein Bruchteil der aktuellen Industriestrom-Subventionen (~12 Mrd. EUR/Jahr). Oder anders: Der Preis von 4 km U-Bahn in Berlin.
 
+### KI-beschleunigte Materialentdeckung: "AlphaFold fuer den Waermetauscher"
+
+Die entscheidende Beschleunigung kommt nicht aus groesseren Laboren, sondern aus **KI-gestuetzter Materialsuche**. Was AlphaFold fuer die Proteinstruktur geleistet hat (50 Jahre Forschung in Monaten geloest), koennen aehnliche Ansaetze fuer die DFR-Materialfrage leisten.
+
+**Der Paradigmenwechsel:**
+
+```
+KONVENTIONELL (Trial-and-Error):
+  Menschliche Intuition → 6 Kandidaten → Jahrelange physische Tests
+  → Down-Selection → Iteration
+  = 24 Monate Minimum fuer Phase 1
+
+KI-BESCHLEUNIGT (Computational Screening + Autonome Labore):
+  Schritt 1: GNoME-artiges Modell screent MILLIONEN von Zusammensetzungen
+             auf Stabilitaet bei 1000°C + Pb-Resistenz + Neutronenresistenz
+  Schritt 2: ML-Molekulardynamik (MACE) simuliert Korrosionsverhalten
+             der Top-1000 in virtuellem Bleibad — 1000x schneller als DFT
+  Schritt 3: Top-50 Kandidaten werden in AUTONOMEN LABOREN (A-Lab-Typ)
+             physisch synthetisiert und getestet — 24/7, ohne Bottleneck
+  Schritt 4: Ergebnisse fliessen zurueck in KI → naechste Generation
+             noch praeziserer Vorhersagen
+  = 6-12 Monate fuer Phase 1 statt 24
+```
+
+**Bereits existierende Werkzeuge:**
+
+| System | Herkunft | Faehigkeit | DFR-Relevanz |
+|--------|---------|-----------|-------------|
+| **GNoME** | DeepMind (2023) | 2,2 Mio. neue stabile Kristallstrukturen entdeckt | Kandidatensuche im gesamten Materialraum |
+| **MACE** | Cambridge | ML-Interatom-Potenziale, 1000x schneller als DFT | Korrosionssimulation Pb bei 1000°C |
+| **A-Lab** | Berkeley (2023) | Autonomes Labor: KI plant, Roboter synthetisiert, KI analysiert | 24/7 Synthese+Test ohne menschliches Bottleneck |
+| **NOMAD** | FHI Berlin (Max Planck) | Groesste offene Materialdatenbank Europas | **In Deutschland** — sofort als Trainingsdaten nutzbar |
+| **Materials Project** | Berkeley Lab | 150.000+ berechnete Materialien | Referenzdaten fuer Kreuzvalidierung |
+| **FAIRmat** | NFDI (DE) | Deutsche Forschungsdateninfrastruktur Material | Nationales KI-Rueckgrat |
+
+**Deutschlands Vorteil — beides unter einem Dach:**
+
+Deutschland hat sowohl Weltklasse-Materialforschung ALS AUCH Weltklasse-KI:
+- **NOMAD** (Fritz-Haber-Institut Berlin) — Europas groesste Materialdatenbank, in DE gehostet
+- **Max-Planck fuer Intelligente Systeme** (Tuebingen) — Top-5 KI-Labor weltweit
+- **Max-Planck fuer Eisenforschung** (Duesseldorf) — Computational Materials auf Atomebene
+- **Juelich Supercomputing** (JUWELS/JURECA) — unter den staerksten Rechnern Europas
+- **Helmholtz AI** — angewandte KI fuer Materialforschung, bereits operativ
+
+**Konkreter Vorschlag: "DFR-MatAI" (Material-KI-Offensive)**
+
+| Komponente | Wer | Was | Budget |
+|-----------|-----|-----|--------|
+| KI-Modell-Entwicklung | MPI Intelligente Systeme + MPI Eisenforschung | GNoME-artiges Modell trainiert auf NOMAD-Daten, spezialisiert auf Hochtemperatur+Blei+Neutronen | 50 Mio. EUR |
+| ML-Molekulardynamik | FZ Juelich (Supercomputer) | MACE-basierte Korrosionssimulation fuer Top-Kandidaten | 30 Mio. EUR |
+| Autonomes Materiallabor | Fraunhofer IKTS + Helmholtz AI | A-Lab-Typ: Roboter synthetisiert KI-ausgewaehlte Materialien 24/7 | 80 Mio. EUR |
+| Bestrahlungs-Datenbank | KIT + HZDR (Ionen-Strahlen) | Systematische Neutronenschaden-Daten als KI-Training | 40 Mio. EUR |
+| **DFR-MatAI Gesamt** | | **KI-beschleunigte Materialsuche** | **200 Mio. EUR** |
+
+**Effekt auf den Gesamtzeitplan:**
+- Phase 1 (Material-Screening): 24 Monate → **6-12 Monate**
+- Phase 2 (Non-Nuklearer Prototyp): Unveraendert (muss physisch gebaut werden)
+- Phase 3 (Forschungsreaktor): Unveraendert (Engineering + Genehmigung)
+- **Netto-Zeitersparnis: 12-18 Monate** durch KI-Beschleunigung von Phase 1
+- Zusaetzlich: KI koennte Materialien finden die kein Mensch in Betracht gezogen haette → hoehere Erfolgswahrscheinlichkeit
+
+**Warum das den Zeitrahmen-Disput loest:**
+Ohne KI: Meine Schaetzung von 10-12 Jahren ist realistisch (konservative Phase 1).
+Mit KI: Die nutzerseitige Schaetzung von 8 Jahren wird **plausibel** — weil das groesste Unsicherheitsfenster (Materialsuche) dramatisch komprimiert wird.
+
+---
+
 ### Personalstrategie: Deutschlands verborgene Kernkompetenz
 
 Deutschland hat kaum noch klassische Kernphysiker — aber eine **weltfuehrende Material- und Fertigungsforschung**. Das ist die wahre Basis fuer den DFR. Der Reaktor ist kein Physik-Problem; er ist ein Werkstoff-Problem. Und Werkstoffe sind Deutschlands Staerke.

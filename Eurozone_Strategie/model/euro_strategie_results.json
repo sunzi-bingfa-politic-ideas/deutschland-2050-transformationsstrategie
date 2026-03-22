@@ -1,0 +1,119 @@
+{
+  "scenarios": [
+    {
+      "name": "A: Euro bleibt stabil",
+      "probability": 0.25,
+      "target2_recovery": 1.0,
+      "euro_devaluation": 1.0,
+      "real_asset_multiplier": 1.0,
+      "debt_real_value": 1.0
+    },
+    {
+      "name": "B: Fiskalunion / EU-Bonds",
+      "probability": 0.2,
+      "target2_recovery": 0.7,
+      "euro_devaluation": 0.95,
+      "real_asset_multiplier": 1.05,
+      "debt_real_value": 0.95
+    },
+    {
+      "name": "C: Nord-/S\u00fcd-Euro",
+      "probability": 0.15,
+      "target2_recovery": 0.5,
+      "euro_devaluation": 0.85,
+      "real_asset_multiplier": 1.15,
+      "debt_real_value": 0.9
+    },
+    {
+      "name": "D: Kontrollierter Italexit",
+      "probability": 0.2,
+      "target2_recovery": 0.6,
+      "euro_devaluation": 0.9,
+      "real_asset_multiplier": 1.1,
+      "debt_real_value": 0.92
+    },
+    {
+      "name": "E: Chaotischer Zerfall",
+      "probability": 0.15,
+      "target2_recovery": 0.2,
+      "euro_devaluation": 0.6,
+      "real_asset_multiplier": 1.5,
+      "debt_real_value": 0.65
+    },
+    {
+      "name": "F: Hyperinflation",
+      "probability": 0.05,
+      "target2_recovery": 0.1,
+      "euro_devaluation": 0.3,
+      "real_asset_multiplier": 2.0,
+      "debt_real_value": 0.25
+    }
+  ],
+  "results": {
+    "comparison": [
+      {
+        "scenario": "A: Euro bleibt stabil",
+        "probability": 0.25,
+        "status_quo_effect": 0.0,
+        "rssp_effect": 0.0,
+        "rssp_advantage": 0.0
+      },
+      {
+        "scenario": "B: Fiskalunion / EU-Bonds",
+        "probability": 0.2,
+        "status_quo_effect": -210.0,
+        "rssp_effect": 660.0,
+        "rssp_advantage": 870.0
+      },
+      {
+        "scenario": "C: Nord-/S\u00fcd-Euro",
+        "probability": 0.15,
+        "status_quo_effect": -310.0,
+        "rssp_effect": 1850.0,
+        "rssp_advantage": 2160.0
+      },
+      {
+        "scenario": "D: Kontrollierter Italexit",
+        "probability": 0.2,
+        "status_quo_effect": -248.0,
+        "rssp_effect": 1280.0,
+        "rssp_advantage": 1528.0
+      },
+      {
+        "scenario": "E: Chaotischer Zerfall",
+        "probability": 0.15,
+        "status_quo_effect": -40.0,
+        "rssp_effect": 6510.0,
+        "rssp_advantage": 6550.0
+      },
+      {
+        "scenario": "F: Hyperinflation",
+        "probability": 0.05,
+        "status_quo_effect": 810.0,
+        "rssp_effect": 13480.0,
+        "rssp_advantage": 12670.0
+      }
+    ],
+    "expected_values": {
+      "status_quo": -103.6,
+      "with_rssp": 2316.0,
+      "rssp_advantage": 2419.6
+    },
+    "extremes": {
+      "status_quo": {
+        "worst": -310.0,
+        "best": 810.0
+      },
+      "with_rssp": {
+        "worst": 0.0,
+        "best": 13480.0
+      }
+    }
+  },
+  "conclusion": {
+    "rssp_dominates": true,
+    "expected_advantage_billion_eur": 2419.6,
+    "worst_case_status_quo": -310.0,
+    "worst_case_rssp": 0.0
+  }
+}

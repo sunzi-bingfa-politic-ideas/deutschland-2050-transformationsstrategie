@@ -1,0 +1,603 @@
+{
+  "demographic_costs": {
+    "2025": 415.09999999999997,
+    "2030": 437.74,
+    "2035": 460.38,
+    "2040": 481.625,
+    "2045": 502.87,
+    "2050": 498.725,
+    "2055": 494.58000000000004,
+    "2060": 494.58000000000004
+  },
+  "reform_scenarios": {
+    "Status Quo": {
+      "scenario": "Status Quo",
+      "years": [
+        2025,
+        2030,
+        2035,
+        2040,
+        2045,
+        2050,
+        2055,
+        2060
+      ],
+      "baseline_costs": [
+        415.1,
+        483.3,
+        561.2,
+        648.2,
+        747.2,
+        818.2,
+        895.9,
+        989.1
+      ],
+      "reform_costs": [
+        415.1,
+        471.3,
+        533.8,
+        601.3,
+        676.0,
+        721.8,
+        770.8,
+        829.9
+      ],
+      "savings": [
+        0.0,
+        12.0,
+        27.4,
+        47.0,
+        71.3,
+        96.4,
+        125.1,
+        159.2
+      ],
+      "gsp_accumulation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "debt_required": [
+        0,
+        35.1,
+        110.3,
+        229.6,
+        399.1,
+        588.6,
+        799.9,
+        1041.8
+      ]
+    },
+    "Moderate Reform (Digitalisierung)": {
+      "scenario": "Moderate Reform (Digitalisierung)",
+      "years": [
+        2025,
+        2030,
+        2035,
+        2040,
+        2045,
+        2050,
+        2055,
+        2060
+      ],
+      "baseline_costs": [
+        415.1,
+        483.3,
+        561.2,
+        648.2,
+        747.2,
+        818.2,
+        895.9,
+        989.1
+      ],
+      "reform_costs": [
+        415.1,
+        436.9,
+        458.4,
+        490.9,
+        524.7,
+        532.7,
+        540.8,
+        553.6
+      ],
+      "savings": [
+        0.0,
+        46.4,
+        102.8,
+        157.3,
+        222.5,
+        285.5,
+        355.0,
+        435.5
+      ],
+      "gsp_accumulation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "debt_required": [
+        0,
+        0.6,
+        0.6,
+        9.6,
+        27.8,
+        28.2,
+        28.2,
+        28.2
+      ]
+    },
+    "GSP-Modell (Singapur-inspiriert)": {
+      "scenario": "GSP-Modell (Singapur-inspiriert)",
+      "years": [
+        2025,
+        2030,
+        2035,
+        2040,
+        2045,
+        2050,
+        2055,
+        2060
+      ],
+      "baseline_costs": [
+        415.1,
+        483.3,
+        561.2,
+        648.2,
+        747.2,
+        818.2,
+        895.9,
+        989.1
+      ],
+      "reform_costs": [
+        415.1,
+        415.0,
+        412.7,
+        430.9,
+        449.0,
+        444.4,
+        439.8,
+        438.9
+      ],
+      "savings": [
+        0.0,
+        68.3,
+        148.5,
+        217.3,
+        298.3,
+        373.8,
+        456.1,
+        550.2
+      ],
+      "gsp_accumulation": [
+        40.0,
+        81.6,
+        124.9,
+        169.9,
+        216.7,
+        265.3,
+        315.9,
+        368.6
+      ],
+      "debt_required": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Vollintegration (Asiatische Best Practices)": {
+      "scenario": "Vollintegration (Asiatische Best Practices)",
+      "years": [
+        2025,
+        2030,
+        2035,
+        2040,
+        2045,
+        2050,
+        2055,
+        2060
+      ],
+      "baseline_costs": [
+        415.1,
+        483.3,
+        561.2,
+        648.2,
+        747.2,
+        818.2,
+        895.9,
+        989.1
+      ],
+      "reform_costs": [
+        415.1,
+        393.9,
+        370.3,
+        376.9,
+        382.8,
+        369.3,
+        356.3,
+        346.6
+      ],
+      "savings": [
+        0.0,
+        89.4,
+        190.9,
+        271.3,
+        364.4,
+        448.9,
+        539.6,
+        642.5
+      ],
+      "gsp_accumulation": [
+        40.0,
+        81.6,
+        124.9,
+        169.9,
+        216.7,
+        265.3,
+        315.9,
+        368.6
+      ],
+      "debt_required": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "asian_systems": {
+    "Singapur": {
+      "health_expenditure_gdp_percent": 4.9,
+      "life_expectancy": 84.1,
+      "infant_mortality_per_1000": 1.8,
+      "oop_percent": 30,
+      "key_feature": "3M-System (MediSave, MediShield, MediFund)",
+      "transferable_elements": [
+        "Individuelle Gesundheitskonten",
+        "Familien-Pooling",
+        "Kapitaldeckung",
+        "Katastrophenversicherung",
+        "Staatliche Preiskontrolle"
+      ]
+    },
+    "Japan": {
+      "health_expenditure_gdp_percent": 11.5,
+      "life_expectancy": 84.3,
+      "infant_mortality_per_1000": 1.8,
+      "oop_percent": 12,
+      "key_feature": "LTCI (Kaigo Hoken) seit 2000",
+      "transferable_elements": [
+        "Eigenst\u00e4ndige Pflegeversicherung",
+        "Objektive Bedarfsfeststellung",
+        "Community-basierte Versorgung",
+        "Frailty-Pr\u00e4vention ab 75",
+        "Nationale Pflegedatenbank"
+      ]
+    },
+    "S\u00fcdkorea": {
+      "health_expenditure_gdp_percent": 8.4,
+      "life_expectancy": 83.6,
+      "infant_mortality_per_1000": 2.7,
+      "oop_percent": 37,
+      "key_feature": "Universal Coverage in 12 Jahren",
+      "transferable_elements": [
+        "Single-Payer-Konsolidierung",
+        "DRGs-Verg\u00fctung",
+        "Telemedizin-Expansion"
+      ]
+    },
+    "Thailand": {
+      "health_expenditure_gdp_percent": 4.5,
+      "life_expectancy": 77.3,
+      "infant_mortality_per_1000": 7.0,
+      "oop_percent": 11,
+      "key_feature": "30-Baht-Scheme (steuerfinanziert)",
+      "transferable_elements": [
+        "Steuerfinanzierung",
+        "Gatekeeping-Modell",
+        "Essentielle Medikamentenliste",
+        "Capitation-Verg\u00fctung",
+        "Dezentrale Netzwerke"
+      ]
+    },
+    "China": {
+      "health_expenditure_gdp_percent": 7.0,
+      "life_expectancy": 77.9,
+      "infant_mortality_per_1000": 5.9,
+      "oop_percent": 28,
+      "key_feature": "Urban-Rural-Integration (URRBMI)",
+      "transferable_elements": [
+        "Volumenbasierte Beschaffung",
+        "Digitale Cross-Border-Abrechnung",
+        "DRGs-Einf\u00fchrung",
+        "Drug-Markup-Verbot"
+      ]
+    },
+    "Deutschland (Status Quo)": {
+      "health_expenditure_gdp_percent": 12.7,
+      "life_expectancy": 81.3,
+      "infant_mortality_per_1000": 3.2,
+      "oop_percent": 12,
+      "key_feature": "GKV + SPV (Umlagefinanziert)",
+      "transferable_elements": []
+    }
+  },
+  "debt_strategy": {
+    "annual_data": [
+      {
+        "year": 2025,
+        "excess_costs": 0,
+        "cumulative_debt": 0,
+        "interest_payment": 0.0,
+        "repayment": 0
+      },
+      {
+        "year": 2026,
+        "excess_costs": 5,
+        "cumulative_debt": 5,
+        "interest_payment": 0.1,
+        "repayment": 0
+      },
+      {
+        "year": 2027,
+        "excess_costs": 10,
+        "cumulative_debt": 15,
+        "interest_payment": 0.4,
+        "repayment": 0
+      },
+      {
+        "year": 2028,
+        "excess_costs": 15,
+        "cumulative_debt": 30,
+        "interest_payment": 0.9,
+        "repayment": 0
+      },
+      {
+        "year": 2029,
+        "excess_costs": 20,
+        "cumulative_debt": 50,
+        "interest_payment": 1.5,
+        "repayment": 0
+      },
+      {
+        "year": 2030,
+        "excess_costs": 25,
+        "cumulative_debt": 75,
+        "interest_payment": 2.2,
+        "repayment": 0
+      },
+      {
+        "year": 2031,
+        "excess_costs": 32,
+        "cumulative_debt": 107,
+        "interest_payment": 3.2,
+        "repayment": 0
+      },
+      {
+        "year": 2032,
+        "excess_costs": 40,
+        "cumulative_debt": 147,
+        "interest_payment": 4.4,
+        "repayment": 0
+      },
+      {
+        "year": 2033,
+        "excess_costs": 48,
+        "cumulative_debt": 195,
+        "interest_payment": 5.8,
+        "repayment": 0
+      },
+      {
+        "year": 2034,
+        "excess_costs": 55,
+        "cumulative_debt": 250,
+        "interest_payment": 7.5,
+        "repayment": 0
+      },
+      {
+        "year": 2035,
+        "excess_costs": 65,
+        "cumulative_debt": 315,
+        "interest_payment": 9.4,
+        "repayment": 0
+      },
+      {
+        "year": 2036,
+        "excess_costs": 75,
+        "cumulative_debt": 390,
+        "interest_payment": 11.7,
+        "repayment": 0
+      },
+      {
+        "year": 2037,
+        "excess_costs": 82,
+        "cumulative_debt": 472,
+        "interest_payment": 14.2,
+        "repayment": 0
+      },
+      {
+        "year": 2038,
+        "excess_costs": 90,
+        "cumulative_debt": 562,
+        "interest_payment": 16.9,
+        "repayment": 0
+      },
+      {
+        "year": 2039,
+        "excess_costs": 100,
+        "cumulative_debt": 662,
+        "interest_payment": 19.9,
+        "repayment": 0
+      },
+      {
+        "year": 2040,
+        "excess_costs": 110,
+        "cumulative_debt": 772,
+        "interest_payment": 23.2,
+        "repayment": 0
+      },
+      {
+        "year": 2041,
+        "excess_costs": 115,
+        "cumulative_debt": 887,
+        "interest_payment": 26.6,
+        "repayment": 0
+      },
+      {
+        "year": 2042,
+        "excess_costs": 118,
+        "cumulative_debt": 1005,
+        "interest_payment": 30.1,
+        "repayment": 0
+      },
+      {
+        "year": 2043,
+        "excess_costs": 120,
+        "cumulative_debt": 1125,
+        "interest_payment": 33.8,
+        "repayment": 0
+      },
+      {
+        "year": 2044,
+        "excess_costs": 118,
+        "cumulative_debt": 1243,
+        "interest_payment": 37.3,
+        "repayment": 0
+      },
+      {
+        "year": 2045,
+        "excess_costs": 115,
+        "cumulative_debt": 1358,
+        "interest_payment": 40.7,
+        "repayment": 0
+      },
+      {
+        "year": 2046,
+        "excess_costs": 110,
+        "cumulative_debt": 1468,
+        "interest_payment": 44.0,
+        "repayment": 0
+      },
+      {
+        "year": 2047,
+        "excess_costs": 100,
+        "cumulative_debt": 1568,
+        "interest_payment": 47.0,
+        "repayment": 0
+      },
+      {
+        "year": 2048,
+        "excess_costs": 90,
+        "cumulative_debt": 1658,
+        "interest_payment": 49.7,
+        "repayment": 0
+      },
+      {
+        "year": 2049,
+        "excess_costs": 80,
+        "cumulative_debt": 1738,
+        "interest_payment": 52.1,
+        "repayment": 0
+      },
+      {
+        "year": 2050,
+        "excess_costs": 70,
+        "cumulative_debt": 1808,
+        "interest_payment": 54.2,
+        "repayment": 0
+      },
+      {
+        "year": 2051,
+        "excess_costs": 55,
+        "cumulative_debt": 1863,
+        "interest_payment": 55.9,
+        "repayment": 0
+      },
+      {
+        "year": 2052,
+        "excess_costs": 40,
+        "cumulative_debt": 1903,
+        "interest_payment": 57.1,
+        "repayment": 0
+      },
+      {
+        "year": 2053,
+        "excess_costs": 25,
+        "cumulative_debt": 1928,
+        "interest_payment": 57.8,
+        "repayment": 0
+      },
+      {
+        "year": 2054,
+        "excess_costs": 10,
+        "cumulative_debt": 1938,
+        "interest_payment": 58.1,
+        "repayment": 0
+      },
+      {
+        "year": 2055,
+        "excess_costs": 0,
+        "cumulative_debt": 1938,
+        "interest_payment": 58.1,
+        "repayment": 0
+      },
+      {
+        "year": 2056,
+        "excess_costs": -10,
+        "cumulative_debt": 1928,
+        "interest_payment": 58.1,
+        "repayment": 10
+      },
+      {
+        "year": 2057,
+        "excess_costs": -20,
+        "cumulative_debt": 1908,
+        "interest_payment": 57.8,
+        "repayment": 20
+      },
+      {
+        "year": 2058,
+        "excess_costs": -25,
+        "cumulative_debt": 1883,
+        "interest_payment": 57.2,
+        "repayment": 25
+      },
+      {
+        "year": 2059,
+        "excess_costs": -30,
+        "cumulative_debt": 1853,
+        "interest_payment": 56.5,
+        "repayment": 30
+      },
+      {
+        "year": 2060,
+        "excess_costs": -35,
+        "cumulative_debt": 1818,
+        "interest_payment": 55.6,
+        "repayment": 35
+      }
+    ],
+    "peak_debt": 1938,
+    "peak_year": 2054,
+    "total_interest_paid": 1109.0,
+    "years_to_repay": 2075
+  }
+}

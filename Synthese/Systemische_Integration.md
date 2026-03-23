@@ -18,7 +18,7 @@ Das Gesamtmodell ordnet sich in drei Ebenen:
 
 **Die realwirtschaftliche Basis** schafft die Voraussetzungen: bezahlbarer Wohnraum, bessere Bildung, schnellere Integration von Zuwanderern, diplomatische Netzwerke. Das sind Investitionen in die Leistungsfaehigkeit der Volkswirtschaft — die Grundlage dafuer, dass ein Kapitalstock ueberhaupt wachsen kann.
 
-**Der finanzielle Motor** wandelt diese Leistungsfaehigkeit in Vermoegen um: Ein kapitalgedecktes Rentensystem (RSSP), ein ergaenzendes Gesundheitskonto (GSP), und eine Waehrungs- und Anlagestrategie die den Kapitalstock gegen Euro-Risiken absichert.
+**Der finanzielle Motor** wandelt diese Leistungsfaehigkeit in Vermoegen um: Ein kapitalgedecktes Rentensystem (RSSP — ein individueller Sparfonds fuer die Altersvorsorge), ein ergaenzendes Gesundheitskonto (GSP — ein persoenliches Konto fuer Gesundheitsausgaben, nach dem Vorbild Singapurs), und eine Anlagestrategie die den Kapitalstock gegen Waehrungsrisiken absichert.
 
 **Der Schutzschild** sichert beides ab: Energiesouveraenitaet (damit die Industrie nicht erpressbar ist), europaeische Sicherheitsarchitektur (damit geopolitische Schocks den Kapitalstock nicht zerstoeren), und diplomatische Netzwerke (damit Deutschland Buendnisse hat statt Abhaengigkeiten).
 
@@ -30,9 +30,9 @@ Einige Verbindungen die das Modell explizit abbildet:
 
 **Gesundheit entlastet die Rente.** Ein kapitalgedecktes Gesundheitskonto (GSP) senkt langfristig die GKV-Beitragslast. Niedrigere Lohnnebenkosten erhoehen die Wettbewerbsfaehigkeit der Wirtschaft — und damit die Lohnbasis, auf der auch die Rentenbeitraege berechnet werden.
 
-**Energie sichert die Industrie.** Eine eigene Energiequelle (langfristig ueber den Dual-Fluid-Reaktor, mittelfristig ueber franzoesische Nuklearkooperation) schuetzt die industrielle Basis vor Preisschocks und politischer Erpressung. Stabile Industrie bedeutet stabile Beschaeftigung, und stabile Beschaeftigung bedeutet stabile Beitraege in den Kapitalstock.
+**Energie sichert die Industrie.** Eine eigene Energiequelle (langfristig ueber einen neuartigen Reaktortyp der existierenden Atommuell als Brennstoff nutzt, mittelfristig ueber franzoesische Nuklearkooperation) schuetzt die industrielle Basis vor Preisschocks und politischer Erpressung. Stabile Industrie bedeutet stabile Beschaeftigung, und stabile Beschaeftigung bedeutet stabile Beitraege in den Kapitalstock.
 
-**Bildung ermoeglicht Technologie.** Die GOUDE-Universitaet und die reformierte Grundschule produzieren die Fachkraefte, die fuer die KI-gestuetzte Materialforschung (DFR), die Drohnenentwicklung und die digitale Verwaltung benoetigt werden. Ohne Talente kein technologischer Fortschritt.
+**Bildung ermoeglicht Technologie.** Eine reformierte Online-Universitaet (GOUDE — ein digitales Bildungsangebot nach dem Vorbild der Open University) und verbesserte Grundschulen produzieren die Fachkraefte, die fuer die KI-gestuetzte Materialforschung, die technologische Modernisierung der Verteidigung und die digitale Verwaltung benoetigt werden.
 
 **Europaeische Partnerschaften senken Kosten.** Ein Verteidigungsbuendnis mit Frankreich, Polen und Italien teilt die Sicherheitskosten auf mehrere Schultern. Ein gemeinsamer Kapitalmarkt (Fiskalunion) senkt die Finanzierungskosten fuer alle Beteiligten. Und industrielle Kooperation (z.B. in der Drohnenproduktion) schafft Skaleneffekte, die national nicht erreichbar waeren.
 
@@ -52,7 +52,7 @@ Ein integriertes System hat nicht nur Synergien, sondern auch Abhaengigkeiten. W
 | Bildungsreform politisch blockiert wird | Fachkraeftemangel verzoegert DFR und Digitalisierung um 5-10 Jahre |
 | Gesundheitsreform scheitert | Beitragssaetze steigen; Wettbewerbsfaehigkeit sinkt; Rentenbeitraege unter Druck |
 
-Die Rentenreform (RSSP) ist die Komponente mit der groessten Hebelwirkung — sie finanziert direkt oder indirekt mehrere andere Bereiche. Das macht sie zum wichtigsten Einzelprojekt, aber auch zum verwundbarsten Punkt: Wenn der Kapitalstockaufbau politisch gestoppt oder durch Marktkrisen verzoegert wird, verlieren auch die abhaengigen Bereiche ihre Finanzierungsgrundlage.
+Die Rentenreform bildet die zentrale finanzielle Basis des Modells — sie finanziert direkt oder indirekt mehrere andere Bereiche. Das unterstreicht die Bedeutung ihres institutionellen Schutzes: Wenn der Kapitalstockaufbau politisch unterbrochen oder durch Marktkrisen verzoegert wird, verlieren auch die abhaengigen Bereiche an Handlungsspielraum.
 
 Dieser Zusammenhang ist ein Argument fuer institutionelle Absicherung (siehe `Synthese/Institutionelle_Architektur.md`), nicht fuer Resignition: Je zentraler eine Komponente ist, desto wichtiger ist ihr Schutz gegen politische Zyklen.
 
@@ -80,11 +80,11 @@ Jeder Bereich enthaelt eine Executive Summary, Literatururuebersicht, quantitati
 
 Das System wird nicht gleichzeitig eingefuehrt. Die Reihenfolge folgt politischen Machbarkeiten und technischen Abhaengigkeiten:
 
-**Kurzfristig (2026-2030):** Gesetzgebung fuer RSSP und GSP; Beginn des Kapitalstockaufbaus; DFR-Materialforschung (genehmigungsfrei); Karolinger-Verhandlungen; erste Bildungspiloten.
+**Kurzfristig (2026-2030):** Gesetzgebung fuer die kapitalgedeckte Rente und das Gesundheitskonto; Beginn des Kapitalstockaufbaus; Materialforschung fuer den neuen Reaktortyp (in dieser Phase genehmigungsfrei); europaeische Buendnisverhandlungen; erste Bildungspiloten.
 
-**Mittelfristig (2030-2040):** Kapitalstock waechst; GSP-Crossover (effektiv guenstiger als Status Quo); DFR-Demonstrator; europaeische Verteidigungsintegration; Fiskalunion-Verhandlungen.
+**Mittelfristig (2030-2040):** Kapitalstock waechst; das Gesundheitskonto wird effektiv guenstiger als der Status Quo; erster Reaktor-Demonstrator; europaeische Verteidigungsintegration; Verhandlungen ueber gemeinsame Finanzarchitektur.
 
-**Langfristig (2040-2050):** Kapitalstock erreicht kritische Masse; DFR-Serienproduktion; Energiesouveraenitaet; demographischer Buckel ist durchfinanziert; System traegt sich selbst.
+**Langfristig (2040-2050):** Kapitalstock erreicht kritische Masse; Reaktortechnologie geht in Serienproduktion; Energiesouveraenitaet; der demographische Kostenberg ist durchfinanziert; das System traegt sich selbst.
 
 Entscheidungspunkte mit Go/No-Go-Kriterien werden in `Sicherheitspolitik/sections/02a_vision_meilensteine.md` definiert.
 

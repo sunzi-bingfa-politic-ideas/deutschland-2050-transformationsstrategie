@@ -25,7 +25,7 @@ Deutschland tauscht implizite, ungedeckte Verbindlichkeiten (demografische Versp
 ```
 Deutschland_Reform/
 │
-├── Synthese/              7 Querschnittsdokumente (inkl. Systemische Integration)
+├── Synthese/              3 Dokumente: Systemische Integration + Kommunikation + Institutionen
 ├── Rentenreform/          RSSP-Modell: 14 Python-Modelle, 10.000 Monte-Carlo-Pfade
 ├── Gesundheitsreform/     GSP nach Singapur: Modell v2.0, Lobby-Analyse, Adaption
 ├── Eurozone_Strategie/    Smart Investor: Modell v2.0, Dollar-Emanzipation, Fiskalunion

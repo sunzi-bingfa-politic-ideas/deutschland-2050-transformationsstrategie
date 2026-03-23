@@ -1,361 +1,167 @@
-# 27. Institutionelle Architektur: Der Hüter der Langfristigkeit
+# Institutionelle Architektur: Der Hueter der Langfristigkeit
 
-*Version 2.0 - Integriert mit 10-Säulen-Modell und E1-E7 Ergänzungen*
+**Stand: Maerz 2026 — Bereinigt und aktualisiert**
 
-## Übersicht: Die institutionelle Herausforderung
+## Das Problem: Demokratie vs. Langfristigkeit
 
-| Dimension | Herausforderung | Lösung |
-|-----------|-----------------|--------|
-| **Zeithorizont** | 60 Jahre vs. 4-Jahres-Zyklen | BST mit 12-Jahres-Mandaten |
-| **Kapitalstock** | 10,25 Bio. EUR managen | Professionelle Asset-Einheiten |
-| **Politischer Schutz** | Regierungswechsel-Risiko | Europa-AG (SCE) Struktur |
-| **Koordination** | 10 Säulen + 7 Ergänzungen | Integrierte Holding-Struktur |
+Demokratische 4-Jahres-Zyklen konfligieren fundamental mit einem 50-Jahres-Generationenprojekt. Jede neue Regierung reisst ab was die vorherige aufgebaut hat. Ohne institutionellen Schutz wird der RSSP gepluendert bevor er wirken kann.
+
+**Loesung:** Ein verfassungsrechtlich geschuetztes Bundesamt — unabhaengig wie die Bundesbank vor dem Euro — das die Transformation gegen politische Zyklen absichert.
 
 ---
 
-## 27.1 Das Problem der Zeitinkonsistenz
+## 1. BST: Bundesamt fuer Strategische Transformation
 
-Demokratische Zyklen (4 Jahre) stehen im fundamentalen Widerspruch zu Generationen-Projekten (60 Jahre).
-
-*   **Der politische Anreiz:** Kurzfristige Geschenke verteilen (Rentenerhöhung heute), langfristige Kosten verstecken (Investitionsstau morgen).
-*   **Die Folge:** "Stop-and-Go"-Politik. Jede neue Regierung reißt ein, was die vorherige aufgebaut hat. Strategien wie das RSSP werden geplündert, bevor sie wirken können.
-
-**Historische Lektion:** Erfolgreiche Transformationen (Preußen 1810, Deutschland 1950, Singapur 1980) benötigten eine **geschützte Exekutive**, die einen Plan gegen Widerstände durchhalten konnte.
-
-### Das Ausmaß der Aufgabe
-
-| Komponente | Volumen 2050 | Zeithorizont |
-|------------|--------------|--------------|
-| RSSP Assets | 5,49 Bio. EUR | 60 Jahre |
-| GSP Assets | 8,34 Bio. EUR | 60 Jahre |
-| Schuldenmanagement | 3,58 Bio. EUR | 60 Jahre |
-| Infrastruktur-Investitionen | 476 Mrd. EUR | 25 Jahre |
-| **Gesamt-Verantwortung** | **~14 Bio. EUR** | **60 Jahre** |
-
-Kein demokratisches System der Welt hat je ein Projekt dieser Größe über einen solchen Zeitraum konsistent durchgehalten. Dafür brauchen wir neue Institutionen.
-
----
-
-## 27.2 Die Lösung: Eine "Vierte Gewalt" für die Zukunft
-
-Wir etablieren eine neue Institution, die verfassungsrechtlich so unabhängig ist wie die Bundesbank oder das Bundesverfassungsgericht, aber exekutiv tätig wird.
-
-### 27.2.1 Das Bundesamt für Strategische Transformation (BST)
-
-**Rechtsform:** Oberste Bundesbehörde mit verfassungsrechtlicher Garantie (Art. 87g GG neu).
-**Sitz:** Frankfurt am Main (bewusste Distanz zu Berlin).
-
-**Kernauftrag:**
-"Sicherstellung der generationenübergreifenden Tragfähigkeit des deutschen Staatsmodells und Umsetzung der Agenda 2050."
-
-**Verantwortungsbereich:**
-
-| Säule | Verantwortung | Ziel 2050 |
-|-------|---------------|-----------|
-| S1: RSSP | Kapitalstock-Aufbau | 5,49 Bio. EUR Assets |
-| S2: GSP | Gesundheits-Kapitalstock | 8,34 Bio. EUR Assets |
-| S3: EURO-SI | Währungs-Arbitrage | Target2-Hedge |
-| S4: GCADI | Chip-Produktion | 90% Autonomie |
-| S5: Gravity+ | Energiespeicher | 50 GW Kapazität |
-| S6: DIGI-SOV | Digitale Souveränität | EU-Cloud, KI-Governance |
-| S7: GS+ | Gesunde Städte | Präventions-Infrastruktur |
-| S8: GOUDE | Elite-Bildung | 100k Absolventen/Jahr |
-| S9: DASDIS | Einwanderung | 400k Fachkräfte/Jahr |
-| S10: SPE | Europäische Energie | Solarstrom-Import |
-
-### 27.2.2 Governance & Machtstruktur
-
-Wie sichern wir "monarchische" Handlungsfähigkeit in einer Demokratie?
+### Verfassungsrechtlicher Status
 
 | Dimension | Regelung | Vorbild |
-| :--- | :--- | :--- |
-| **Führung** | **Direktorium (5 Personen)**, gewählt für **12 Jahre** (nicht wiederwählbar). Versetzte Amtszeiten. | Bundesverfassungsgericht |
-| **Wahlmodus** | 2/3-Mehrheit in Bundestag & Bundesrat. Zwingt zum Konsens über Kompetenz statt Parteibuch. | Verfassungsrichter-Wahl |
-| **Unabhängigkeit**| Weisungsfrei gegenüber Kanzler und Ministern. Keine Abwahl möglich (außer bei Straftaten). | Deutsche Bundesbank (vor Euro) |
-| **Budget** | **90 Mrd. EUR/Jahr fix** (~2% BIP) per Verfassung. Automatische Zuweisung, keine jährliche Haushaltsdebatte. | NATO-Ziel (aber verbindlich) |
-| **Durchgriff** | **"Beschleunigungs-Verordnung"**: Kann für definierte Großprojekte Genehmigungsverfahren verkürzen. Sonderbauzonen (E2). | Notverordnungsrecht (entschärft) |
+|-----------|----------|---------|
+| **Rechtsgrundlage** | Art. 87g GG (neu) | Bundesbank (Art. 88 GG) |
+| **Sitz** | Frankfurt am Main (bewusste Distanz zu Berlin) | Bundesverfassungsgericht (Karlsruhe) |
+| **Fuehrung** | Direktorium: 5 Personen, 12 Jahre, nicht wiederholbar, versetzt | BVerfG-Richter |
+| **Wahl** | 2/3-Mehrheit Bundestag + Bundesrat (zwingt Konsens) | Verfassungsrichter-Wahl |
+| **Unabhaengigkeit** | Weisungsfrei gegenueber Kanzler/Ministern; Abwahl nur bei Straftat | Bundesbank (vor Euro) |
+| **Budget** | Verfassungsrechtlich fixiert; keine jaehrliche Haushaltsverhandlung | NATO-Ziel (verbindlich) |
 
-### 27.2.3 Die 7 Robustheits-Ergänzungen (E1-E7) institutionell verankert
+### Demokratische Kontrolle: Die "Notbremse"
 
-| Ergänzung | Zuständige Einheit | Governance |
-|-----------|-------------------|------------|
-| E1: Speicher-Diversifikation | Infrastruktur AG | 30/25/20/15/10 Quote |
-| E2: Sonderbauzonen | BST Direktorium | Regulierungs-Bypass |
-| E3: Prävention-GSP | GSP Authority | 5% Bonus-System |
-| E4: GOUDE AI-First | Talent Agency | KI-Adaptive Curricula |
-| E5: Europa-AG | SCE Holding | EU-weiter Schutz |
-| E6: Nuklear-Medizin | Infrastruktur AG | Isotopen-Produktion |
-| E7: Bleibe-Bonus | Talent Agency | Darlehens-Konversion |
+Der Bundestag kann BST-Entscheidungen stoppen — aber nur mit **60% qualifizierter Mehrheit** (nicht 50% einfache Mehrheit).
+
+**Effekt:** Die Regierungskoalition (meist 50-55%) kann die Strategie nicht aus wahltaktischen Gruenden sabotieren. Es braucht breiten Konsens um den Langfristplan zu stoppen. **Traegheit arbeitet FUER den Plan**, nicht dagegen.
 
 ---
 
-## 27.3 Die operative Struktur: Eine "AG Deutschland"
-
-Das BST arbeitet nicht wie ein Ministerium (Verwaltung), sondern wie eine Holding (Management).
-
-### 27.3.1 Erweitertes Organigramm (10-Säulen-konform)
+## 2. Die fuenf operativen Einheiten
 
 ```
-                              ┌─────────────────────────────┐
-                              │      BST DIREKTORIUM        │
-                              │   5 Direktoren, 12 Jahre    │
-                              │   Budget: 90 Mrd. EUR/Jahr  │
-                              └──────────────┬──────────────┘
-                                             │
-        ┌────────────────┬───────────────────┼───────────────────┬────────────────┐
-        │                │                   │                   │                │
-        ▼                ▼                   ▼                   ▼                ▼
-┌───────────────┐ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐
-│RSSP AUTHORITY │ │ GSP AUTHORITY │ │INFRASTRUKTUR  │ │ TALENT AGENCY │ │  EURO-SI AG   │
-│(Rente & Kapital)│ │ (Gesundheit)  │ │     AG        │ │(Bildung/Immi.)│ │ (Währung/FX)  │
-├───────────────┤ ├───────────────┤ ├───────────────┤ ├───────────────┤ ├───────────────┤
-│S1: RSSP       │ │S2: GSP        │ │S4: GCADI      │ │S8: GOUDE      │ │S3: EURO-SI    │
-│               │ │S7: GS+        │ │S5: Gravity+   │ │S9: DASDIS     │ │               │
-│               │ │               │ │S10: SPE       │ │               │ │               │
-│               │ │               │ │S6: DIGI-SOV   │ │               │ │               │
-├───────────────┤ ├───────────────┤ ├───────────────┤ ├───────────────┤ ├───────────────┤
-│Assets 2050:   │ │Assets 2050:   │ │Investitionen: │ │Output:        │ │FX-Exposure:   │
-│5,49 Bio. EUR  │ │8,34 Bio. EUR  │ │476 Mrd. EUR   │ │100k/Jahr      │ │80% Non-Euro   │
-│               │ │               │ │               │ │400k Fachkräfte│ │               │
-│E7: Bleibe-    │ │E3: Prävention │ │E1: Speicher-  │ │E4: GOUDE AI   │ │Target2-Hedge  │
-│Bonus-Fonds    │ │5% Bonus       │ │Diversifikation│ │E7: Bleibe-Bon.│ │               │
-├───────────────┤ ├───────────────┤ ├───────────────┤ ├───────────────┤ ├───────────────┤
-│Solidaritäts-  │ │Präventions-   │ │E2: Sonder-    │ │KI-Curricula   │ │Euro-Szenarien │
-│beitrag 6%     │ │Dividende      │ │bauzonen       │ │               │ │Arbitrage      │
-│               │ │E6: Isotopen   │ │               │ │               │ │               │
-└───────────────┘ └───────────────┘ └───────────────┘ └───────────────┘ └───────────────┘
+                BST DIREKTORIUM
+            (5 Direktoren, 12 Jahre)
+                      │
+  ┌──────────┬────────┼────────┬──────────┐
+  ▼          ▼        ▼        ▼          ▼
+RSSP       GSP    Infrastruktur  Talent   EURO-SI
+Authority  Authority    AG       Agency     AG
 ```
 
-### 27.3.2 Die fünf operativen Einheiten im Detail
+### A. RSSP Authority (Renten-Kapitalstock)
 
-#### A. RSSP Authority (Renten-Kapitalstock)
 | Dimension | Spezifikation |
 |-----------|---------------|
-| **Verantwortung** | S1 (RSSP), E7 (Bleibe-Bonus-Fonds) |
-| **Assets 2050** | 5,49 Bio. EUR |
-| **Portfolio** | 50% Aktien, 15% Gold, 15% Agrarland, 13% Infrastruktur, 7% Rohstoffe |
-| **Personal** | ~500 FTE, ex-Blackrock/Vanguard/Sovereign Wealth |
-| **KPI** | Realrendite ≥ 1,7% p.a., Ersatzrate Low ≥ 200% |
+| Assets (Ziel 50 Jahre) | ~7.500 Mrd. EUR |
+| Portfolio | Gemaess RSSP-Modell Config F: Globale Aktien, RIG, Gold, Infrastruktur |
+| Personal | ~500 FTE (ex-Sovereign-Wealth, Assetmanagement) |
+| KPI | Realrendite ≥ 1,7% p.a.; Ersatzrate Low ≥ 85% |
 
-#### B. GSP Authority (Gesundheits-Kapitalstock)
+### B. GSP Authority (Gesundheits-Kapitalstock)
+
 | Dimension | Spezifikation |
 |-----------|---------------|
-| **Verantwortung** | S2 (GSP), S7 (GS+), E3 (Prävention), E6 (Isotopen) |
-| **Assets 2050** | 8,34 Bio. EUR |
-| **Portfolio** | 30% Aktien, 40% Anleihen, 10% Gold, 15% Infrastruktur, 5% Cash |
-| **Personal** | ~400 FTE, ex-Krankenversicherungen/Gesundheitsökonomie |
-| **KPI** | Präventions-Teilnahme ≥ 40%, Kostenersparnis ≥ 281 Mrd. EUR |
+| Assets (Ziel 20 Jahre) | ~1.150 Mrd. EUR |
+| Portfolio | 40% Staatsanleihen, 30% Aktien (MSCI), 15% Infrastruktur, 10% Inflation-Linked, 5% Gold |
+| Personal | ~400 FTE (Gesundheitsoekonomie, Versicherungsmathematik) |
+| KPI | Effektiver Beitragssatz (GKV+GSP) ≤ 16%; Praevention-Teilnahme ≥ 40% |
 
-#### C. Infrastruktur AG
+### C. Infrastruktur AG
+
 | Dimension | Spezifikation |
 |-----------|---------------|
-| **Verantwortung** | S4 (GCADI), S5 (Gravity+), S6 (DIGI-SOV), S10 (SPE), E1, E2 |
-| **Investitionen** | 476 Mrd. EUR über 25 Jahre |
-| **Schwerpunkte** | Chip-Fabs, Speicher-Mix (30/25/20/15/10), Glasfaser, EU-Cloud |
-| **Personal** | ~2.000 FTE, ex-TSMC/Samsung/Siemens/Hochtief |
-| **KPI** | Baukosten ≤ 1.200 EUR/m², Genehmigungszeit ≤ 6 Monate |
+| Verantwortung | Wohnungsbau (GCADI), DFR/MatAI, DIGI-SOV, Chip-Fabriken |
+| Personal | ~2.000 FTE (Ingenieure, Bauwirtschaft, Energietechnik) |
+| KPI | Baukosten ≤ 1.200 EUR/m²; DFR-Gate-Entscheidungen einhalten |
 
-#### D. Talent Agency
+### D. Talent Agency
+
 | Dimension | Spezifikation |
 |-----------|---------------|
-| **Verantwortung** | S8 (GOUDE), S9 (DASDIS), E4 (AI-First), E7 (Bleibe-Bonus) |
-| **Output** | 100k GOUDE-Absolventen/Jahr, 400k Fachkräfte/Jahr |
-| **Budget** | ~15 Mrd. EUR/Jahr |
-| **Personal** | ~1.000 FTE, ex-MIT/Stanford/McKinsey/Google |
-| **KPI** | Bleiberate ≥ 70%, GOUDE Top-10 Ranking |
+| Verantwortung | GOUDE, DASDIS (Integration), Bleibe-Bonus |
+| Output | 100k GOUDE-Absolventen/Jahr; 400k Fachkraefte/Jahr |
+| Personal | ~1.000 FTE (Bildung, KI, Personalentwicklung) |
+| KPI | Bleiberate ≥ 70%; GOUDE Top-10 weltweit |
 
-#### E. EURO-SI AG (Währungs-Strategie)
+### E. EURO-SI AG (Waehrungsstrategie)
+
 | Dimension | Spezifikation |
 |-----------|---------------|
-| **Verantwortung** | S3 (EURO-SI), Target2-Hedge |
-| **Strategie** | 80% Non-Euro-Assets, Euro-Schulden |
-| **Szenarien** | Stabil (0), Soft Landing (+0,9 Bio.), Crash (+2,0 Bio.) |
-| **Personal** | ~100 FTE, ex-Zentralbank/Devisenhandel |
-| **KPI** | Arbitrage-Rendite ≥ 1,2% p.a. über Schuldzins |
-
-### 27.3.3 Personal-Prinzipien
-
-*   Keine Beamtenverhältnisse.
-*   5-Jahres-Verträge mit marktüblichen Gehältern (konkurrenzfähig zu McKinsey/Google).
-*   Klare KPI-Ziele. Bei Verfehlung: Entlassung.
-*   Erfolgsbonus: 20% des Gehalts bei KPI-Übererfüllung.
-*   Cooling-Off: 3 Jahre keine Tätigkeit bei beaufsichtigten Unternehmen.
+| Verantwortung | Target2-Abbau, Dollar-Emanzipation, Karolinger-Eurobonds |
+| Strategie | ~70% Nicht-Euro-Assets; Euro-Schulden als Hedge |
+| Personal | ~100 FTE (Zentralbank, Devisenhandel, Makrooekonomie) |
+| KPI | Target2 ≤ 300 Mrd. EUR; Arbitrage-Rendite ≥ 1,2% ueber Schuldzins |
 
 ---
 
-## 27.4 Der demokratische "Not-Aus-Schalter"
+## 3. Personalmodell
 
-Um Diktatur-Vorwürfe zu entkräften, behält das Parlament das letzte Wort – aber die Hürde ist hoch.
-
-**Das Veto-Recht:**
-Der Bundestag kann eine Entscheidung des BST stoppen, aber nur mit einer **qualifizierten Mehrheit (z.B. 60%)**.
-*   *Effekt:* Die Regierungskoalition (meist 50-55%) kann die Strategie nicht aus wahltaktischen Gründen sabotieren. Es braucht einen breiten Konsens, um den Langfrist-Plan zu stoppen.
-*   *Logik:* "Inertia" (Trägheit) arbeitet für den Plan, nicht dagegen. Bisher brauchte man Kraft, um etwas zu tun. Jetzt braucht man Kraft, um die Reform zu stoppen.
+| Prinzip | Regelung |
+|---------|----------|
+| **Keine Beamten** | 5-Jahres-Vertraege, marktkonkurrente Gehaelter |
+| **KPI-gebunden** | Verfehlung = Entlassung; Uebererfuellung = 20% Bonus |
+| **Cooling-Off** | 3 Jahre keine Taetigkeit bei beaufsichtigten Unternehmen |
+| **Rekrutierung** | International: Ex-Sovereign-Wealth, Ex-Big-Tech, Ex-Consulting |
 
 ---
 
-## 27.5 Die Europa-AG: Politischer Schutz durch EU-Recht (E5)
+## 4. SCE (Europa-AG): Politischer Schutz durch EU-Recht
 
-### 27.5.1 Das Problem der politischen Kontinuität
+### Warum SCE?
 
-| Risiko | Beschreibung | Historisches Beispiel |
-|--------|--------------|----------------------|
-| **Regierungswechsel** | Neue Koalition stoppt Projekt | Atomausstieg (2011) |
-| **Populismus** | "Fonds plündern für Wahlgeschenke" | Riester-Kritik |
-| **EU-Intervention** | "Staatsfonds ist Wettbewerbsverzerrung" | Beihilfe-Verfahren |
+Die kritischen Vermoegen (RSSP, GSP, Infrastruktur) werden in einer **Societas Cooperativa Europaea** (SCE) — einer europaeischen Genossenschaft — gebuendelt.
 
-### 27.5.2 Die Lösung: Societas Cooperativa Europaea (SCE)
+### Schutzwirkung
 
-Die kritischen Infrastruktur-Assets werden in eine **Europa-AG** (SCE) überführt:
+| Bedrohung | Schutz durch SCE |
+|-----------|-----------------|
+| Populistische Regierung will Fonds aufloesen | SCE-Satzung: 75% Zustimmung aller Mitglieder noetig |
+| Nationales Gesetz greift auf Vermoegen zu | SCE unterliegt EU-Recht, nicht nationalem Recht |
+| Schnelle Pluenderung | EU-Kommission muss genehmigen; EuGH kann angerufen werden; Prozess dauert Jahre |
+| Verstaatlichung | Buerger sind Miteigentuemer (via Rentenansprueche) — Enteignung von 74 Mio. Buergern? |
 
-```
-                    ┌────────────────────────────┐
-                    │    DEUTSCHLAND 2050 SCE    │
-                    │   (Societas Cooperativa    │
-                    │       Europaea)            │
-                    │   Sitz: Frankfurt + Brüssel│
-                    └─────────────┬──────────────┘
-                                  │
-         ┌────────────────────────┼────────────────────────┐
-         │                        │                        │
-         ▼                        ▼                        ▼
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│ RSSP-SCE        │     │ Infrastruktur-  │     │ GSP-SCE         │
-│ (Kapitalstock)  │     │ SCE             │     │ (Gesundheit)    │
-│                 │     │ (GCADI, Gravity)│     │                 │
-│ 5,49 Bio. EUR   │     │ 476 Mrd. EUR    │     │ 8,34 Bio. EUR   │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
-```
+**Der Lock-In-Effekt:** Selbst wenn eine Regierung den Fonds aufloesen WILL, ist es innerhalb einer Legislaturperiode **praktisch unmoeglich**. Die SCE-Struktur verwandelt politische Traegheit von einem Problem in einen Vorteil.
 
-### 27.5.3 Rechtliche Vorteile der SCE-Struktur
-
-| Dimension | Schutz | Mechanismus |
-|-----------|--------|-------------|
-| **Nationale Änderung** | Blockiert | SCE unterliegt EU-Recht, nicht nationalem Recht |
-| **Eigentümer-Struktur** | Genossenschaftlich | Bürger sind Miteigentümer (via Rentenansprüche) |
-| **Auflösung** | Erschwert | Braucht EU-weite Zustimmung |
-| **Beihilfe-Risiko** | Eliminiert | Genossenschaft, kein Staatsfonds |
-| **Kapitalflucht** | Blockiert | Assets in EU-Rechtsform gebunden |
-
-### 27.5.4 Governance der SCE
+### Governance der SCE
 
 | Organ | Zusammensetzung | Funktion |
 |-------|-----------------|----------|
-| **Generalversammlung** | Alle Beitragszahler (virtuell) | Grundsatzentscheidungen |
-| **Aufsichtsrat** | 12 Mitglieder (4 DE, 4 EU, 4 Experten) | Kontrolle |
-| **Vorstand** | BST-Direktorium (delegiert) | Operative Führung |
-| **Prüfungsausschuss** | Bundesrechnungshof + EU-Rechnungshof | Compliance |
-
-### 27.5.5 Der "Lock-In"-Effekt
-
-**Szenario: Populistische Regierung will Fonds auflösen**
-
-1. SCE-Satzung erfordert 75% Zustimmung der Generalversammlung
-2. EU-Kommission muss genehmigen (Beihilfe-Prüfung)
-3. Europäischer Gerichtshof kann angerufen werden
-4. Auszahlung dauert Jahre → politischer Zyklus vorbei
-
-**Ergebnis:** Selbst wenn gewollt, ist Auflösung praktisch unmöglich innerhalb einer Legislaturperiode.
+| Generalversammlung | Alle Beitragszahler (virtuell) | Grundsatzentscheidungen |
+| Aufsichtsrat | 12 Mitglieder (4 DE, 4 EU-Partner, 4 Experten) | Kontrolle |
+| Vorstand | BST-Direktorium (delegiert) | Operative Fuehrung |
+| Pruefung | Bundesrechnungshof + EU-Rechnungshof | Compliance |
 
 ---
 
-## 27.6 Implementierung: Der "Große Kompromiss"
+## 5. Krisenprotokolle
 
-Wie bekommt man die Parteien dazu, Macht abzugeben?
-
-**Der Deal:**
-*   Die Parteien werden von der Verantwortung für unpopuläre Langfrist-Themen (Rente, Infrastruktur-Bau) "entlastet".
-*   Sie können sich auf "Wohlfühl-Themen" (Kultur, Gesellschaftspolitik, Tagesgeschäft) konzentrieren.
-*   "Schaut her, *wir* sind nicht schuld, das war das BST." (Sündenbock-Funktion).
-
-### 27.6.1 Partei-spezifische Argumente
-
-| Partei | Argument | Gewinn |
-|--------|----------|--------|
-| **CDU/CSU** | "Ordoliberale Institutionen, unabhängig wie Bundesbank" | Wirtschaftskompetenz |
-| **SPD** | "Größte Umverteilung der Geschichte, 0% Altersarmut" | Soziale Gerechtigkeit |
-| **Grüne** | "Energiewende wird unumkehrbar verankert" | Klimaschutz |
-| **FDP** | "Kapitalgedeckt, jeder hat eigenes Konto, kein Umlage-Sozialismus" | Eigenverantwortung |
-| **AfD** | "Deutsche Souveränität, Unabhängigkeit von EZB" | Nationalismus (konstruktiv) |
-| **Linke** | "Reiche zahlen 6% Solidaritätsbeitrag ohne Gegenleistung" | Umverteilung |
-
----
-
-## 27.7 Transparenz und Kontrolle
-
-### 27.7.1 Öffentliche Rechenschaftspflicht
-
-| Instrument | Frequenz | Inhalt |
-|------------|----------|--------|
-| **Jahresbericht** | Jährlich | Assets, Renditen, KPI-Erfüllung |
-| **Bürger-Dashboard** | Echtzeit | Jeder kann sein Konto online einsehen |
-| **Parlamentsbericht** | Quartalsweise | Strategische Entscheidungen |
-| **Rechnungshof-Prüfung** | Jährlich | Compliance, Effizienz |
-
-### 27.7.2 Krisenprotokolle
-
-| Auslöser | Automatische Maßnahme |
+| Ausloser | Automatische Massnahme |
 |----------|----------------------|
-| Rendite < 0% (3 Jahre) | Strategieüberprüfung, Parlamentsbericht |
-| Assets < 80% des Plans | Direktoriums-Anhörung im Bundestag |
-| Einzelverlust > 50 Mrd. EUR | Sonder-Rechnungshofprüfung |
+| Rendite < 0% (3 Jahre) | Strategieueberprueefung + Parlamentsbericht |
+| Assets < 80% des Plans | Direktoriums-Anhoerung im Bundestag |
+| Einzelverlust > 50 Mrd. EUR | Sonder-Rechnungshofpruefung |
 | Korruptionsverdacht | Staatsanwaltschaft + BST-Aussetzung |
 
 ---
 
-## 27.8 Fazit: Die Rückkehr der Strategischen Führung
+## 6. Transparenz
 
-Das BST ist die moderne Antwort auf den aufgeklärten Absolutismus.
-Es institutionalisiert die Vernunft gegen die Emotion des Augenblicks.
-
-### Die Gesamtarchitektur
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                         VERFASSUNG (Art. 87g GG)                    │
-│                    Garantiert Unabhängigkeit & Budget               │
-└──────────────────────────────────┬──────────────────────────────────┘
-                                   │
-┌──────────────────────────────────▼──────────────────────────────────┐
-│                          BST DIREKTORIUM                            │
-│              5 Direktoren, 12 Jahre, 2/3-Mehrheit                   │
-│                     Budget: 90 Mrd. EUR/Jahr                        │
-└──────────────────────────────────┬──────────────────────────────────┘
-                                   │
-┌──────────────────────────────────▼──────────────────────────────────┐
-│                      DEUTSCHLAND 2050 SCE                           │
-│              Europa-AG für politischen Schutz (E5)                  │
-│                   EU-Recht, 75% Auflösungs-Hürde                    │
-└──────────────────────────────────┬──────────────────────────────────┘
-                                   │
-     ┌──────────┬──────────┬───────┴───────┬──────────┬──────────┐
-     ▼          ▼          ▼               ▼          ▼          ▼
-┌─────────┐┌─────────┐┌─────────┐   ┌─────────┐┌─────────┐┌─────────┐
-│  RSSP   ││  GSP    ││ Infra-  │   │ Talent  ││EURO-SI  ││ Prüfung │
-│Authority││Authority││struktur │   │ Agency  ││   AG    ││         │
-│         ││         ││   AG    │   │         ││         ││         │
-│5,49 Bio.││8,34 Bio.││476 Mrd. │   │ 100k/J  ││ 80% FX  ││ BRH+EU  │
-└─────────┘└─────────┘└─────────┘   └─────────┘└─────────┘└─────────┘
-```
-
-### Die Zahlen
-
-| Metrik | Wert |
-|--------|------|
-| **Total Assets 2050** | 13,83 Bio. EUR |
-| **Total Net Wealth 2050** | 10,25 Bio. EUR |
-| **Ersatzrate Low** | 220% |
-| **Ersatzrate Mid** | 122% |
-| **Altersarmutsquote** | 0% |
-| **Präventions-Ersparnis** | 281 Mrd. EUR |
-
-*   Ohne BST ist das Reformpaket ein Wunschzettel, der im Parteienstreit zerfleddert wird.
-*   Mit BST ist es ein **Exekutiv-Programm**, das exakt so abgearbeitet wird, wie ein Ingenieur eine Brücke baut: Nach Plan, nicht nach Stimmungslage.
-
-Es ist das Betriebssystem-Update, das Deutschland braucht, um die Reform-Software laufen zu lassen.
+| Instrument | Frequenz | Inhalt |
+|-----------|----------|--------|
+| **Jahresbericht** | Jaehrlich | Assets, Renditen, KPI-Erfuellung |
+| **Buerger-Dashboard** | Echtzeit | Jeder Buerger sieht sein Konto online (RSSP + GSP) |
+| **Parlamentsbericht** | Quartalsweise | Strategische Entscheidungen, Risikolage |
+| **Rechnungshof** | Jaehrlich | Compliance, Effizienz, Mittelverwendung |
 
 ---
 
-**Rigor: High** - Basiert auf Institutionenökonomik (Unabhängigkeit von Zentralbanken), erfolgreichen Modellen der Entwicklungsstaaten (Singapur EDB, Japan MITI), und quantifizierten Projektionen aus rssp_model.py.
+## 7. Verbindung zum Karolinger-Pakt
 
-*Version 2.0 | Integriert mit 10-Säulen-Modell, E1-E7 Ergänzungen, und SCE-Struktur*
+Die SCE-Struktur ist **identisch** mit dem institutionellen Rahmen des Karolinger-Pakts (siehe `Sicherheitspolitik/03_option_omega.md`):
+
+- Karolinger-Eurobonds werden ueber die SCE emittiert
+- FR/IT/PL sind im Aufsichtsrat der SCE vertreten (4 EU-Partner-Sitze)
+- Die industrielle Verflechtung (Euro-Stachel, FCAS, EDOS) laeuft ueber SCE-Tochtergesellschaften
+- **Ergebnis:** Die institutionelle Architektur des Reformprojekts IST die institutionelle Architektur des Karolinger-Pakts. Beides ist dasselbe.
+
+---
+
+## Rigor Statement
+
+**Confidence: Medium-High** fuer die institutionelle Designlogik (basiert auf Bundesbank-Unabhaengigkeit, Norwegischem Staatsfonds, Singapurs CPF-Governance, EU-SCE-Recht).
+**Confidence: Medium** fuer die politische Durchsetzbarkeit (2/3-Mehrheit fuer Verfassungsaenderung ist historisch selten — erfordert aussergewoehnlichen politischen Konsens).

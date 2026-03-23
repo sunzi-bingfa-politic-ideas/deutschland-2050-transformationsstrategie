@@ -2,7 +2,7 @@
 
 ## 4.1 Kernthese: Strategische Arbeitsteilung statt Ideologie
 
-Eine "Gemeinsame Nuklear-Initiative" waere keine Rueckkehr Deutschlands zur Atomkraft im eigenen Land, sondern eine **strategische Arbeitsteilung**:
+Eine "Gemeinsame Nuklear-Initiative" waere eine **strategische Arbeitsteilung**:
 
 | Rolle | Deutschland | Frankreich |
 |-------|-------------|------------|

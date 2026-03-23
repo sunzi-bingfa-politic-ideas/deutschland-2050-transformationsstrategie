@@ -1,4 +1,4 @@
----
+
 
 # Deutschland 2050: Ein Systemmodell
 
@@ -8,7 +8,7 @@ Dieses Projekt ist ein Versuch, die langfristigen strukturellen Herausforderunge
 
 Es ist kein fertiges politisches Programm und keine abschließende Wahrheit, sondern ein Arbeitsmodell: ein Angebot aus Ideen, Mechanismen und quantitativen Ansätzen, die überprüft, kritisiert und weiterentwickelt werden können.
 
----
+
 
 ## Das Problem
 

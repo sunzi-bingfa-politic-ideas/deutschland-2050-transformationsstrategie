@@ -1,119 +1,165 @@
 {
-  "scenarios": [
-    {
-      "name": "A: Euro bleibt stabil",
-      "probability": 0.25,
-      "target2_recovery": 1.0,
-      "euro_devaluation": 1.0,
-      "real_asset_multiplier": 1.0,
-      "debt_real_value": 1.0
+  "positions": {
+    "status_quo": {
+      "total_assets": 1600,
+      "total_liabilities": 2900,
+      "net": -1300
     },
-    {
-      "name": "B: Fiskalunion / EU-Bonds",
-      "probability": 0.2,
-      "target2_recovery": 0.7,
-      "euro_devaluation": 0.95,
-      "real_asset_multiplier": 1.05,
-      "debt_real_value": 0.95
-    },
-    {
-      "name": "C: Nord-/S\u00fcd-Euro",
-      "probability": 0.15,
-      "target2_recovery": 0.5,
-      "euro_devaluation": 0.85,
-      "real_asset_multiplier": 1.15,
-      "debt_real_value": 0.9
-    },
-    {
-      "name": "D: Kontrollierter Italexit",
-      "probability": 0.2,
-      "target2_recovery": 0.6,
-      "euro_devaluation": 0.9,
-      "real_asset_multiplier": 1.1,
-      "debt_real_value": 0.92
-    },
-    {
-      "name": "E: Chaotischer Zerfall",
-      "probability": 0.15,
-      "target2_recovery": 0.2,
-      "euro_devaluation": 0.6,
-      "real_asset_multiplier": 1.5,
-      "debt_real_value": 0.65
-    },
-    {
-      "name": "F: Hyperinflation",
-      "probability": 0.05,
-      "target2_recovery": 0.1,
-      "euro_devaluation": 0.3,
-      "real_asset_multiplier": 2.0,
-      "debt_real_value": 0.25
-    }
-  ],
-  "results": {
-    "comparison": [
-      {
-        "scenario": "A: Euro bleibt stabil",
-        "probability": 0.25,
-        "status_quo_effect": 0.0,
-        "rssp_effect": 0.0,
-        "rssp_advantage": 0.0
-      },
-      {
-        "scenario": "B: Fiskalunion / EU-Bonds",
-        "probability": 0.2,
-        "status_quo_effect": -210.0,
-        "rssp_effect": 660.0,
-        "rssp_advantage": 870.0
-      },
-      {
-        "scenario": "C: Nord-/S\u00fcd-Euro",
-        "probability": 0.15,
-        "status_quo_effect": -310.0,
-        "rssp_effect": 1850.0,
-        "rssp_advantage": 2160.0
-      },
-      {
-        "scenario": "D: Kontrollierter Italexit",
-        "probability": 0.2,
-        "status_quo_effect": -248.0,
-        "rssp_effect": 1280.0,
-        "rssp_advantage": 1528.0
-      },
-      {
-        "scenario": "E: Chaotischer Zerfall",
-        "probability": 0.15,
-        "status_quo_effect": -40.0,
-        "rssp_effect": 6510.0,
-        "rssp_advantage": 6550.0
-      },
-      {
-        "scenario": "F: Hyperinflation",
-        "probability": 0.05,
-        "status_quo_effect": 810.0,
-        "rssp_effect": 13480.0,
-        "rssp_advantage": 12670.0
-      }
-    ],
-    "expected_values": {
-      "status_quo": -103.6,
-      "with_rssp": 2316.0,
-      "rssp_advantage": 2419.6
-    },
-    "extremes": {
-      "status_quo": {
-        "worst": -310.0,
-        "best": 810.0
-      },
-      "with_rssp": {
-        "worst": 0.0,
-        "best": 13480.0
-      }
+    "with_rssp": {
+      "total_assets": 9900,
+      "total_liabilities": 6000,
+      "net": 3900
     }
   },
-  "conclusion": {
-    "rssp_dominates": true,
-    "expected_advantage_billion_eur": 2419.6,
-    "worst_case_status_quo": -310.0,
-    "worst_case_rssp": 0.0
+  "scenarios": [
+    {
+      "scenario": "A: Euro + Dollar stabil",
+      "probability": 0.2,
+      "sq_net_change": 0.0,
+      "rssp_net_change": 0.0,
+      "rssp_advantage": 0.0
+    },
+    {
+      "scenario": "B: Fiskalunion (Karolinger-Eurobonds)",
+      "probability": 0.2,
+      "sq_net_change": -75.0,
+      "rssp_net_change": 626.8,
+      "rssp_advantage": 701.8
+    },
+    {
+      "scenario": "C: Euro schwach (-20%)",
+      "probability": 0.15,
+      "sq_net_change": 130.0,
+      "rssp_net_change": 2156.2,
+      "rssp_advantage": 2026.1999999999998
+    },
+    {
+      "scenario": "D: Kontrollierter Italexit",
+      "probability": 0.15,
+      "sq_net_change": -260.0,
+      "rssp_net_change": 1110.0,
+      "rssp_advantage": 1370.0
+    },
+    {
+      "scenario": "E: Euro-Zerfall",
+      "probability": 0.1,
+      "sq_net_change": 340.0,
+      "rssp_net_change": 6335.0,
+      "rssp_advantage": 5995.0
+    },
+    {
+      "scenario": "F: Dollar-Krise (-30%)",
+      "probability": 0.1,
+      "sq_net_change": 0.0,
+      "rssp_net_change": 8.0,
+      "rssp_advantage": 8.0
+    },
+    {
+      "scenario": "G: Stagflation (beide schwach)",
+      "probability": 0.05,
+      "sq_net_change": 335.0,
+      "rssp_net_change": 1368.8,
+      "rssp_advantage": 1033.8
+    },
+    {
+      "scenario": "H: US-Sanktionen gegen EU",
+      "probability": 0.05,
+      "sq_net_change": 132.0,
+      "rssp_net_change": 230.8,
+      "rssp_advantage": 98.80000000000001
+    }
+  ],
+  "expected_values": {
+    "status_quo": 22.9,
+    "with_rssp": 1329.6,
+    "advantage": 1306.7
+  },
+  "tornado": [
+    {
+      "parameter": "RSSP Aktien",
+      "low": 2000,
+      "base": 3375,
+      "high": 5000,
+      "ev_low": 1126.8,
+      "ev_base": 1329.6,
+      "ev_high": 1569.2,
+      "range": 442.5
+    },
+    {
+      "parameter": "Staatsschulden",
+      "low": 4000,
+      "base": 5500,
+      "high": 7500,
+      "ev_low": 1169.8,
+      "ev_base": 1329.6,
+      "ev_high": 1542.6,
+      "range": 372.8
+    },
+    {
+      "parameter": "RSSP Gold",
+      "low": 300,
+      "base": 750,
+      "high": 1500,
+      "ev_low": 1201.3,
+      "ev_base": 1329.6,
+      "ev_high": 1543.3,
+      "range": 342.0
+    },
+    {
+      "parameter": "Target2 Rest",
+      "low": 100,
+      "base": 300,
+      "high": 800,
+      "ev_low": 1382.6,
+      "ev_base": 1329.6,
+      "ev_high": 1197.1,
+      "range": 185.5
+    },
+    {
+      "parameter": "RIG-Fonds",
+      "low": 1000,
+      "base": 1950,
+      "high": 3000,
+      "ev_low": 1248.8,
+      "ev_base": 1329.6,
+      "ev_high": 1418.8,
+      "range": 170.0
+    },
+    {
+      "parameter": "RSSP Anleihen",
+      "low": 1000,
+      "base": 1875,
+      "high": 3000,
+      "ev_low": 1376.8,
+      "ev_base": 1329.6,
+      "ev_high": 1268.8,
+      "range": 108.0
+    },
+    {
+      "parameter": "GSP-Kapital",
+      "low": 500,
+      "base": 1150,
+      "high": 2000,
+      "ev_low": 1336.1,
+      "ev_base": 1329.6,
+      "ev_high": 1321.1,
+      "range": 15.0
+    }
+  ],
+  "monte_carlo": {
+    "n_runs": 2000,
+    "status_quo": {
+      "p5": -377.6,
+      "median": 8.1,
+      "p95": 406.6,
+      "prob_positive": 51.1
+    },
+    "with_rssp": {
+      "p5": -526.9,
+      "median": 834.9,
+      "p95": 6657.2,
+      "prob_positive": 81.7
+    },
+    "rssp_dominates": 92.0
   }
 }

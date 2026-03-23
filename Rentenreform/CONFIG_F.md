@@ -57,7 +57,7 @@ Das zugrunde liegende Renditemodell ist bewusst konservativ kalibriert:
 r_RIG = 0.03 + 0.30 × (r_mkt - 0.03)
 ```
 
-Die Basisrendite von 3% real orientiert sich an der langfristigen Wachstumsrate des deutschen Robotik- und Automatisierungsmarktes. Der Faktor 0,30 begrenzt die Beteiligung an Marktschwankungen — damit bleibt die RIG auch bei fallenden Maerkten im positiven Bereich.
+Die Basisrendite von 3% real orientiert sich an der langfristigen Wachstumsrate des deutschen Robotik- und Automatisierungsmarktes (Quellen: IndexBox 2026, Morgan Stanley Robotics Research; realer CAGR ~3-4% nach Kostenabzug). Der Faktor 0,30 begrenzt die Beteiligung an Marktschwankungen — damit bleibt die RIG auch bei fallenden Maerkten im positiven Bereich. Diese Annahme ist eine der zentralen Stellschrauben des Modells; eine Variation der Basisrendite zwischen 2% und 4% ist in der Sensitivitaetsanalyse dokumentiert (`out/rig_2d_sweep.json`).
 
 | Marktsituation | RIG-Rendite | Einordnung |
 |---|---|---|
@@ -78,7 +78,7 @@ Die Konfiguration wurde gegen mehrere Belastungsszenarien geprueft:
 |---|---|---|---|
 | Baseline (kein Angriff) | 93,2% | — | Referenz |
 | Governance-Versagen (15 Jahre Nullrendite) | 93,8% | +0,5 PP | Vom System absorbiert |
-| Technologie-Verzoegerung (RIG verliert Dekorrelation) | 90,0% | -3,3 PP | Moderat; System bleibt funktionsfaehig |
+| Technologie-Verzoegerung (RIG-Rendite schwankt staerker mit dem Gesamtmarkt als angenommen) | 90,0% | -3,3 PP | Moderat; System bleibt funktionsfaehig |
 | Staerkere Abwanderung (2%/Jahr) | 85,0% | -8,3 PP | Spuerbar; betrifft jedes kapitalgedeckte System |
 | Kombinierter Ausfall (alle Faktoren gleichzeitig) | 75,8% | -17,5 PP | Extremszenario; grundsaetzliche Grenze |
 | Wertvernichtung (-2% Rendite, 15 Jahre) | 93,8% | +0,5 PP | Vom System absorbiert |
@@ -99,7 +99,7 @@ Die Sensitivitaetsanalyse zeigt, dass sich die Wirkung des Modells je nach Beruf
 | Akademiker, Manager | ansteigend | 17,50% | 68 | 90,1% |
 | Akademiker (konservativ) | ansteigend | 20,75% | 67 | 91,8% |
 
-Die Kernaussage ist nicht, dass ein Profil bevorzugt oder benachteiligt wird, sondern dass das Modell unterschiedliche Einkommensverlauefe gezielt beruecksichtigt. Berufe mit niedrigerem Beitrag sind die, die das System am staerksten entlasten soll.
+Die Kernaussage ist nicht, dass ein Profil bevorzugt oder benachteiligt wird, sondern dass das Modell unterschiedliche Einkommensverlauefe gezielt beruecksichtigt. Der niedrigste Beitragssatz gilt fuer die Berufsgruppen, deren Absicherung im heutigen System am schwaechsten ist.
 
 ---
 

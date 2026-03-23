@@ -20,7 +20,7 @@ Das Gesamtmodell ordnet sich in drei Ebenen:
 
 **Der finanzielle Motor** wandelt diese Leistungsfaehigkeit in Vermoegen um: Ein kapitalgedecktes Rentensystem (RSSP — ein individueller Sparfonds fuer die Altersvorsorge), ein ergaenzendes Gesundheitskonto (GSP — ein persoenliches Konto fuer Gesundheitsausgaben, nach dem Vorbild Singapurs), und eine Anlagestrategie die den Kapitalstock gegen Waehrungsrisiken absichert.
 
-**Der Schutzschild** sichert beides ab: Energiesouveraenitaet (damit die Industrie nicht erpressbar ist), europaeische Sicherheitsarchitektur (damit geopolitische Schocks den Kapitalstock nicht zerstoeren), und diplomatische Netzwerke (damit Deutschland Buendnisse hat statt Abhaengigkeiten).
+**Der Schutzschild** sichert beides ab: eine eigene Energiebasis (damit die Industrie nicht durch Lieferstopps oder Preisschocks erpressbar ist), eine gemeinsame europaeische Verteidigung mit Frankreich und Polen (damit geopolitische Krisen den Kapitalstock nicht gefaehrden), und belastbare Beziehungen zu Partnern in Asien, Afrika und dem Nahen Osten (damit Deutschland wirtschaftlich und politisch nicht von einzelnen Akteuren abhaengig wird).
 
 ---
 
@@ -36,7 +36,7 @@ Einige Verbindungen die das Modell explizit abbildet:
 
 **Europaeische Partnerschaften senken Kosten.** Ein Verteidigungsbuendnis mit Frankreich, Polen und Italien teilt die Sicherheitskosten auf mehrere Schultern. Ein gemeinsamer Kapitalmarkt (Fiskalunion) senkt die Finanzierungskosten fuer alle Beteiligten. Und industrielle Kooperation (z.B. in der Drohnenproduktion) schafft Skaleneffekte, die national nicht erreichbar waeren.
 
-**Der Kapitalstock ermoeglicht die Fiskalunion.** Deutschland kann eine europaeische Schuldengemeinschaft nur dann verantworten, wenn reale Vermoegenswerte dahinterstehen — nicht nur Steuerversprechen. Der RSSP-Kapitalstock dient als Garantie fuer gemeinsame Anleihen: eine politisch tragfaehigere Basis als die bisherige Konstruktion.
+**Der Kapitalstock ermoeglicht die Fiskalunion.** Deutschland kann eine europaeische Schuldengemeinschaft nur dann verantworten, wenn reale Vermoegenswerte dahinterstehen — nicht nur Steuerversprechen. Der Kapitalstock koennte als Sicherheit fuer gemeinsame Anleihen dienen — ob und unter welchen Bedingungen das tragfaehig ist, wird in `Eurozone_Strategie/sections/Dollar_Emanzipation.md` modelliert.
 
 ---
 
@@ -101,7 +101,7 @@ Entscheidungspunkte mit Go/No-Go-Kriterien werden in `Sicherheitspolitik/section
 | Integration, Aussenpolitik | Bestehende Ressorts | 5-10 Jahre |
 | RSSP, GSP | Beitragsfinanziert (keine Steuergelder) | 40-47 Jahre |
 
-Die staatlich finanzierten Komponenten summieren sich auf einen niedrigen einstelligen Prozentsatz des Bundeshaushalts. Die kapitalgedeckten Komponenten (RSSP, GSP) werden vollstaendig aus Beitraegen finanziert und belasten den Staatshaushalt nicht.
+Die staatlich finanzierten Komponenten summieren sich nach den Einzelmodellen auf einen niedrigen einstelligen Prozentsatz des jaehrlichen Bundeshaushalts (die detaillierte Herleitung findet sich in den jeweiligen Bereichsdokumentationen, insbesondere `Sicherheitspolitik/sections/00_executive_summary.md` und `Energiesektor/sections/00_executive_summary.md`). Die kapitalgedeckten Komponenten (Rente, Gesundheit) werden vollstaendig aus Beitraegen finanziert und belasten den Staatshaushalt nicht.
 
 Detaillierte Budgets und Modellrechnungen finden sich in den jeweiligen Bereichsdokumentationen.
 

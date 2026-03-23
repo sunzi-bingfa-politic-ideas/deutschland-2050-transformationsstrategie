@@ -1,37 +1,115 @@
 # Manifest
 
-1. Deutschland hat kein Einzelproblem. Deutschland hat ein Strukturproblem.
-2. Politische Kurzfristigkeit zerstört langfristige Systeme.
-3. Wer nur an einer Stelle repariert, verschiebt das Problem nur.
-4. Umlagesysteme ohne Kapitalstock bleiben auf Dauer verletzlich.
-5. Vermögen ist nicht nur Reichtum, sondern politischer Handlungsspielraum.
-6. Institutionen sind wichtiger als gute Absichten.
-7. Energie ist keine Nebensache, sondern Staatsgrundlage.
-8. Bildung ist keine Sozialfrage, sondern Produktionsfrage.
-9. Integration ist keine moralische Beilage, sondern Kapazitätsfrage.
-10. Europa ist keine Kulisse, sondern der einzige sinnvolle Maßstab.
-11. Reformen müssen Regierungswechsel überleben.
-12. Ein gutes System ist eines, das Krisen absorbieren kann.
-13. Langfristigkeit ist keine Schwäche. Sie ist die eigentliche Stärke.
-14. Ein Staat, der nur verwaltet, verliert Zukunftsfähigkeit.
-15. Ein Staat, der Vermögen aufbaut, gewinnt Handlungsfreiheit.
+## Ausgangspunkt
 
-## Worum es in diesem Projekt geht
+Deutschland steht vor mehreren strukturellen Entwicklungen, die sich gegenseitig verstärken.
 
-Dieses Repository untersucht einen Umbau: weg von kurzfristiger Verwaltung, hin zu langfristiger Handlungsfähigkeit.
+Dazu gehören insbesondere:
+- die demografische Entwicklung,
+- die Belastung umlagebasierter Systeme,
+- Fragen der Energieversorgung,
+- Bildung und Fachkräfte,
+- sowie die Einbindung in europäische Strukturen.
 
-Die Frage lautet nicht, ob es einzelne Probleme gibt. Die Frage lautet, wie sich die Probleme systemisch verbinden und welche Architektur daraus folgt.
+Diese Themen werden häufig einzeln diskutiert.
 
-Deshalb verbindet dieses Projekt Rentenreform, Gesundheit, Energie, Bildung, Sicherheit, Euro- und Institutionenstrategie zu einem Gesamtmodell.
+Dieses Projekt geht davon aus, dass sie nur gemeinsam sinnvoll verstanden werden können.
 
-Nicht als fertigen Masterplan.
-Sondern als belastbare These, die geprüft, kritisiert und verbessert werden soll.
+---
 
-## Der Maßstab
+## Zentrale Annahme
 
-Dieses Projekt misst sich nicht daran, ob es bequem klingt.
-Es misst sich daran, ob es trägt.
+Die eigentliche Herausforderung ist nicht ein einzelnes Problem,
+sondern die Verbindung mehrerer Probleme zu einem System.
 
-Wenn eine Idee stark ist, kann sie Angriff aushalten.
-Wenn ein System gut ist, kann es Krisen aushalten.
-Wenn ein Staat zukunftsfähig ist, kann er Zeit aushalten.
+Viele politische Maßnahmen setzen an einzelnen Punkten an.
+
+Das führt oft dazu, dass Lösungen an einer Stelle neue Spannungen an anderer Stelle erzeugen.
+
+---
+
+## Beobachtungen
+
+Einige Muster sind erkennbar:
+
+- Politische Entscheidungszyklen sind kurz, viele Probleme wirken langfristig.
+- Umlagesysteme reagieren empfindlich auf demografische Verschiebungen.
+- Energie, Bildung und Integration bestimmen maßgeblich die wirtschaftliche Leistungsfähigkeit.
+- Deutschland ist wirtschaftlich und politisch eng mit Europa verflochten.
+
+Diese Punkte sind nicht neu.
+
+Entscheidend ist, sie zusammenzudenken.
+
+---
+
+## Ansatz des Projekts
+
+Dieses Repository untersucht, ob sich bestehende Belastungen teilweise in stabilere, langfristige Strukturen überführen lassen.
+
+Dazu gehören unter anderem:
+
+- Elemente kapitalgedeckter Systeme,
+- langfristiger Vermögensaufbau,
+- Investitionen in reale Infrastruktur,
+- sowie institutionelle Mechanismen, die Kontinuität ermöglichen.
+
+Ziel ist keine schnelle Umstellung.
+
+Ziel ist eine schrittweise Ergänzung bestehender Systeme.
+
+---
+
+## Rolle von Institutionen
+
+Viele Reformen scheitern nicht an ihrer Idee,
+sondern an ihrer Dauer.
+
+Politische Wechsel können langfristige Strategien unterbrechen.
+
+Deshalb stellt dieses Projekt die Frage:
+
+**Wie müssen Institutionen gestaltet sein, damit langfristige Ansätze bestehen können?**
+
+---
+
+## Grenzen
+
+Dieses Projekt arbeitet mit Annahmen.
+
+Diese Annahmen können sich als falsch erweisen.
+
+Es bestehen Unsicherheiten, zum Beispiel:
+
+- wirtschaftliche Entwicklungen,
+- politische Umsetzbarkeit,
+- technologische Fortschritte,
+- internationale Dynamiken.
+
+Diese Unsicherheiten sind Teil der Analyse,
+nicht ihr Rand.
+
+---
+
+## Ziel dieses Manifests
+
+Dieses Manifest soll den Rahmen des Projekts beschreiben.
+
+Es ist keine abschließende Antwort,
+sondern ein Ausgangspunkt.
+
+Die einzelnen Module konkretisieren diesen Rahmen.
+
+---
+
+## Einordnung
+
+Dieses Projekt ist ein Versuch, Politik stärker als System zu verstehen:
+
+- nicht nur einzelne Probleme zu adressieren,
+- sondern ihre Zusammenhänge sichtbar zu machen,
+- und daraus strukturierte Ansätze abzuleiten.
+
+Ob diese Ansätze tragfähig sind, ist offen.
+
+Genau deshalb sind sie überprüfbar formuliert.

@@ -1,0 +1,99 @@
+{
+  "found": true,
+  "best_tau_high": 0.115,
+  "base_params": {
+    "horizon_years": 80,
+    "age_start": 20,
+    "retire_age": 67,
+    "annuity_years": 20,
+    "cohort_size_at_age_start": 831435,
+    "low_share": 0.3,
+    "mid_share": 0.5,
+    "high_share": 0.2,
+    "income_low_retire": 22000.0,
+    "income_mid_retire": 40000.0,
+    "high_income_factor": 1.8,
+    "tau_low": 0.12,
+    "tau_mid": 0.13,
+    "tau_high": 0.115,
+    "guarantee_low": 1.0,
+    "guarantee_mid": 0.7,
+    "mortality_enabled": true,
+    "mortality_buckets": [
+      {
+        "age_min": 67,
+        "age_max": 74,
+        "survival": 0.99
+      },
+      {
+        "age_min": 75,
+        "age_max": 84,
+        "survival": 0.975
+      },
+      {
+        "age_min": 85,
+        "age_max": 95,
+        "survival": 0.95
+      },
+      {
+        "age_min": 96,
+        "age_max": 200,
+        "survival": 0.92
+      }
+    ],
+    "demography_mode": "constant",
+    "cohort_path": [],
+    "backstop_enabled": true,
+    "loan_cap_asset_share": 0.1,
+    "repay_share": 0.5,
+    "reserve_years": 3
+  },
+  "details": {
+    "tau_high": 0.115,
+    "worst": {
+      "min_repl_low": 1.0,
+      "min_repl_mid": 0.7,
+      "min_pool": 0.0,
+      "max_state_loan": 382266039960.0,
+      "fail_years": 0
+    },
+    "per_scenario": {
+      "base_1p7": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "min_pool": 3852328592888.142,
+        "max_state_loan": 0.0,
+        "final_state_loan": 0.0
+      },
+      "low_1p0": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "min_pool": 1887340982233.7092,
+        "max_state_loan": 0.0,
+        "final_state_loan": 0.0
+      },
+      "hard_0p5": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "min_pool": 583789441568.071,
+        "max_state_loan": 0.0,
+        "final_state_loan": 0.0
+      },
+      "flat_0p0": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "min_pool": 0.0,
+        "max_state_loan": 382266039960.0,
+        "final_state_loan": 382266039960.0
+      }
+    }
+  }
+}

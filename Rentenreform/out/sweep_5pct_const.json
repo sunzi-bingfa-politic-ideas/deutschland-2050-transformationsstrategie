@@ -1,0 +1,2685 @@
+{
+  "tau_high_fixed": 0.05,
+  "best_achievable": {
+    "guarantee_low": 1.0,
+    "guarantee_mid": 0.4,
+    "all_pass": true,
+    "worst_fail_years": 0,
+    "worst_state_loan": 374169873600.0
+  },
+  "all_passing_combinations": [
+    {
+      "g_low": 1.0,
+      "g_mid": 0.4,
+      "worst_loan": 374169873600.0
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.4,
+      "worst_loan": 259057728100.0
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.4,
+      "worst_loan": 143945582600.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.45,
+      "worst_loan": 377659439100.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.4,
+      "worst_loan": 28833437099.999985
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.45,
+      "worst_loan": 262547293600.0
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.45,
+      "worst_loan": 147435148100.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.5,
+      "worst_loan": 381149004599.9999
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.45,
+      "worst_loan": 32323002599.99994
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.5,
+      "worst_loan": 266036859100.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.5,
+      "worst_loan": 150924713600.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.55,
+      "worst_loan": 384638570100.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.5,
+      "worst_loan": 35812568100.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.5,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.5,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.5,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    }
+  ],
+  "full_results": [
+    {
+      "guarantee_low": 0.5,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.5,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.5,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 35812568100.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 35812568100.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 384638570100.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 384638570100.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 150924713600.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 150924713600.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 2,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 2,
+          "min_repl_low": 0.4172,
+          "min_repl_mid": 0.4184,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 6,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6066,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 133527360463.91011
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 6,
+          "min_repl_low": 0.4036,
+          "min_repl_mid": 0.4229,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 266036859100.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 266036859100.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 3,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 3,
+          "min_repl_low": 0.4282,
+          "min_repl_mid": 0.4148,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 7,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 253982324003.27557
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 7,
+          "min_repl_low": 0.4136,
+          "min_repl_mid": 0.4196,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 2,
+          "min_repl_low": 0.4675,
+          "min_repl_mid": 0.4899,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4026,
+          "min_repl_mid": 0.4232,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 32323002599.99994,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 32323002599.99994
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 381149004599.9999,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 381149004599.9999
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 5,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 8028907194.81958
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 5,
+          "min_repl_low": 0.438,
+          "min_repl_mid": 0.4115,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 8,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 373528499931.3052
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 8,
+          "min_repl_low": 0.4227,
+          "min_repl_mid": 0.4166,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 4,
+          "min_repl_low": 0.4782,
+          "min_repl_mid": 0.4863,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4111,
+          "min_repl_mid": 0.4204,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 206115942309.92148
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 8,
+          "min_repl_low": 0.4663,
+          "min_repl_mid": 0.4903,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4019,
+          "min_repl_mid": 0.4234,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 147435148100.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 147435148100.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 1,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 1,
+          "min_repl_low": 0.4838,
+          "min_repl_mid": 0.4071,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 6,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 129850573914.0962
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 6,
+          "min_repl_low": 0.4468,
+          "min_repl_mid": 0.4086,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 9,
+      "worst_state_loan": 492352043974.6004,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 492352043974.6004
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 9,
+          "min_repl_low": 0.4311,
+          "min_repl_mid": 0.4138,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 5,
+          "min_repl_low": 0.4878,
+          "min_repl_mid": 0.4832,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4189,
+          "min_repl_mid": 0.4178,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 331452355469.8327
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 9,
+          "min_repl_low": 0.4752,
+          "min_repl_mid": 0.4873,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4093,
+          "min_repl_mid": 0.421,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 262547293600.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 262547293600.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 3,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 3,
+          "min_repl_low": 0.4762,
+          "min_repl_mid": 0.3989,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 7,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 250350832905.07812
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 7,
+          "min_repl_low": 0.4548,
+          "min_repl_mid": 0.406,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 2,
+          "min_repl_low": 0.5139,
+          "min_repl_mid": 0.4746,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4388,
+          "min_repl_mid": 0.4113,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 74545638568.67038
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 7,
+          "min_repl_low": 0.4966,
+          "min_repl_mid": 0.4803,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4262,
+          "min_repl_mid": 0.4154,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 455121592809.7352
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 9,
+          "min_repl_low": 0.4834,
+          "min_repl_mid": 0.4846,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4162,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 28833437099.999985,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 28833437099.999985
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 377659439100.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 377659439100.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 5,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 4316702311.681831
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 5,
+          "min_repl_low": 0.4835,
+          "min_repl_mid": 0.3965,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 8,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 369910761302.25366
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 8,
+          "min_repl_low": 0.4621,
+          "min_repl_mid": 0.4035,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 4,
+          "min_repl_low": 0.5222,
+          "min_repl_mid": 0.4718,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4458,
+          "min_repl_mid": 0.4089,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 202269557653.9953
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 8,
+          "min_repl_low": 0.5046,
+          "min_repl_mid": 0.4776,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.433,
+          "min_repl_mid": 0.4132,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 549806790623.7373,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": false,
+          "fail_years": 1,
+          "min_repl_low": 0.736,
+          "min_repl_mid": 0.6415,
+          "max_state_loan": 549806790623.7373
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.491,
+          "min_repl_mid": 0.4821,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4226,
+          "min_repl_mid": 0.4166,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 143945582600.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 143945582600.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 1,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 1,
+          "min_repl_low": 0.5634,
+          "min_repl_mid": 0.3924,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 6,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 126173060761.27504
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 6,
+          "min_repl_low": 0.4902,
+          "min_repl_mid": 0.3943,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 9,
+      "worst_state_loan": 488759451615.7852,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 488759451615.7852
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 9,
+          "min_repl_low": 0.4688,
+          "min_repl_mid": 0.4013,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 5,
+          "min_repl_low": 0.5298,
+          "min_repl_mid": 0.4693,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4524,
+          "min_repl_mid": 0.4068,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 327668936590.97095
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 9,
+          "min_repl_low": 0.5119,
+          "min_repl_mid": 0.4752,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4393,
+          "min_repl_mid": 0.4111,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 549806790623.7373,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": false,
+          "fail_years": 3,
+          "min_repl_low": 0.5877,
+          "min_repl_mid": 0.5579,
+          "max_state_loan": 549806790623.7373
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.498,
+          "min_repl_mid": 0.4798,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4286,
+          "min_repl_mid": 0.4146,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 259057728100.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 259057728100.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 3,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 3,
+          "min_repl_low": 0.5243,
+          "min_repl_mid": 0.383,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 7,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 246719341806.88086
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 7,
+          "min_repl_low": 0.4962,
+          "min_repl_mid": 0.3923,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 2,
+          "min_repl_low": 0.5603,
+          "min_repl_mid": 0.4592,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.475,
+          "min_repl_mid": 0.3993,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 70629211983.39969
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 7,
+          "min_repl_low": 0.5367,
+          "min_repl_mid": 0.467,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4584,
+          "min_repl_mid": 0.4048,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 451394202983.81476
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 9,
+          "min_repl_low": 0.5187,
+          "min_repl_mid": 0.473,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4452,
+          "min_repl_mid": 0.4091,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 549806790623.7373,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": false,
+          "fail_years": 4,
+          "min_repl_low": 0.5956,
+          "min_repl_mid": 0.5553,
+          "max_state_loan": 549806790623.7373
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.5045,
+          "min_repl_mid": 0.4776,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4343,
+          "min_repl_mid": 0.4127,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 374169873600.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.4187,
+          "max_state_loan": 0.0
+        },
+        "flat_0p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.4,
+          "max_state_loan": 374169873600.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 5,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.45,
+          "max_state_loan": 604497428.543747
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 5,
+          "min_repl_low": 0.5292,
+          "min_repl_mid": 0.3814,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 8,
+      "worst_state_loan": 444045024560.0,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.5009,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.5,
+          "max_state_loan": 366293022673.2016
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 8,
+          "min_repl_low": 0.5017,
+          "min_repl_mid": 0.3905,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 4,
+          "min_repl_low": 0.5664,
+          "min_repl_mid": 0.4572,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4806,
+          "min_repl_mid": 0.3974,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 493019085516.6057,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 198423172998.0683
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 8,
+          "min_repl_low": 0.543,
+          "min_repl_mid": 0.465,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4641,
+          "min_repl_mid": 0.4029,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 549806790623.7373,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6571,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": false,
+          "fail_years": 1,
+          "min_repl_low": 0.8628,
+          "min_repl_mid": 0.612,
+          "max_state_loan": 549806790623.7373
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.5249,
+          "min_repl_mid": 0.4709,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4507,
+          "min_repl_mid": 0.4073,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": false,
+      "worst_fail_years": 10,
+      "worst_state_loan": 549806790623.7373,
+      "per_scenario": {
+        "base_1p7": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "low_1p0": {
+          "passed": false,
+          "fail_years": 5,
+          "min_repl_low": 0.6028,
+          "min_repl_mid": 0.5529,
+          "max_state_loan": 549806790623.7373
+        },
+        "hard_0p5": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.5106,
+          "min_repl_mid": 0.4756,
+          "max_state_loan": 493019085516.6057
+        },
+        "flat_0p0": {
+          "passed": false,
+          "fail_years": 10,
+          "min_repl_low": 0.4397,
+          "min_repl_mid": 0.411,
+          "max_state_loan": 444045024560.0
+        }
+      }
+    }
+  ]
+}

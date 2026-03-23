@@ -1,0 +1,317 @@
+{
+  "breakeven": {
+    "income_profile=False,longevity=False": {
+      "income_profile": false,
+      "longevity_pool": false,
+      "min_tau_high_all_scenarios": 0.135,
+      "min_real_return_sustainable_tau020": 0.005,
+      "min_real_return_sustainable_tau015": 0.01
+    },
+    "income_profile=False,longevity=True": {
+      "income_profile": false,
+      "longevity_pool": true,
+      "min_tau_high_all_scenarios": 0.18,
+      "min_real_return_sustainable_tau020": 0.005,
+      "min_real_return_sustainable_tau015": 0.01
+    },
+    "income_profile=True,longevity=False": {
+      "income_profile": true,
+      "longevity_pool": false,
+      "min_tau_high_all_scenarios": 0.21,
+      "min_real_return_sustainable_tau020": 0.016,
+      "min_real_return_sustainable_tau015": 0.019
+    },
+    "income_profile=True,longevity=True": {
+      "income_profile": true,
+      "longevity_pool": true,
+      "min_tau_high_all_scenarios": 0.2775,
+      "min_real_return_sustainable_tau020": 0.016,
+      "min_real_return_sustainable_tau015": 0.019
+    }
+  },
+  "corrected_params": {
+    "all_features": {
+      "income_profile": true,
+      "longevity_pool": true,
+      "min_tau_high_original": 0.2775,
+      "min_tau_high_corrected": 0.285,
+      "worst_case": {
+        "max_state_loan": 449621447895.899,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "scenarios": {
+          "base_1p7": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 48783506713.00441,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "low_1p0": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 4581145641.557388,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "hard_0p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": -19149162934.96672,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "flat_0p0": {
+            "passed": true,
+            "pool_depletion_year": 88,
+            "steady_state_deficit": -38838451000.000015,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 449621447895.899,
+            "peak_longevity_retirees": 1244735
+          },
+          "drawdown_5y_then_1p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 33264427653.885166,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "crash_then_recover": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 46381544777.38473,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "stagflation_proxy": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 15402979475.630981,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          }
+        }
+      }
+    },
+    "no_income_profile": {
+      "income_profile": false,
+      "longevity_pool": true,
+      "min_tau_high_original": 0.18,
+      "min_tau_high_corrected": 0.185,
+      "worst_case": {
+        "max_state_loan": 581131140561.9513,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "scenarios": {
+          "base_1p7": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 76389184185.71431,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "low_1p0": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 22260938025.89969,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "hard_0p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": -10571939993.575653,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "flat_0p0": {
+            "passed": true,
+            "pool_depletion_year": 84,
+            "steady_state_deficit": -37388830000.00003,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 581131140561.9513,
+            "peak_longevity_retirees": 1244735
+          },
+          "drawdown_5y_then_1p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 62570580799.742004,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "crash_then_recover": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 75534303893.66667,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          },
+          "stagflation_proxy": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 37396301290.48418,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 1244735
+          }
+        }
+      }
+    },
+    "no_longevity": {
+      "income_profile": true,
+      "longevity_pool": false,
+      "min_tau_high_original": 0.21,
+      "min_tau_high_corrected": 0.215,
+      "worst_case": {
+        "max_state_loan": 345918283250.0,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "scenarios": {
+          "base_1p7": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 15889757713.004425,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "low_1p0": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": -28312603358.442596,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "hard_0p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": -52042911934.966705,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "flat_0p0": {
+            "passed": true,
+            "pool_depletion_year": 95,
+            "steady_state_deficit": -71732200000.0,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 345918283250.0,
+            "peak_longevity_retirees": 0
+          },
+          "drawdown_5y_then_1p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 370678653.88517857,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "crash_then_recover": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 13487795777.38474,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "stagflation_proxy": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": -17490769524.369003,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          }
+        }
+      }
+    },
+    "baseline": {
+      "income_profile": false,
+      "longevity_pool": false,
+      "min_tau_high_original": 0.135,
+      "min_tau_high_corrected": 0.14,
+      "worst_case": {
+        "max_state_loan": 360661909999.9997,
+        "fail_years": 0,
+        "min_repl_low": 1.0,
+        "min_repl_mid": 0.7,
+        "scenarios": {
+          "base_1p7": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 50120884185.714325,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "low_1p0": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": -4007361974.100296,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "hard_0p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": -36840239993.57564,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "flat_0p0": {
+            "passed": true,
+            "pool_depletion_year": 94,
+            "steady_state_deficit": -63657130000.000015,
+            "is_structurally_sustainable": false,
+            "max_state_loan": 360661909999.9997,
+            "peak_longevity_retirees": 0
+          },
+          "drawdown_5y_then_1p5": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 36302280799.74203,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "crash_then_recover": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 49266003893.66668,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          },
+          "stagflation_proxy": {
+            "passed": true,
+            "pool_depletion_year": null,
+            "steady_state_deficit": 11128001290.484188,
+            "is_structurally_sustainable": true,
+            "max_state_loan": 0.0,
+            "peak_longevity_retirees": 0
+          }
+        }
+      }
+    }
+  },
+  "feasibility_count": 156,
+  "sweep_count": 220,
+  "passing_count": 156
+}

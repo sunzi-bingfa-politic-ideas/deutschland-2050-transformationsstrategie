@@ -1,0 +1,110 @@
+# Config F Optimal — Finale kalibrierte RIG-Konfiguration
+#
+# Kalibrierung in 4 Stufen:
+#   1. 2D-Sweep (insurance x dividend_to_pool): 56 Kombinationen x 2 Attritions-Modelle
+#   2. Adversariale Stresstests: 5 Angriffsszenarien
+#   3. Income-Profile-Haertung: Kombinations-Matrix flat/hump x tau x RIG
+#   4. Rentenalter-Sensitivitaet: Hebel gegen das Hump-Problem
+#
+# Ergebnis: Zwei Betriebsmodi
+#
+# MODUS A — Mangelberufe (Pflege, Handwerk, Einzelhandel):
+#   Flat income profile, tau_high=12.25%, Rente=67
+#   Pass-Rate: 92.7% (MC 10k, 8% vol)
+#   Effektiver Gesamtbeitrag: ~12.6%
+#
+# MODUS B — Akademiker/Management (steiler Karriereverlauf):
+#   Hump income profile, tau_high=17.5%, Rente=68
+#   Pass-Rate: 90.1% (MC 10k, 8% vol)
+#   Effektiver Gesamtbeitrag: ~15.2%
+#
+# Beide Modi: unter GRV (18.6%) und weit unter GRV-Projektion (22%+)
+#
+# RIG-Rendite: 3% real (gestuetzt durch CAGR 7.7% Robotik-Markt 2026,
+#   Agile Robots Serienproduktion, TUM RoboGym LfD-Validierung)
+#
+# Adversariale Stresstests bestanden:
+#   Governance-Versagen (r_RIG=0% 15yr): 92.8% — nicht-systemisch
+#   Technologie-Sackgasse (beta=1.0):    90.0% — graceful degradation
+#   Wertvernichtung (r_RIG=-2% 15yr):    92.8% — nicht-systemisch
+#   Massenflucht (2%/yr Attrition):      83.1% — systemisch (wie Config E)
+
+horizon_years: 100
+age_start: 20
+retire_age: 67       # Modus A; Modus B nutzt 68 (via CLI-Override)
+annuity_years: 20
+
+low_share: 0.30
+mid_share: 0.50
+high_share: 0.20
+
+income_low_retire: 22000
+income_mid_retire: 40000
+high_income_factor: 1.8
+
+tau_low: 0.12
+tau_mid: 0.13
+# tau_high: Modus A = 0.1225, Modus B = 0.175 (via CLI-Override)
+
+guarantee_low: 0.85
+guarantee_mid: 0.60
+
+tau_high_search:
+  start: 0.01
+  end: 0.25
+  step: 0.0025
+
+cohort_size_at_age_start: 831435
+
+mortality:
+  enabled: true
+  buckets:
+    - { age_min: 67, age_max: 74, survival: 0.982 }
+    - { age_min: 75, age_max: 84, survival: 0.955 }
+    - { age_min: 85, age_max: 95, survival: 0.88 }
+    - { age_min: 96, age_max: 200, survival: 0.72 }
+
+demography:
+  mode: "constant"
+  cohort_path: []
+
+income_profile:
+  enabled: false   # Modus A; Modus B setzt true
+
+backstop:
+  enabled: true
+  loan_cap_asset_share: 0.10
+  repay_share: 0.50
+  reserve_years: 3
+
+longevity:
+  enabled: true
+  floor: 10000
+  max_age: 95
+  surplus_share: 0.05
+  tontine_enabled: true
+  tontine_cap_multiple: 3.0
+
+reserve_rule:
+  enabled: true
+  trigger_high: 0.03
+  trigger_low: 0.01
+  target_return: 0.02
+  skim_fraction: 0.30
+  inject_fraction: 0.30
+  safe_rate: 0.005
+
+# --- Finale RIG-Parameter ---
+# Split: 8.5 pp Versicherung / 3.75 pp Equity (bei tau=12.25%)
+# Bei Modus B (tau=17.5%): proportional skaliert auf 12.14 pp / 5.36 pp
+rig:
+  enabled: true
+  tau_insurance: 0.085      # 8.5 pp -> Garantie-Pool
+  tau_equity: 0.0375        # 3.75 pp -> RIG-Zertifikate
+  base_return: 0.03         # 3% reale Infrastrukturrendite (marktvalidiert 2026)
+  beta: 0.30                # niedrige Marktsensitivitaet
+  dividend_rate: 0.02       # 2% jaehrliche Dividendenrendite
+  dividend_to_pool: 0.80    # 80% Modus A / 90% Modus B (via Override)
+
+# Brain-Drain-Parameter
+high_attrition_rate: 0.002  # 0.2%/yr mit RIG-Anreiz (vs. 0.5% ohne)

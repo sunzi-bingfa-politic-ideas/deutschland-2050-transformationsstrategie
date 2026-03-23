@@ -1,0 +1,231 @@
+# Rentenreform/RSSP_v2/params/base.yaml
+
+horizon_years: 100
+age_start: 20
+retire_age: 67
+annuity_years: 20
+
+# Population shares (of population at age_start each year)
+low_share: 0.30
+mid_share: 0.50
+high_share: 0.20
+
+# Incomes at retire-age (real, EUR/year).
+# v2 keeps it simple & transparent. Later you can plug age-profiles / CSVs.
+income_low_retire: 22000
+income_mid_retire: 40000
+
+# High income is defined relative to mid
+high_income_factor: 1.8
+
+# Contribution rates into individual accounts (Low/Mid only)
+tau_low: 0.12
+tau_mid: 0.13
+
+# Guarantees (replacement vs income at retire-age)
+guarantee_low: 1.00
+guarantee_mid: 0.70
+
+# IMPORTANT: High pays into pool, receives NO benefits.
+# optimize.py will search tau_high (high_pool_rate)
+tau_high_search:
+  start: 0.01
+  end: 0.25
+  step: 0.0025
+
+# Population at age_start each year (simplified constant cohort size)
+# (You can later replace this with pop_by_age.csv + cohort stream)
+cohort_size_at_age_start: 831435
+
+# --- Haertung 1: Mortalitaet (minimal robust; spaeter durch Sterbetafel ersetzbar)
+mortality:
+  enabled: true
+  buckets:
+    - { age_min: 67, age_max: 74, survival: 0.99 }
+    - { age_min: 75, age_max: 84, survival: 0.975 }
+    - { age_min: 85, age_max: 95, survival: 0.95 }
+    - { age_min: 96, age_max: 200, survival: 0.92 }
+
+# --- Haertung 2: Demografiepfade
+# constant: nutzt cohort_size_at_age_start
+# path: nutzt cohort_path[t] (wenn kuerzer als horizon, letzter Wert wird fortgeschrieben)
+demography:
+  mode: "constant"   # constant | path
+  # Beispiel-Pfad: "Deutschland schrumpft moderat"
+  # Annahmen:
+  #   - Jahre 0-20:  -0.5%/Jahr (demografische Traegheit)
+  #   - Jahre 20-50: -0.8%/Jahr (Peak Alterung)
+  #   - Jahre 50-80: -0.4%/Jahr (Stabilisierung)
+  # Ergebnis: ~37% Rueckgang ueber 80 Jahre (831k -> 520k)
+  cohort_path_moderate_shrink:
+    - 831435   # Jahr 0
+    - 827293   # Jahr 1
+    - 823171   # Jahr 2
+    - 819068   # Jahr 3
+    - 814985   # Jahr 4
+    - 810920   # Jahr 5
+    - 806875   # Jahr 6
+    - 802849   # Jahr 7
+    - 798841   # Jahr 8
+    - 794853   # Jahr 9
+    - 790883   # Jahr 10
+    - 786931   # Jahr 11
+    - 782999   # Jahr 12
+    - 779084   # Jahr 13
+    - 775188   # Jahr 14
+    - 771310   # Jahr 15
+    - 767450   # Jahr 16
+    - 763609   # Jahr 17
+    - 759785   # Jahr 18
+    - 755979   # Jahr 19
+    - 752191   # Jahr 20 (-9.5% vs Start)
+    - 746173   # Jahr 21 (jetzt -0.8%/Jahr)
+    - 740203   # Jahr 22
+    - 734282   # Jahr 23
+    - 728407   # Jahr 24
+    - 722580   # Jahr 25
+    - 716799   # Jahr 26
+    - 711064   # Jahr 27
+    - 705376   # Jahr 28
+    - 699733   # Jahr 29
+    - 694135   # Jahr 30 (-16.5% vs Start)
+    - 688582   # Jahr 31
+    - 683074   # Jahr 32
+    - 677609   # Jahr 33
+    - 672188   # Jahr 34
+    - 666811   # Jahr 35
+    - 661476   # Jahr 36
+    - 656184   # Jahr 37
+    - 650935   # Jahr 38
+    - 645727   # Jahr 39
+    - 640561   # Jahr 40 (-23.0% vs Start)
+    - 635437   # Jahr 41
+    - 630353   # Jahr 42
+    - 625311   # Jahr 43
+    - 620308   # Jahr 44
+    - 615346   # Jahr 45
+    - 610423   # Jahr 46
+    - 605540   # Jahr 47
+    - 600695   # Jahr 48
+    - 595890   # Jahr 49
+    - 591122   # Jahr 50 (-28.9% vs Start, jetzt -0.4%/Jahr)
+    - 588758   # Jahr 51
+    - 586402   # Jahr 52
+    - 584057   # Jahr 53
+    - 581720   # Jahr 54
+    - 579393   # Jahr 55
+    - 577075   # Jahr 56
+    - 574767   # Jahr 57
+    - 572467   # Jahr 58
+    - 570177   # Jahr 59
+    - 567896   # Jahr 60 (-31.7% vs Start)
+    - 565625   # Jahr 61
+    - 563362   # Jahr 62
+    - 561108   # Jahr 63
+    - 558864   # Jahr 64
+    - 556628   # Jahr 65
+    - 554401   # Jahr 66
+    - 552183   # Jahr 67
+    - 549974   # Jahr 68
+    - 547774   # Jahr 69
+    - 545583   # Jahr 70 (-34.4% vs Start)
+    - 543400   # Jahr 71
+    - 541226   # Jahr 72
+    - 539061   # Jahr 73
+    - 536905   # Jahr 74
+    - 534757   # Jahr 75
+    - 532618   # Jahr 76
+    - 530487   # Jahr 77
+    - 528365   # Jahr 78
+    - 526251   # Jahr 79
+  # Fuer Tests: mode auf "path" setzen und cohort_path kopieren
+  cohort_path: []
+
+# --- Haertung 4: Alters-Einkommensprofile
+# Wenn enabled=true, werden Beitraege mit einem buckelfoermigen Multiplikator skaliert.
+# Multiplikatoren sind Anteile des Einkommens bei Rentenalter (z.B. 0.40 bei Alter 20, 1.0 bei Peak).
+# Wenn das Profil kuerzer als work_years ist, wird der letzte Wert wiederholt.
+# Bei enabled=false (Standard): alle Arbeitsjahre verwenden das volle Rentenalter-Einkommen.
+income_profile:
+  enabled: false
+  # Realistisches buckelfoermiges Profil fuer 47 Arbeitsjahre (Alter 20-66):
+  # Alter 20-24: 0.35-0.45 (Berufseinstieg)
+  # Alter 25-34: 0.50-0.75 (fruehe Karriere)
+  # Alter 35-44: 0.80-0.95 (mittlere Karriere)
+  # Alter 45-55: 0.95-1.00 (Spitzenverdienst)
+  # Alter 56-66: 0.90-0.95 (spaete Karriere, leichter Rueckgang)
+  # profile:
+  #   - 0.35    # Alter 20
+  #   - 0.375   # Alter 21
+  #   - 0.40    # Alter 22
+  #   - 0.425   # Alter 23
+  #   - 0.45    # Alter 24
+  #   - 0.50    # Alter 25
+  #   - 0.528   # Alter 26
+  #   - 0.556   # Alter 27
+  #   - 0.584   # Alter 28
+  #   - 0.612   # Alter 29
+  #   - 0.64    # Alter 30
+  #   - 0.668   # Alter 31
+  #   - 0.696   # Alter 32
+  #   - 0.724   # Alter 33
+  #   - 0.752   # Alter 34
+  #   - 0.80    # Alter 35
+  #   - 0.815   # Alter 36
+  #   - 0.83    # Alter 37
+  #   - 0.845   # Alter 38
+  #   - 0.86    # Alter 39
+  #   - 0.875   # Alter 40
+  #   - 0.89    # Alter 41
+  #   - 0.905   # Alter 42
+  #   - 0.92    # Alter 43
+  #   - 0.935   # Alter 44
+  #   - 0.95    # Alter 45
+  #   - 0.955   # Alter 46
+  #   - 0.96    # Alter 47
+  #   - 0.965   # Alter 48
+  #   - 0.97    # Alter 49
+  #   - 0.975   # Alter 50
+  #   - 0.98    # Alter 51
+  #   - 0.985   # Alter 52
+  #   - 0.99    # Alter 53
+  #   - 0.995   # Alter 54
+  #   - 1.00    # Alter 55
+  #   - 0.95    # Alter 56
+  #   - 0.945   # Alter 57
+  #   - 0.94    # Alter 58
+  #   - 0.935   # Alter 59
+  #   - 0.93    # Alter 60
+  #   - 0.925   # Alter 61
+  #   - 0.92    # Alter 62
+  #   - 0.915   # Alter 63
+  #   - 0.91    # Alter 64
+  #   - 0.905   # Alter 65
+  #   - 0.90    # Alter 66
+
+# --- Haertung 3: expliziter Staats-Backstop als Kreditlinie (kein Geschenk)
+backstop:
+  enabled: true
+  # max. Kredit als Anteil am Systemvermoegen (Pool + LowAssets + MidAssets)
+  loan_cap_asset_share: 0.10
+  # Rueckzahlung: Anteil am Ueberschuss oberhalb Reserve
+  repay_share: 0.50
+  # Reserve: wie viele Jahre erwarteter Topups der Pool halten soll, bevor aggressiv getilgt wird
+  reserve_years: 3
+
+# --- Haertung 5: Longevity Pool (Post-Annuity Absicherung)
+# Nach Ablauf der Annuitaet (Alter 87) erhalten Ueberlebende eine Mindestpension
+# aus einem gemeinschaftlichen Longevity-Pool. Finanzierung:
+#   1. Residual-Guthaben von Kohorten, deren Annuitaet auslaeuft
+#   2. Anteil des Garantie-Pool-Ueberschusses (surplus_share)
+#   3. Staats-Backstop als letzte Instanz
+longevity:
+  enabled: true
+  # Mindestjaehrliche Pension nach Annuitaetsende (Grundsicherungsniveau, real EUR)
+  floor: 10000
+  # Maximalalter bis zu dem das Modell post-annuity Zahlungen leistet
+  max_age: 95
+  # Anteil des Garantie-Pool-Ueberschusses der in den Longevity-Pool umgeleitet wird
+  # 0.05 ist der effizienteste Wert: longevity voll selbstfinanziert, minimaler tau_high Anstieg
+  # (tau_high: 0.16 ohne -> 0.2175 mit longevity bei surplus_share=0.05)
+  surplus_share: 0.05

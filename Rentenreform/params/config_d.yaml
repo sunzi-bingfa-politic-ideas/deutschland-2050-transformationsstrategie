@@ -1,0 +1,90 @@
+# Config D — Arbeitskonfiguration / Working Configuration
+#
+# Ergebnis der Modellanalyse und Parametervalidierung (Feb 2025):
+#   - Garantieniveaus: 85% Low / 60% Mid (politisch machbar, mathematisch robust)
+#   - Mortalitaet: korrigiert nach Destatis Sterbetafel 2022/2024
+#   - Horizont: 100 Jahre Systemlaufzeit
+#   - Longevity Pool: aktiv (Grundsicherung EUR 10k/yr, Alter 87-95)
+#   - Einkommensprofil: deaktiviert (konservativ, flat income)
+#
+# Kernergebnis:
+#   tau_high = 12.25%, effektiver Beitragssatz = 12.6%
+#   Alle 7 Szenarien bestanden (inkl. 0% Realrendite)
+#   6.0 Prozentpunkte unter aktuellem GRV-Satz (18.6%)
+#
+# Pensionen (monatlich, real):
+#   Low:  EUR 1.558/Monat (85% von EUR 22k)
+#   Mid:  EUR 2.000/Monat (60% von EUR 40k)
+#   87-95: EUR 833/Monat (Grundsicherungs-Floor)
+#   High: EUR 0 (Solidarbeitrag ohne Gegenleistung)
+
+horizon_years: 100
+age_start: 20
+retire_age: 67
+annuity_years: 20
+
+# Bevoelkerungsanteile
+low_share: 0.30
+mid_share: 0.50
+high_share: 0.20
+
+# Einkommen bei Rentenalter (real, EUR/Jahr)
+income_low_retire: 22000
+income_mid_retire: 40000
+high_income_factor: 1.8   # -> EUR 72.000 fuer High
+
+# Beitragssaetze
+tau_low: 0.12
+tau_mid: 0.13
+
+# Garantieniveaus (Ersatzrate bezogen auf Einkommen bei Renteneintritt)
+guarantee_low: 0.85    # 85% — weltweit fuehrend, mathematisch tragbar
+guarantee_mid: 0.60    # 60% — solide Mittelschicht-Absicherung
+
+# Optimierer-Suchbereich
+tau_high_search:
+  start: 0.01
+  end: 0.25
+  step: 0.0025
+
+# Kohortengroesse
+cohort_size_at_age_start: 831435
+
+# --- Haertung 1: Mortalitaet (korrigiert nach Destatis Sterbetafel 2022/2024)
+# Originalwerte waren zu optimistisch (zu wenige Todesfaelle):
+#   Original: 0.99 / 0.975 / 0.95 / 0.92 -> 29% ueberleben bis 100
+#   Korrigiert: 0.982 / 0.955 / 0.88 / 0.72 -> 3.6% ueberleben bis 100
+#   Destatis Lebenserwartung ab 67: ~18 Jahre (durchschnittl. Tod mit ~85)
+mortality:
+  enabled: true
+  buckets:
+    - { age_min: 67, age_max: 74, survival: 0.982 }   # qx ~0.018
+    - { age_min: 75, age_max: 84, survival: 0.955 }   # qx ~0.045
+    - { age_min: 85, age_max: 95, survival: 0.88 }    # qx ~0.12
+    - { age_min: 96, age_max: 200, survival: 0.72 }   # qx ~0.28
+
+# --- Haertung 2: Demografiepfade
+demography:
+  mode: "constant"
+  cohort_path: []
+
+# --- Haertung 4: Alters-Einkommensprofile
+# Deaktiviert in Config D. Bei Aktivierung steigt tau_high um ~8-12 pp.
+# Konservative Wahl: flat income ueberschaetzt fruehe Beitraege leicht,
+# aber vermeidet die extreme Kostensteigerung des Buckelprofils.
+income_profile:
+  enabled: false
+
+# --- Haertung 3: Staats-Backstop
+backstop:
+  enabled: true
+  loan_cap_asset_share: 0.10
+  repay_share: 0.50
+  reserve_years: 3
+
+# --- Haertung 5: Longevity Pool
+longevity:
+  enabled: true
+  floor: 10000        # EUR/Jahr Grundsicherung nach Annuitaetsende
+  max_age: 95         # Maximalalter fuer post-annuity Zahlungen
+  surplus_share: 0.05 # Anteil Pool-Ueberschuss -> Longevity Pool

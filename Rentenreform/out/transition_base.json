@@ -1,0 +1,17 @@
+{
+  "peak_annual_gap": 250000000000.0,
+  "peak_annual_gap_year": 46,
+  "peak_bond_outstanding": 25221879746221.035,
+  "peak_fiscal_burden": 497487838161.1968,
+  "total_interest_paid": 26346879746221.047,
+  "total_gap_undiscounted": 8625000000000.0,
+  "total_gap_npv": 4270492995706.7964,
+  "bond_fully_repaid_year": null,
+  "gap_as_pct_gdp_peak": 5.952380952380952,
+  "params": {
+    "bond_yield_real": 0.02,
+    "target2_mobilization": 0.0,
+    "rssp_surplus_annual": 50000000000.0,
+    "phase_in_years": 47
+  }
+}

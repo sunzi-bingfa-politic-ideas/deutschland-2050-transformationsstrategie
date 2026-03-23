@@ -1,0 +1,14 @@
+# Rentenreform/RSSP_v2/params/scenarios_const.yaml
+# Constant real return scenarios
+
+scenarios:
+  - name: base_1p7
+    real_return: 0.01735
+  - name: realistic_2p5
+    real_return: 0.025
+  - name: low_1p0
+    real_return: 0.010
+  - name: hard_0p5
+    real_return: 0.005
+  - name: flat_0p0
+    real_return: 0.000

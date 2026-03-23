@@ -1,0 +1,128 @@
+# Rentenreform/RSSP_v2/params/base_demo_shrink.yaml
+# Kopie von base.yaml mit aktiviertem Demografie-Pfad: "Deutschland schrumpft moderat"
+
+horizon_years: 80
+age_start: 20
+retire_age: 67
+annuity_years: 20
+
+low_share: 0.30
+mid_share: 0.50
+high_share: 0.20
+
+income_low_retire: 22000
+income_mid_retire: 40000
+high_income_factor: 1.8
+
+tau_low: 0.12
+tau_mid: 0.13
+
+guarantee_low: 1.00
+guarantee_mid: 0.70
+
+tau_high_search:
+  start: 0.01
+  end: 0.20
+  step: 0.0025
+
+cohort_size_at_age_start: 831435
+
+mortality:
+  enabled: true
+  buckets:
+    - { age_min: 67, age_max: 74, survival: 0.99 }
+    - { age_min: 75, age_max: 84, survival: 0.975 }
+    - { age_min: 85, age_max: 95, survival: 0.95 }
+    - { age_min: 96, age_max: 200, survival: 0.92 }
+
+# --- AKTIV: Demografiepfad "Deutschland schrumpft moderat"
+# -37% ueber 80 Jahre (831k -> 526k)
+demography:
+  mode: "path"
+  cohort_path:
+    - 831435   # Jahr 0
+    - 827293   # Jahr 1
+    - 823171   # Jahr 2
+    - 819068   # Jahr 3
+    - 814985   # Jahr 4
+    - 810920   # Jahr 5
+    - 806875   # Jahr 6
+    - 802849   # Jahr 7
+    - 798841   # Jahr 8
+    - 794853   # Jahr 9
+    - 790883   # Jahr 10
+    - 786931   # Jahr 11
+    - 782999   # Jahr 12
+    - 779084   # Jahr 13
+    - 775188   # Jahr 14
+    - 771310   # Jahr 15
+    - 767450   # Jahr 16
+    - 763609   # Jahr 17
+    - 759785   # Jahr 18
+    - 755979   # Jahr 19
+    - 752191   # Jahr 20
+    - 746173   # Jahr 21
+    - 740203   # Jahr 22
+    - 734282   # Jahr 23
+    - 728407   # Jahr 24
+    - 722580   # Jahr 25
+    - 716799   # Jahr 26
+    - 711064   # Jahr 27
+    - 705376   # Jahr 28
+    - 699733   # Jahr 29
+    - 694135   # Jahr 30
+    - 688582   # Jahr 31
+    - 683074   # Jahr 32
+    - 677609   # Jahr 33
+    - 672188   # Jahr 34
+    - 666811   # Jahr 35
+    - 661476   # Jahr 36
+    - 656184   # Jahr 37
+    - 650935   # Jahr 38
+    - 645727   # Jahr 39
+    - 640561   # Jahr 40
+    - 635437   # Jahr 41
+    - 630353   # Jahr 42
+    - 625311   # Jahr 43
+    - 620308   # Jahr 44
+    - 615346   # Jahr 45
+    - 610423   # Jahr 46
+    - 605540   # Jahr 47
+    - 600695   # Jahr 48
+    - 595890   # Jahr 49
+    - 591122   # Jahr 50
+    - 588758   # Jahr 51
+    - 586402   # Jahr 52
+    - 584057   # Jahr 53
+    - 581720   # Jahr 54
+    - 579393   # Jahr 55
+    - 577075   # Jahr 56
+    - 574767   # Jahr 57
+    - 572467   # Jahr 58
+    - 570177   # Jahr 59
+    - 567896   # Jahr 60
+    - 565625   # Jahr 61
+    - 563362   # Jahr 62
+    - 561108   # Jahr 63
+    - 558864   # Jahr 64
+    - 556628   # Jahr 65
+    - 554401   # Jahr 66
+    - 552183   # Jahr 67
+    - 549974   # Jahr 68
+    - 547774   # Jahr 69
+    - 545583   # Jahr 70
+    - 543400   # Jahr 71
+    - 541226   # Jahr 72
+    - 539061   # Jahr 73
+    - 536905   # Jahr 74
+    - 534757   # Jahr 75
+    - 532618   # Jahr 76
+    - 530487   # Jahr 77
+    - 528365   # Jahr 78
+    - 526251   # Jahr 79
+
+backstop:
+  enabled: true
+  loan_cap_asset_share: 0.10
+  repay_share: 0.50
+  reserve_years: 3

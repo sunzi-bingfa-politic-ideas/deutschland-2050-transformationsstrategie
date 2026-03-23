@@ -1,0 +1,29 @@
+# Rentenreform/RSSP_v2/params/scenarios_paths.yaml
+# Return paths (real). Values apply per simulation year.
+# If shorter than horizon_years, last value repeats.
+
+scenarios:
+  - name: drawdown_5y_then_1p5
+    path:
+      - -0.03
+      - -0.03
+      - -0.03
+      - -0.03
+      - -0.03
+      - 0.015
+  - name: crash_then_recover
+    path:
+      - -0.10
+      - -0.05
+      - 0.00
+      - 0.01
+      - 0.015
+      - 0.017
+  - name: stagflation_proxy
+    path:
+      - 0.00
+      - 0.00
+      - 0.00
+      - 0.005
+      - 0.010
+      - 0.012

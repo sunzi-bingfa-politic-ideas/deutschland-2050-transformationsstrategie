@@ -1,0 +1,277 @@
+{
+  "model": "Tontine Longevity Pool Solvency Verification",
+  "config": "Config E",
+  "tau_high": 0.1275,
+  "scenarios": {
+    "base_1p7": {
+      "passed": true,
+      "pool_min": 77649984.47,
+      "pool_final": 7333658791755.49,
+      "pool_ever_zero_with_retirees": false,
+      "total_longevity_payouts": 1357069560000.0,
+      "total_longevity_backstop": 0.0,
+      "peak_longevity_retirees": 1499879,
+      "peak_per_capita": 30000.0,
+      "avg_per_capita": 30000.0,
+      "longevity_self_financing_ratio": 1.0
+    },
+    "low_1p0": {
+      "passed": true,
+      "pool_min": 77088990.33,
+      "pool_final": 3319143471061.79,
+      "pool_ever_zero_with_retirees": false,
+      "total_longevity_payouts": 1357069560000.0,
+      "total_longevity_backstop": 0.0,
+      "peak_longevity_retirees": 1499879,
+      "peak_per_capita": 30000.0,
+      "avg_per_capita": 30000.0,
+      "longevity_self_financing_ratio": 1.0
+    },
+    "hard_0p5": {
+      "passed": true,
+      "pool_min": 76707361.67,
+      "pool_final": 1187873930490.17,
+      "pool_ever_zero_with_retirees": false,
+      "total_longevity_payouts": 1357069560000.0,
+      "total_longevity_backstop": 0.0,
+      "peak_longevity_retirees": 1499879,
+      "peak_per_capita": 30000.0,
+      "avg_per_capita": 30000.0,
+      "longevity_self_financing_ratio": 1.0
+    },
+    "flat_0p0": {
+      "passed": true,
+      "pool_min": 76325733.0,
+      "pool_final": 128178943210.63,
+      "pool_ever_zero_with_retirees": false,
+      "total_longevity_payouts": 1336116661689.24,
+      "total_longevity_backstop": 0.0,
+      "peak_longevity_retirees": 1499879,
+      "peak_per_capita": 30000.0,
+      "avg_per_capita": 29576.67,
+      "longevity_self_financing_ratio": 1.0
+    },
+    "drawdown_5y": {
+      "passed": true,
+      "pool_min": 74035961.01,
+      "pool_final": 5934471805882.12,
+      "pool_ever_zero_with_retirees": false,
+      "total_longevity_payouts": 1357069560000.0,
+      "total_longevity_backstop": 0.0,
+      "peak_longevity_retirees": 1499879,
+      "peak_per_capita": 30000.0,
+      "avg_per_capita": 30000.0,
+      "longevity_self_financing_ratio": 1.0
+    },
+    "crash_recover": {
+      "passed": true,
+      "pool_min": 68693159.7,
+      "pool_final": 7108239413907.21,
+      "pool_ever_zero_with_retirees": false,
+      "total_longevity_payouts": 1357069560000.0,
+      "total_longevity_backstop": 0.0,
+      "peak_longevity_retirees": 1499879,
+      "peak_per_capita": 30000.0,
+      "avg_per_capita": 30000.0,
+      "longevity_self_financing_ratio": 1.0
+    },
+    "stagflation": {
+      "passed": true,
+      "pool_min": 76325733.0,
+      "pool_final": 4439776741860.49,
+      "pool_ever_zero_with_retirees": false,
+      "total_longevity_payouts": 1357069560000.0,
+      "total_longevity_backstop": 0.0,
+      "peak_longevity_retirees": 1499879,
+      "peak_per_capita": 30000.0,
+      "avg_per_capita": 30000.0,
+      "longevity_self_financing_ratio": 1.0
+    },
+    "_trajectory_sample": {
+      "scenario": "base_1p7",
+      "note": "Every 5th year for base scenario",
+      "data": [
+        {
+          "year": 0,
+          "longevity_pool": 77649984.47,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 5,
+          "longevity_pool": 4264136502.14,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 10,
+          "longevity_pool": 21391561102.17,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 15,
+          "longevity_pool": 60050486073.31,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 20,
+          "longevity_pool": 128438827705.44,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 25,
+          "longevity_pool": 234509047498.8,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 30,
+          "longevity_pool": 386099967909.5,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 35,
+          "longevity_pool": 591056313247.4,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 40,
+          "longevity_pool": 857338652455.75,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 45,
+          "longevity_pool": 1193126068622.41,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 50,
+          "longevity_pool": 1599341870735.11,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 55,
+          "longevity_pool": 2056032666244.23,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 60,
+          "longevity_pool": 2566063332277.38,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 65,
+          "longevity_pool": 3140206063116.38,
+          "longevity_retirees": 0,
+          "longevity_per_capita": 0.0,
+          "longevity_payout_total": 0.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 70,
+          "longevity_pool": 3707875379701.12,
+          "longevity_retirees": 937603,
+          "longevity_per_capita": 30000.0,
+          "longevity_payout_total": 28128090000.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 75,
+          "longevity_pool": 4208653682413.43,
+          "longevity_retirees": 1499879,
+          "longevity_per_capita": 30000.0,
+          "longevity_payout_total": 44996370000.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 80,
+          "longevity_pool": 4742455919419.43,
+          "longevity_retirees": 1499879,
+          "longevity_per_capita": 30000.0,
+          "longevity_payout_total": 44996370000.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 85,
+          "longevity_pool": 5334335605086.76,
+          "longevity_retirees": 1499879,
+          "longevity_per_capita": 30000.0,
+          "longevity_payout_total": 44996370000.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 90,
+          "longevity_pool": 5987920432275.78,
+          "longevity_retirees": 1499879,
+          "longevity_per_capita": 30000.0,
+          "longevity_payout_total": 44996370000.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        },
+        {
+          "year": 95,
+          "longevity_pool": 6707412848994.67,
+          "longevity_retirees": 1499879,
+          "longevity_per_capita": 30000.0,
+          "longevity_payout_total": 44996370000.0,
+          "longevity_backstop": 0.0,
+          "reserve_fund": 0.0
+        }
+      ]
+    }
+  }
+}

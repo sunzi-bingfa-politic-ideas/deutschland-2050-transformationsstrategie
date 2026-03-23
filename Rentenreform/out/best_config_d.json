@@ -1,0 +1,159 @@
+{
+  "found": true,
+  "best_tau_high": 0.1225,
+  "base_params": {
+    "horizon_years": 100,
+    "age_start": 20,
+    "retire_age": 67,
+    "annuity_years": 20,
+    "cohort_size_at_age_start": 831435,
+    "low_share": 0.3,
+    "mid_share": 0.5,
+    "high_share": 0.2,
+    "income_low_retire": 22000.0,
+    "income_mid_retire": 40000.0,
+    "high_income_factor": 1.8,
+    "tau_low": 0.12,
+    "tau_mid": 0.13,
+    "tau_high": 0.1225,
+    "guarantee_low": 0.85,
+    "guarantee_mid": 0.6,
+    "mortality_enabled": true,
+    "mortality_buckets": [
+      {
+        "age_min": 67,
+        "age_max": 74,
+        "survival": 0.982
+      },
+      {
+        "age_min": 75,
+        "age_max": 84,
+        "survival": 0.955
+      },
+      {
+        "age_min": 85,
+        "age_max": 95,
+        "survival": 0.88
+      },
+      {
+        "age_min": 96,
+        "age_max": 200,
+        "survival": 0.72
+      }
+    ],
+    "demography_mode": "constant",
+    "cohort_path": [],
+    "backstop_enabled": true,
+    "loan_cap_asset_share": 0.1,
+    "repay_share": 0.5,
+    "reserve_years": 3,
+    "income_profile_enabled": false,
+    "income_profile": [],
+    "longevity_pool_enabled": true,
+    "longevity_floor": 10000.0,
+    "longevity_max_age": 95,
+    "longevity_surplus_share": 0.05
+  },
+  "details": {
+    "tau_high": 0.1225,
+    "worst": {
+      "min_repl_low": 0.85,
+      "min_repl_mid": 0.6,
+      "min_pool": 0.0,
+      "max_state_loan": 522620533953.0591,
+      "fail_years": 0
+    },
+    "per_scenario": {
+      "base_1p7": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 0.85,
+        "min_repl_mid": 0.7306187373573851,
+        "min_pool": 1479801422328.9402,
+        "max_state_loan": 0.0,
+        "final_state_loan": 0.0,
+        "pool_depletion_year": null,
+        "steady_state_deficit": 53872692300.3446,
+        "is_structurally_sustainable": true,
+        "loan_ever_repaid": true,
+        "max_loan_to_assets_ratio": 0.0,
+        "final_longevity_pool": 8113639364363.464,
+        "total_longevity_payouts": 452356520000.0,
+        "total_longevity_backstop": 0.0,
+        "peak_longevity_retirees": 1499879
+      },
+      "realistic_2p5": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 0.9031683068382494,
+        "min_repl_mid": 0.9784315555132819,
+        "min_pool": 2076775518476.3682,
+        "max_state_loan": 0.0,
+        "final_state_loan": 0.0,
+        "pool_depletion_year": null,
+        "steady_state_deficit": 68932612980.0,
+        "is_structurally_sustainable": true,
+        "loan_ever_repaid": true,
+        "max_loan_to_assets_ratio": 0.0,
+        "final_longevity_pool": 14016400851330.428,
+        "total_longevity_payouts": 452356520000.0,
+        "total_longevity_backstop": 0.0,
+        "peak_longevity_retirees": 1499879
+      },
+      "low_1p0": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 0.85,
+        "min_repl_mid": 0.6,
+        "min_pool": 851925859669.6704,
+        "max_state_loan": 0.0,
+        "final_state_loan": 0.0,
+        "pool_depletion_year": null,
+        "steady_state_deficit": 28935356578.373795,
+        "is_structurally_sustainable": true,
+        "loan_ever_repaid": true,
+        "max_loan_to_assets_ratio": 0.0,
+        "final_longevity_pool": 4100651448598.6895,
+        "total_longevity_payouts": 452356520000.0,
+        "total_longevity_backstop": 0.0,
+        "peak_longevity_retirees": 1499879
+      },
+      "hard_0p5": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 0.85,
+        "min_repl_mid": 0.6,
+        "min_pool": 287705236264.673,
+        "max_state_loan": 0.0,
+        "final_state_loan": 0.0,
+        "pool_depletion_year": null,
+        "steady_state_deficit": -2057121976.170227,
+        "is_structurally_sustainable": false,
+        "loan_ever_repaid": true,
+        "max_loan_to_assets_ratio": 0.0,
+        "final_longevity_pool": 1952823858400.71,
+        "total_longevity_payouts": 452356520000.0,
+        "total_longevity_backstop": 0.0,
+        "peak_longevity_retirees": 1499879
+      },
+      "flat_0p0": {
+        "passed": true,
+        "fail_years": 0,
+        "min_repl_low": 0.85,
+        "min_repl_mid": 0.6,
+        "min_pool": 0.0,
+        "max_state_loan": 522620533953.0591,
+        "final_state_loan": 522620533953.0591,
+        "pool_depletion_year": 80,
+        "steady_state_deficit": -27370830020.0,
+        "is_structurally_sustainable": false,
+        "loan_ever_repaid": false,
+        "max_loan_to_assets_ratio": 0.0974015731472784,
+        "final_longevity_pool": 925176992913.0591,
+        "total_longevity_payouts": 452356520000.0,
+        "total_longevity_backstop": 0.0,
+        "peak_longevity_retirees": 1499879
+      }
+    }
+  }
+}

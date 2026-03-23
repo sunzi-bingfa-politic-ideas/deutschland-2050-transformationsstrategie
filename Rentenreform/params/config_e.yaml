@@ -1,0 +1,96 @@
+# Config E — Erweiterte Konfiguration / Extended Configuration
+#
+# Erweiterungen gegenueber Config D:
+#   1. Tontine-basierter Longevity Pool (dynamisch statt statischer Floor)
+#   2. Symmetrische Reserve-Regel (antizyklischer Puffer)
+#   3. Monte-Carlo-Simulation (stochastische Renditen, N=1000-10000)
+#   4. Generationen-Anleihe Uebergangsfinanzierung (src/transition.py)
+#
+# Basis: Config D (tau_high=12.25%, guarantee_low=85%, guarantee_mid=60%)
+#
+# Erwartete Effekte:
+#   - Tontine: Floor steigt von EUR 10.000 auf ~EUR 14.500 per capita
+#   - Reserve: Glaettung des Sequenzrisikos, hoehere Pass-Rate unter MC
+#   - MC: Quantifizierung der Ausfallwahrscheinlichkeit bei stochastischen Renditen
+
+horizon_years: 100
+age_start: 20
+retire_age: 67
+annuity_years: 20
+
+# Bevoelkerungsanteile
+low_share: 0.30
+mid_share: 0.50
+high_share: 0.20
+
+# Einkommen bei Rentenalter (real, EUR/Jahr)
+income_low_retire: 22000
+income_mid_retire: 40000
+high_income_factor: 1.8   # -> EUR 72.000 fuer High
+
+# Beitragssaetze
+tau_low: 0.12
+tau_mid: 0.13
+# tau_high wird ueber Optimierer oder CLI gesetzt (Config D Baseline: 0.1225)
+
+# Garantieniveaus
+guarantee_low: 0.85    # 85%
+guarantee_mid: 0.60    # 60%
+
+# Optimierer-Suchbereich
+tau_high_search:
+  start: 0.01
+  end: 0.25
+  step: 0.0025
+
+# Kohortengroesse
+cohort_size_at_age_start: 831435
+
+# --- Haertung 1: Mortalitaet (Destatis 2022/2024)
+mortality:
+  enabled: true
+  buckets:
+    - { age_min: 67, age_max: 74, survival: 0.982 }
+    - { age_min: 75, age_max: 84, survival: 0.955 }
+    - { age_min: 85, age_max: 95, survival: 0.88 }
+    - { age_min: 96, age_max: 200, survival: 0.72 }
+
+# --- Haertung 2: Demografiepfade
+demography:
+  mode: "constant"
+  cohort_path: []
+
+# --- Haertung 4: Alters-Einkommensprofile
+income_profile:
+  enabled: false
+
+# --- Haertung 3: Staats-Backstop
+backstop:
+  enabled: true
+  loan_cap_asset_share: 0.10
+  repay_share: 0.50
+  reserve_years: 3
+
+# --- Haertung 5: Tontine-Longevity-Pool (Config E NEU)
+# Statt statischem Floor (EUR 10k) werden Pool-Mittel pro Kopf unter
+# den Ueberlebenden verteilt (Tontinen-Effekt). Der Floor dient nur
+# als Minimum-Garantie. Erwarteter Effekt: ~EUR 14.500 per capita.
+longevity:
+  enabled: true
+  floor: 10000        # EUR/Jahr Minimum-Grundsicherung
+  max_age: 95
+  surplus_share: 0.05
+  tontine_enabled: true
+
+# --- Haertung 6: Symmetrische Reserve-Regel (Config E NEU)
+# Antizyklischer Puffer: In guten Jahren (r > 3%) wird ein Teil des
+# Pool-Ueberschusses in eine Reserve umgeleitet. In schlechten Jahren
+# (r < 1%) wird aus der Reserve zugeschossen. Glaettet Sequenzrisiko.
+reserve_rule:
+  enabled: true
+  trigger_high: 0.03    # Abschoepfungsschwelle
+  trigger_low: 0.01     # Zuschussschwelle
+  target_return: 0.02   # Referenzrendite fuer Berechnung
+  skim_fraction: 0.30   # Anteil des Ueberschusses -> Reserve
+  inject_fraction: 0.30 # Anteil des Defizits <- Reserve
+  safe_rate: 0.005      # 0.5% Realrendite auf Reserve

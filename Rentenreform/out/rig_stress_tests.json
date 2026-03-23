@@ -1,0 +1,92 @@
+{
+  "params": {
+    "n_paths": 2000,
+    "volatility": 0.08,
+    "optimal_insurance": 0.085,
+    "optimal_equity": 0.0375,
+    "optimal_div_to_pool": 0.8
+  },
+  "scenarios": {
+    "baseline_E": {
+      "pass_rate": 0.9175,
+      "depletion_rate": 0.199,
+      "repl_low_p5": 0.5907248010869889,
+      "repl_mid_p5": 0.4733674745177223,
+      "max_loan_p95": 519137315712.2954,
+      "rig_fund_p50": 0.0,
+      "rig_to_pool_p50": 0.0
+    },
+    "baseline_F": {
+      "pass_rate": 0.9325,
+      "depletion_rate": 0.194,
+      "repl_low_p5": 0.6603832431608627,
+      "repl_mid_p5": 0.5119405274469999,
+      "max_loan_p95": 634463636331.3079,
+      "rig_fund_p50": 1952252155279.1938,
+      "rig_to_pool_p50": 1208664490375.6753
+    },
+    "attack_1_governance": {
+      "pass_rate": 0.938,
+      "depletion_rate": 0.189,
+      "repl_low_p5": 0.6965534798098044,
+      "repl_mid_p5": 0.5304328590971369,
+      "max_loan_p95": 643159416591.7732,
+      "rig_fund_p50": 1886401368516.7961,
+      "rig_to_pool_p50": 1120838959864.274
+    },
+    "attack_2_technology": {
+      "pass_rate": 0.8995,
+      "depletion_rate": 0.239,
+      "repl_low_p5": 0.5416026340596211,
+      "repl_mid_p5": 0.4419724122201118,
+      "max_loan_p95": 618008045343.0748,
+      "rig_fund_p50": 1246074117493.9478,
+      "rig_to_pool_p50": 909802475868.2328
+    },
+    "attack_3_flight_F": {
+      "pass_rate": 0.8495,
+      "depletion_rate": 0.357,
+      "repl_low_p5": 0.49403505635138795,
+      "repl_mid_p5": 0.4157708497449453,
+      "max_loan_p95": 687221634346.4055,
+      "rig_fund_p50": 1403027045989.231,
+      "rig_to_pool_p50": 898068812095.7164
+    },
+    "attack_3_flight_E": {
+      "pass_rate": 0.837,
+      "depletion_rate": 0.3335,
+      "repl_low_p5": 0.47583758503290374,
+      "repl_mid_p5": 0.4054454415893311,
+      "max_loan_p95": 596685961090.8485,
+      "rig_fund_p50": 0.0,
+      "rig_to_pool_p50": 0.0
+    },
+    "attack_4_storm_F": {
+      "pass_rate": 0.7575,
+      "depletion_rate": 0.458,
+      "repl_low_p5": 0.279459992428139,
+      "repl_mid_p5": 0.22573121991074444,
+      "max_loan_p95": 783927141571.6294,
+      "rig_fund_p50": 1342541601834.0728,
+      "rig_to_pool_p50": 822988276300.8989
+    },
+    "attack_4_storm_E": {
+      "pass_rate": 0.745,
+      "depletion_rate": 0.438,
+      "repl_low_p5": 0.2371228840263228,
+      "repl_mid_p5": 0.20023533763785875,
+      "max_loan_p95": 680422684588.6852,
+      "rig_fund_p50": 0.0,
+      "rig_to_pool_p50": 0.0
+    },
+    "attack_5_destruction": {
+      "pass_rate": 0.9375,
+      "depletion_rate": 0.1905,
+      "repl_low_p5": 0.6955365375408061,
+      "repl_mid_p5": 0.5296033554803898,
+      "max_loan_p95": 647634201064.8373,
+      "rig_fund_p50": 1874249724462.5432,
+      "rig_to_pool_p50": 1103396264160.4167
+    }
+  }
+}

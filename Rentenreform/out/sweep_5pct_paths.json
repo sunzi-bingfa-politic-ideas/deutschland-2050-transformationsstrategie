@@ -1,0 +1,2426 @@
+{
+  "tau_high_fixed": 0.05,
+  "best_achievable": {
+    "guarantee_low": 1.0,
+    "guarantee_mid": 0.7,
+    "all_pass": true,
+    "worst_fail_years": 0,
+    "worst_state_loan": 535663983717.44464
+  },
+  "all_passing_combinations": [
+    {
+      "g_low": 1.0,
+      "g_mid": 0.7,
+      "worst_loan": 535663983717.44464
+    },
+    {
+      "g_low": 1.0,
+      "g_mid": 0.65,
+      "worst_loan": 151819948022.51398
+    },
+    {
+      "g_low": 1.0,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 1.0,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 1.0,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 1.0,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 1.0,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.7,
+      "worst_loan": 410893628771.93567
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.65,
+      "worst_loan": 19791986825.25453
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.95,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.7,
+      "worst_loan": 284505339360.1163
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.65,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.9,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.7,
+      "worst_loan": 155778768246.13403
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.65,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.85,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.7,
+      "worst_loan": 23848729873.66163
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.65,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.8,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.7,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.65,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.75,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.7,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.65,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.7,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.65,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.65,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.6,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.6,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.55,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.55,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.5,
+      "g_mid": 0.5,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.5,
+      "g_mid": 0.45,
+      "worst_loan": 0.0
+    },
+    {
+      "g_low": 0.5,
+      "g_mid": 0.4,
+      "worst_loan": 0.0
+    }
+  ],
+  "full_results": [
+    {
+      "guarantee_low": 0.5,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5556,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5987,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.5,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5556,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5987,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.5,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5556,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5987,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5556,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5987,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5556,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5987,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5556,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5987,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.55,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5556,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.5987,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.55,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.6,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.6,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.65,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.65,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.7,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.7,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.75,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.75,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.8,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 23848729873.66163,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.8,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 23848729873.66163
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.85,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 155778768246.13403,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.85,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 155778768246.13403
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.9,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 284505339360.1163,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.9,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 284505339360.1163
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 19791986825.25453,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 19791986825.25453
+        }
+      }
+    },
+    {
+      "guarantee_low": 0.95,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 410893628771.93567,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 0.95,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 410893628771.93567
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.4,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.45,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.5,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.5388,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.55,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.55,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.6,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 0.0,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6019,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6486,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.6,
+          "max_state_loan": 0.0
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.65,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 151819948022.51398,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.65,
+          "max_state_loan": 151819948022.51398
+        }
+      }
+    },
+    {
+      "guarantee_low": 1.0,
+      "guarantee_mid": 0.7,
+      "tau_high": 0.05,
+      "all_pass": true,
+      "worst_fail_years": 0,
+      "worst_state_loan": 535663983717.44464,
+      "per_scenario": {
+        "drawdown_5y_then_1p5": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "crash_then_recover": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 0.0
+        },
+        "stagflation_proxy": {
+          "passed": true,
+          "fail_years": 0,
+          "min_repl_low": 1.0,
+          "min_repl_mid": 0.7,
+          "max_state_loan": 535663983717.44464
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "n_paths": 10000,
+  "volatility": 0.08,
+  "mean_return": 0.0175,
+  "results": {
+    "E_flat_no_attr_12.25": {
+      "pass_rate": 0.9308,
+      "depletion_rate": 0.1556,
+      "repl_low_p5": 0.6453834866865351,
+      "repl_mid_p5": 0.5046450533077719,
+      "rig_fund_p50": 0.0
+    },
+    "E_flat_braindrain_12.25": {
+      "pass_rate": 0.9063,
+      "depletion_rate": 0.2042,
+      "repl_low_p5": 0.576532455531866,
+      "repl_mid_p5": 0.46479140610783337,
+      "rig_fund_p50": 0.0
+    },
+    "F_flat_rig_12.25": {
+      "pass_rate": 0.9128,
+      "depletion_rate": 0.2207,
+      "repl_low_p5": 0.5997972474258234,
+      "repl_mid_p5": 0.4765688343532682,
+      "rig_fund_p50": 1478147492404.1475
+    },
+    "E_hump_no_attr_12.25": {
+      "pass_rate": 0.6873,
+      "depletion_rate": 0.4913,
+      "repl_low_p5": 0.4408576685647806,
+      "repl_mid_p5": 0.36586210760093296,
+      "rig_fund_p50": 0.0
+    },
+    "F_hump_rig_12.25": {
+      "pass_rate": 0.6435,
+      "depletion_rate": 0.5849,
+      "repl_low_p5": 0.42549261843266273,
+      "repl_mid_p5": 0.3563938675088051,
+      "rig_fund_p50": 1142090674744.453
+    },
+    "E_flat_braindrain_16.75": {
+      "pass_rate": 0.9675,
+      "depletion_rate": 0.0791,
+      "repl_low_p5": 0.85,
+      "repl_mid_p5": 0.6,
+      "rig_fund_p50": 0.0
+    },
+    "F_flat_rig_16.75": {
+      "pass_rate": 0.9706,
+      "depletion_rate": 0.0904,
+      "repl_low_p5": 0.85,
+      "repl_mid_p5": 0.6,
+      "rig_fund_p50": 2021140448797.51
+    },
+    "E_hump_braindrain_16.75": {
+      "pass_rate": 0.7814,
+      "depletion_rate": 0.3707,
+      "repl_low_p5": 0.4902563659804208,
+      "repl_mid_p5": 0.3946845134744367,
+      "rig_fund_p50": 0.0
+    },
+    "F_hump_rig_16.75": {
+      "pass_rate": 0.7924,
+      "depletion_rate": 0.3944,
+      "repl_low_p5": 0.5072897682190929,
+      "repl_mid_p5": 0.4045946034275026,
+      "rig_fund_p50": 1561634187915.8884
+    },
+    "E_hump_braindrain_20.75": {
+      "pass_rate": 0.8805,
+      "depletion_rate": 0.2196,
+      "repl_low_p5": 0.5755617636146682,
+      "repl_mid_p5": 0.4458352608375754,
+      "rig_fund_p50": 0.0
+    },
+    "F_hump_rig_20.75": {
+      "pass_rate": 0.8908,
+      "depletion_rate": 0.2415,
+      "repl_low_p5": 0.5997190131963669,
+      "repl_mid_p5": 0.4609739393358245,
+      "rig_fund_p50": 1934561755179.4019
+    }
+  }
+}

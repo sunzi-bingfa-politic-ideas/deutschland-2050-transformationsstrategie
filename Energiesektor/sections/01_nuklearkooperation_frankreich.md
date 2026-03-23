@@ -338,7 +338,7 @@ Diese Nuklear-Kooperation ergaenzt die bestehenden Reform-Saeulen:
 
 | Saeule | Synergie |
 |--------|----------|
-| **E1: Speicher-Diversifikation** | Nuklear als Grundlast-Backup fuer Gravity Storage |
+| **E1: Speicher-Diversifikation** | Nuklear als stabile Grundlast neben erneuerbaren Energien |
 | **E6: Nuklear-Medizin** | Isotopen-Produktion benoetigt Forschungsreaktoren (FR-Kooperation) |
 | **Eurozone-Strategie** | Deutsch-franzoesischer Motor staerkt EU-Kohaesion |
 | **RSSP/GSP** | Stabile Energiepreise sichern Realrenditen |

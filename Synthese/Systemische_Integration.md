@@ -65,7 +65,7 @@ KAPITALSTROEME IM REFORMSYSTEM (Mrd. EUR, Horizont 25 Jahre)
 | 2 | **Gesundheitsreform** (GSP) | 1.150 Mrd. EUR | 1 Modell v2.0, MC 1.000 | 5 Sektionen | Ausgereift |
 | 3 | **Eurozone-Strategie** | — (Hedge-Funktion) | 1 Modell v2.0, MC 2.000 | 5 Sektionen | Ausgereift |
 | 4 | **Sicherheitspolitik** | ~85-89 Mrd. Invest. | Qualitativ | 16 Sektionen | Ausgereift |
-| 5 | **Energiesektor** (DFR) | ~6-8 Mrd. Invest. | 2 Modelle (Gravity+Sens.) | 8 Sektionen inkl. DFR | In Entwicklung |
+| 5 | **Energiesektor** (DFR) | ~6-8 Mrd. Invest. | Qualitativ (Lastenheft) | 4 Sektionen (FR-Kooperation + DFR + MatAI) | Ausgereift |
 | 6 | **Bildungssystem** (GOUDE) | ~11 Mrd. Invest. | 2 Modelle | 5 Sektionen | Solide Basis |
 | 7 | **Wohnungsbau** (GCADI) | ~14,5 Mrd. Invest. | 2 Modelle | 5 Sektionen | Solide Basis |
 | 8 | **Integration** (DASDIS) | ~400 Mio. Invest. | 1 Modell | 3 Sektionen | Basis vorhanden |

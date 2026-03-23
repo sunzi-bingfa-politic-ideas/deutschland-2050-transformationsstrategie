@@ -1,3 +1,5 @@
+> **Hinweis (Maerz 2026):** Dieses Dokument stammt aus der fruehen Projektphase. Der aktuelle Gesamtueberblick befindet sich in `Synthese/Systemische_Integration.md`. Gravity Storage wurde entfernt; DFR ist jetzt die Energiestrategie; alle Bereiche wurden erheblich erweitert.
+
 # Reformpaket Deutschland: Gesamtanalyse und Synthese
 
 ## 1. Uebersicht der Reformbereiche

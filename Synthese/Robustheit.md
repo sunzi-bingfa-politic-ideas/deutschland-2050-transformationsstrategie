@@ -1,3 +1,5 @@
+> **Hinweis (Maerz 2026):** E1 (Speicher-Diversifikation) referenziert Gravity Storage — diese Technologie wurde als utopisch entfernt. Die Energiestrategie basiert jetzt auf DFR (siehe `Energiesektor/sections/02_dual_fluid_reaktor.md`).
+
 # Ergaenzungsdokument: Robustheits-Verbesserungen
 
 ## Uebersicht

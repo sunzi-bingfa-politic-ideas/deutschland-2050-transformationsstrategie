@@ -30,7 +30,7 @@ Deutschland_Reform/
 ├── Gesundheitsreform/     GSP nach Singapur: Modell v2.0, Lobby-Analyse, Adaption
 ├── Eurozone_Strategie/    Smart Investor: Modell v2.0, Dollar-Emanzipation, Fiskalunion
 ├── Sicherheitspolitik/    16 Dokumente: Doktrin → Geopolitik → Militaer → Kommunikation
-├── Energiesektor/         DFR + Material-KI-Taskforce + Gravity Storage
+├── Energiesektor/         DFR + Material-KI-Taskforce + FR-Nuklearkooperation
 ├── Bildungssystem/        Gemeinschaftsschule + GOUDE: 2 Modelle, 5,8x ROI
 ├── Wohnungsbau/           GCADI: Modulbau + Robotik, 55x ROI
 ├── Integration/           DASDIS: KI-gesteuert, 36x ROI

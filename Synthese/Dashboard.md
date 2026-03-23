@@ -1,3 +1,5 @@
+> **Hinweis (Maerz 2026):** Dieses Dokument stammt aus der fruehen Projektphase. Der aktuelle Gesamtueberblick befindet sich in `Synthese/Systemische_Integration.md`. Wesentliche Aenderungen: Gravity Storage wurde entfernt (utopisch); DFR (Dual-Fluid-Reaktor) ist jetzt die primaere Energiestrategie; Sicherheitspolitik wurde massiv erweitert (16 Dokumente); RSSP-Modell wurde reimportiert; Eurozone-Strategie v2.0 mit Dollar-Emanzipation.
+
 # DEUTSCHLAND 2050: STRATEGIC MASTER DASHBOARD
 ## Integrierte Gesamtsteuerung der 10 Säulen + 7 Robustheits-Ergänzungen
 

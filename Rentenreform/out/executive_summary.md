@@ -14,7 +14,7 @@ Das RSSP ergaenzt das bestehende System um eine kapitalgedeckte Komponente:
 
 3. **Solidaritaetskomponente.** Bezieher hoher Einkommen zahlen einen Beitrag ohne eigenen Rentenanspruch — aber zu einem niedrigeren Satz als im heutigen System. Ein Teil dieses Beitrags fliesst in ein Infrastruktur-Portfolio (RIG), das reale Vermoegenswerte aufbaut.
 
-4. **Wohnraum-Effekt.** Das aufgebaute Kapital kann — ohne Entnahme — als Sicherheit fuer Immobilienkredite dienen. Das Modell schaetzt, dass dadurch mehrere Millionen Haushalte erstmals Zugang zu Wohneigentum erhalten koennten.
+4. **Wohnraum-Effekt.** Das aufgebaute Kapital kann — ohne Entnahme — als Sicherheit fuer Immobilienkredite dienen. Das Modell schaetzt, dass dadurch rund 2,5 bis 3,5 Millionen Haushalte erstmals Zugang zu Wohneigentum erhalten koennten (abhaengig von Kapitalhoehe und regionalen Immobilienpreisen).
 
 ## Zentrale Modellergebnisse
 
@@ -35,8 +35,8 @@ Das Modell wurde ueber 100 Jahre, 220 Parameterkonfigurationen und mehr als 10.0
 | Standardvolatilitaet (8%) | 91–97% der Pfade bestehen den Garantietest |
 | Markteinbruch mit anschliessender Erholung | Bestanden |
 | Anhaltende Niedrigrendite (0% real, 10 Jahre) | Bestanden |
-| Null Prozent Rendite ueber 100 Jahre | Bestanden — erfordert staatliche Stuetzung (gedeckelt auf 10% der Systemassets) |
-| 5 adversariale Stresstests | 4 von 5 bei >90% Erfolgsrate; der fuenfte (gleichzeitiger Ausfall mehrerer Annahmen) trifft jedes kapitalgedeckte System |
+| Null Prozent Rendite ueber 100 Jahre | Bestanden — erfordert staatliche Stuetzung (als Kredit, gedeckelt auf 10% der Systemassets; Rueckzahlung aus zukuenftigen Ueberschuessen; Details in `CONFIG_F.md`, Abschnitt Backstop) |
+| 5 adversariale Stresstests | 4 von 5 bei >90% Erfolgsrate. Die Tests simulieren gezielte Einzelausfaelle (z.B. 15 Jahre Nullrendite durch Governance-Versagen, oder 2% jaehrliche Abwanderung von Beitragszahlern). Der fuenfte Test kombiniert mehrere Ausfaelle gleichzeitig — ein Szenario das jedes kapitalgedeckte System trifft, nicht nur das RSSP. |
 
 Die stochastische Simulation zeigt, dass das System unter realistischen Bedingungen robust ist — aber nicht risikolos. Insbesondere die Aufbauphase (erste 10–15 Jahre) ist gegenueber Marktvolatilitaet empfindlicher als der Langfristbetrieb.
 

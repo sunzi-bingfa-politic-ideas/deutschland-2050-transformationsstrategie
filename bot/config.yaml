@@ -1,0 +1,54 @@
+# Reform-Twitter-Bot Konfiguration
+# ==================================
+
+# Themen-Ordner (relativ zum Repo-Root)
+content_sources:
+  - path: "Rentenreform/paper"
+    label: "Rentenreform"
+    hashtags: ["#Rente", "#RSSP", "#Altersvorsorge"]
+  - path: "Gesundheitsreform/sections"
+    label: "Gesundheitsreform"
+    hashtags: ["#Gesundheit", "#GSP", "#Krankenkasse"]
+  - path: "Eurozone_Strategie/sections"
+    label: "Eurozone"
+    hashtags: ["#Euro", "#Eurozone", "#Fiskalunion"]
+  - path: "Sicherheitspolitik/sections"
+    label: "Sicherheitspolitik"
+    hashtags: ["#Sicherheit", "#Verteidigung", "#Europa"]
+  - path: "Energiesektor/sections"
+    label: "Energiesektor"
+    hashtags: ["#Energie", "#DFR", "#Energiewende"]
+  - path: "Bildungssystem/sections"
+    label: "Bildungssystem"
+    hashtags: ["#Bildung", "#GOUDE", "#PISA"]
+  - path: "Wohnungsbau/sections"
+    label: "Wohnungsbau"
+    hashtags: ["#Wohnen", "#Bauen", "#GCADI"]
+  - path: "Integration/sections"
+    label: "Integration"
+    hashtags: ["#Integration", "#Migration", "#DASDIS"]
+  - path: "Aussenpolitik/sections"
+    label: "Aussenpolitik"
+    hashtags: ["#Aussenpolitik", "#SoftPower", "#Diplomatie"]
+  - path: "Synthese"
+    label: "Gesamtstrategie"
+    hashtags: ["#Deutschland2050", "#Reform", "#Transformation"]
+
+# Tweet-Einstellungen
+tweet:
+  language: "de"
+  max_length: 280
+  thread_max_posts: 6
+  thread_probability: 0.3  # 30% Wahrscheinlichkeit fuer Thread statt Einzeltweet
+  include_repo_link: true
+  repo_url: "https://github.com/sunzi-bingfa-politic-ideas/deutschland-2050-transformationsstrategie"
+
+# Globale Hashtags (immer anhaengen)
+global_hashtags: ["#Deutschland2050"]
+
+# LLM-Einstellungen
+llm:
+  provider: "anthropic"  # "anthropic" oder "openai"
+  model: "claude-sonnet-4-20250514"  # oder "gpt-4o-mini" fuer OpenAI
+  temperature: 0.8
+  max_tokens: 1000

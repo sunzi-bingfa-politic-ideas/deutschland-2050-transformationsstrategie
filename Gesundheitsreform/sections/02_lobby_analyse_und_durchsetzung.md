@@ -536,9 +536,9 @@ Jede Gesundheitsreform, die alle Akteure gleichzeitig angreift, scheitert. Die K
 
 1. **"Es gehoert IHNEN"** — Anders als GKV-Beitraege (die verschwinden) gehoert das GSP-Konto dem Buerger. Vererbbar. Nicht enteignbar. Echtes Gesundheitsvermoegen.
 
-2. **"Singapur beweist es"** — Kein Experiment, kein Risiko. 40 Jahre Praxis. Beste Gesundheitsergebnisse der Welt. Halb so teuer wie Deutschland.
+2. **"Singapur beweist es"** — Ein etabliertes System in einem anderen institutionellen Kontext. 40 Jahre Praxis. sehr gute Gesundheitsergebnisse bei deutlich niedrigeren Kosten. Halb so teuer wie Deutschland.
 
-3. **"Die Alternative ist 20%+ Beitragssatz"** — Ohne Reform steigt der Beitrag auf mindestens 19,5% bis 2045 (Modell) — realistisch eher 22-25% (Prognos/Bertelsmann). Das ist keine Panikmache — das ist Demografie.
+3. **"Die Alternative ist 20%+ Beitragssatz"** — Ohne Reform steigt der Beitrag auf mindestens 19,5% bis 2045 (Modell) — realistisch eher 22-25% (Prognos/Bertelsmann). Diese Entwicklung ergibt sich aus der demografischen Grundrechnung.
 
 ---
 

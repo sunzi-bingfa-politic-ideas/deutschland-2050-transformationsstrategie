@@ -3,10 +3,10 @@
 ## 30.1 Das Problem: Währungsunion ohne Fiskalunion
 
 ### Die Griechenland-Lektion
-Eine Währungsunion ohne Fiskalunion ist bei asymmetrischen Schocks instabil. Griechenland 2010 hat das bewiesen: Ohne eigene Währungsabwertung und ohne Transfers kollabiert die Wirtschaft.
+Eine Währungsunion ohne Fiskalunion ist bei asymmetrischen Schocks instabil. Griechenland 2010 ist ein Beispiel das diese These stuetzt: Ohne eigene Währungsabwertung und ohne Transfers kollabiert die Wirtschaft.
 
 ### Die falsche Lösung: Fiskalunion mit allen
-Die naive Antwort "dann vergemeinschaften wir halt alle Schulden" funktioniert nur, wenn die Teilnehmer ähnlich stark sind. Fügt man strukturschwache Länder hinzu, wird die Fiskalunion zum Fass ohne Boden.
+Die einfachere Alternative "dann vergemeinschaften wir halt alle Schulden" funktioniert nur, wenn die Teilnehmer ähnlich stark sind. Fügt man strukturschwache Länder hinzu, wird die Fiskalunion zum Fass ohne Boden.
 
 | Land | BIP/Kopf (EUR) | Staatsschulden/BIP | Private Vermögen/BIP |
 |------|----------------|--------------------|-----------------------|

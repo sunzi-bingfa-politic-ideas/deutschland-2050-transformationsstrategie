@@ -47,6 +47,8 @@ Die German Construction Automation and Digitalization Initiative transformiert d
 | ROI | **55x** |
 | Amortisation | **<6 Monate** |
 
+> Diese Kennzahlen sind Modellresultate unter den beschriebenen Annahmen (Modulbauanteil 60%, Robotikintegration, 20-Jahres-Horizont). Die tatsaechlichen Ergebnisse haengen von Implementierungsgeschwindigkeit und Marktbedingungen ab.
+
 ### Sozialwohnungen
 
 Mit GCADI kann Deutschland das gesamte Sozialwohnungsdefizit fuer **85 Mrd. EUR** schliessen - die Haelfte der konventionellen Kosten (171 Mrd. EUR).
@@ -79,14 +81,14 @@ Die Ergebnisse sind robust ueber alle getesteten Szenarien:
 
 ### Empfehlung
 
-Die GCADI-Reform ist **oekonomisch zwingend**:
+Die GCADI-Reform ist **oekonomisch attraktiv unter den modellierten Annahmen**:
 
 - Die Investition von 14,5 Mrd. EUR ist minimal verglichen mit dem Nutzen von 793 Mrd. EUR
 - Das Nicht-Handeln kostet 300-420 Mrd. EUR ueber 20 Jahre
 - Die Differenz betraegt **+550 bis +760 Mrd. EUR** zugunsten der Reform
 - Selbst im pessimistischen Szenario ist der Nettonutzen positiv
 
-**Deutschland kann es sich nicht leisten, NICHT zu handeln.**
+**Die modellierte Kostenentwicklung legt nahe, dass fruehes Handeln wirtschaftlich vorteilhaft waere.**
 
 ---
 

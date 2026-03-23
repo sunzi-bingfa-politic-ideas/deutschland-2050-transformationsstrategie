@@ -75,7 +75,7 @@ Ein datengetriebenes, KI-gestuetztes Integrationssystem:
 | **Baseline** | **+15%** | **+55 Mrd. EUR** |
 | Optimistisch | +25% | +100 Mrd. EUR |
 
-Selbst im pessimistischen Szenario ist DASDIS **hoch profitabel**.
+Selbst im pessimistischen Szenario ist DASDIS **fiskalisch positiv in allen modellierten Szenarien**.
 
 ### Kritische Erfolgsfaktoren
 
@@ -102,11 +102,11 @@ DASDIS ist eine **hochrentable Investition** in Deutschlands Integrationssystem:
 
 1. **Minimale Kosten**: +0,5% der bestehenden Ausgaben
 2. **Massive Wirkung**: 1,5 Jahre schnellere Integration
-3. **Hoher ROI**: Jeder investierte Euro bringt ~30 EUR zurueck (fiskalisch)
+3. **Hoher ROI**: Jeder investierte Euro ergibt im Modell ~30 EUR zurueck (fiskalisch)
 4. **Skalierbar**: Fuer 300.000+ Migranten/Jahr ausgelegt
 5. **Menschenzentriert**: Personalisierte Unterstuetzung, nicht Kontrolle
 
-**Das Nicht-Handeln kostet ~5 Mrd. EUR/Jahr** an verlorener Produktivitaet und Sozialkosten.
+**Das Nicht-Handeln kostet ~5 Mrd. EUR/Jahr** (modellierte Opportunitaetskosten) an verlorener Produktivitaet und Sozialkosten.
 
 ---
 

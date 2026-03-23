@@ -1,3 +1,5 @@
+> **Hinweis:** Dieses Dokument enthaelt vorformulierte Kommunikationsbausteine fuer politische Entscheidungstraeger. Die Formulierungen sind bewusst zugespitzt und unterscheiden sich im Ton von der analytischen Dokumentation. Die zugrunde liegenden Modellergebnisse sind in CONFIG_F.md und im Paper dokumentiert.
+
 # Politische Verteidigungsmatrix: RSSP Config F (RIG-gehaertet)
 
 ## Methodische Basis
@@ -75,7 +77,7 @@ Alle quantitativen Aussagen stuetzen sich auf:
 - **Aber**: In der GRV finanzieren Low-Earner sich zu ~48% selbst (bei gleicher Ersatzrate). Das RSSP ist *effizienter* in der Umverteilung.
 - **Gesamtbelastung**: Der effektive Gesamtbeitragssatz im RSSP betraegt 12,6% vs. 18,6% in der GRV. Die Umverteilung kostet weniger.
 
-**Narrative Antwort**: *"Ja, das RSSP verteilt um. Das ist Absicht, nicht Fehler. Aber es verteilt um bei 12,6% Gesamtbeitrag statt 18,6%. Und erstmals erhalten Pfleger, Handwerker und Erzieher eine Rente, die den Namen verdient: EUR 1.983/Monat statt EUR 1.120/Monat. Das macht diese Berufe attraktiv — und loest den Fachkraeftemangel."*
+**Narrative Antwort**: *"Ja, das RSSP verteilt um. Das ist Absicht, nicht Fehler. Aber es verteilt um bei 12,6% Gesamtbeitrag statt 18,6%. Und erstmals erhalten Pfleger, Handwerker und Erzieher eine Rente, die den Namen verdient: EUR 1.983/Monat statt EUR 1.120/Monat. Das macht diese Berufe attraktiv — und kann den Fachkraeftemangel deutlich reduzieren."*
 
 **Falsifikationsbedingung**: Die These waere widerlegt, wenn die 85% Garantie mathematisch nicht tragbar ist (tau_high > 25%). Config D beweist: 12,25% genuegen.
 
@@ -164,7 +166,7 @@ Alle quantitativen Aussagen stuetzen sich auf:
 - Geschaetzte Arbeitskraeftezufuhr: **+4,9%** (bei Elastizitaet 0,3)
 - Vakanzzeit-Reduktion: **-5 Tage** in der Altenpflege
 
-**Narrative (fuer Politiker)**: *"Ein Pfleger verdient EUR 28.000 im Jahr und bekommt in der GRV EUR 1.120 Rente. Im RSSP bekommt er EUR 1.983 — fast das Doppelte. Ohne dass der Arbeitgeber einen Cent mehr zahlt. Das macht Pflege attraktiv. Das loest den Fachkraeftemangel. Und das ist gerecht."*
+**Narrative (fuer Politiker)**: *"Ein Pfleger verdient EUR 28.000 im Jahr und bekommt in der GRV EUR 1.120 Rente. Im RSSP bekommt er EUR 1.983 — fast das Doppelte. Ohne dass der Arbeitgeber einen Cent mehr zahlt. Das macht Pflege attraktiv. Das kann den Fachkraeftemangel deutlich reduzieren. Und das ist gerecht."*
 
 ---
 
@@ -178,7 +180,7 @@ Alle quantitativen Aussagen stuetzen sich auf:
 | Gender Pension Gap (Mid) | 27% | 17% |
 | Rente pro Kind (Erziehungsgutschrift) | EUR 1.416/yr | **EUR 2.223/yr** (+57%) |
 
-**Narrative**: *"Das RSSP eliminiert den Gender Pension Gap in der unteren Einkommensgruppe vollstaendig. Zum ersten Mal in der deutschen Geschichte erhalten Frauen in Pflege- und Erziehungsberufen die gleiche Rentenabsicherung wie Maenner."*
+**Narrative**: *"Das RSSP reduziert den Gender Pension Gap in der unteren Einkommensgruppe erheblich. Zum ersten Mal in der deutschen Geschichte erhalten Frauen in Pflege- und Erziehungsberufen eine deutlich verbesserte Rentenabsicherung."*
 
 ---
 

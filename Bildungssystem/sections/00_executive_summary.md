@@ -34,7 +34,7 @@ Das deutsche Bildungssystem produziert bei hohen Ausgaben mittelmaeßige Ergebni
 | PISA Mathematik | 475 | **505** | **+30 Punkte** |
 | SES-Leistungsgap | 111 | **78** | **-30%** |
 | Migranten-Gap | 65 | **49** | **-25%** |
-| Lehrermangel | 68.000 | **0** | **Geloest** |
+| Lehrermangel | 68.000 | **0** | **Kapazitaetsluecke modellbasiert geschlossen** |
 
 ### Investition und Return
 
@@ -66,7 +66,7 @@ Das deutsche Bildungssystem produziert bei hohen Ausgaben mittelmaeßige Ergebni
 | KI-Kapazitaetsequivalent | 80.000 |
 | **Gesamt-Kapazitaetserhoehung** | **~266.000** |
 | Aktueller Mangel | 68.000 |
-| **Ergebnis** | **Mangel geloest + Ueberkapazitaet** |
+| **Ergebnis** | **Kapazitaetsluecke modellbasiert geschlossen + Ueberkapazitaet** |
 
 ### Robustheit
 
@@ -101,7 +101,7 @@ Das deutsche Bildungssystem produziert bei hohen Ausgaben mittelmaeßige Ergebni
 
 ### Empfehlung
 
-Die Gemeinschaftsschule Plus ist **die rentabelste Investition**, die Deutschland taetigen kann:
+Die Gemeinschaftsschule Plus ist **eine der rentabelsten Investitionen**, die Deutschland taetigen kann:
 
 1. **Hoher Return**: 5,8x Benefit/Cost bei moderatem Risiko
 2. **Loest Lehrermangel**: Differenziertes Personalmodell statt mehr Lehrer
@@ -109,7 +109,9 @@ Die Gemeinschaftsschule Plus ist **die rentabelste Investition**, die Deutschlan
 4. **Verbessert Ergebnisse**: PISA +30 Punkte
 5. **Langfristiger BIP-Effekt**: +0,6%/Jahr (kumuliert ueber Jahrzehnte)
 
-**Das Nicht-Handeln kostet ~60 Mrd. EUR/Jahr** (Produktivitaetsverlust, Fachkraeftemangel, Sozialkosten).
+**Das Nicht-Handeln kostet ~60 Mrd. EUR/Jahr** (modellierte Opportunitaetskosten) (Produktivitaetsverlust, Fachkraeftemangel, Sozialkosten).
+
+> Alle ROI-Angaben sind Simulationsergebnisse unter den dokumentierten Annahmen.
 
 ---
 

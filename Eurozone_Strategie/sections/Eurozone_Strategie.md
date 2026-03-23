@@ -12,7 +12,7 @@ Die Eurozone ist kein kooperatives Spiel mit gemeinsamen Interessen, sondern ein
                     │                        │                            │
     DEUTSCHLAND     │  Exportüberschüsse     │  Target2-Verlust           │
     (Status Quo:    │  + Target2-Aufbau      │  -1.100 Mrd. EUR           │
-    Naive Creditor) │  = Papiergewinne       │  = Realer Totalverlust     │
+    Statushalter)   │  = bilanzielle Gewinne │  = hoher realer Wertverlust│
                     │                        │                            │
                     ├────────────────────────┼────────────────────────────┤
                     │                        │                            │
@@ -27,8 +27,8 @@ Die Eurozone ist kein kooperatives Spiel mit gemeinsamen Interessen, sondern ein
 - Euro stabil → günstige Kredite nutzen
 - Euro instabil → Schulden werden entwertet
 
-**Dominante Strategie für DE (Status Quo)**: "Naive Creditor" verliert in EINEM Szenario existenziell.
-- Euro stabil → Papiergewinne (Target2)
+**Dominante Strategie für DE (Status Quo)**: "Statushalter" verliert in EINEM Szenario gravierend.
+- Euro stabil → bilanzielle Gewinne (Target2)
 - Euro instabil → Totalverlust
 
 ### Die rationale deutsche Antwort
@@ -40,13 +40,13 @@ Wenn andere Spieler eine dominante Strategie haben, muss Deutschland seine Strat
                     ┌────────────────────────┬────────────────────────────┐
                     │                        │                            │
     DEUTSCHLAND     │  Schuldenfinanzierte   │  Schulden entwertet        │
-    (Smart Investor)│  Asset-Akkumulation    │  + Assets explodieren      │
+    (Diversifizierer)│  Asset-Akkumulation    │  + Assets explodieren      │
                     │  = Realvermögen wächst │  = Massiver Realgewinn     │
                     │                        │                            │
                     └────────────────────────┴────────────────────────────┘
 ```
 
-**Die transformierte Strategie**: Deutschland wird zum "Smart Investor" – nimmt Euro-Schulden auf, tauscht sie in Realwerte (Gold, Aktien, Agrarland), und gewinnt in BEIDEN Szenarien.
+**Die transformierte Strategie**: Deutschland wird zum "Diversifizierer" – nimmt Euro-Schulden auf, tauscht sie in Realwerte (Gold, Aktien, Agrarland), und erzielt in beiden Szenarien einen positiven Erwartungswert.
 
 ---
 
@@ -512,7 +512,7 @@ ZEITACHSE:
 
 **3. Die schuldenfinanzierte Transformation ist rational**
 - Tauscht unsichere Forderungen in sichere Assets
-- Gewinnt in ALLEN Szenarien (stabil oder instabil)
+- Erzielt in allen Szenarien einen positiven Erwartungswert (stabil oder instabil)
 - Finanziert den Rentenübergang ohne Steuererhöhung oder Kürzungen
 
 ### Die Grundsatzentscheidung
@@ -533,8 +533,8 @@ Selbst wenn man die Euro-Instabilität für unwahrscheinlich hält, ist die RSSP
 Es gibt keinen rationalen Grund, die aktuelle Strategie fortzusetzen.
 
 **Deutschland hat die Wahl:**
-- **Weiter der "naive Gläubiger" sein** und auf das Beste hoffen
-- **Zum "smarten Investor" werden** und in jedem Szenario gewinnen
+- **Weiter der "Statushalter" sein** und auf das Beste hoffen
+- **Zum "Diversifizierer" werden** und in jedem Szenario einen positiven Erwartungswert erzielen
 
 Die Entscheidung ist keine fiskalische. Sie ist politisch – und sie ist überfällig.
 

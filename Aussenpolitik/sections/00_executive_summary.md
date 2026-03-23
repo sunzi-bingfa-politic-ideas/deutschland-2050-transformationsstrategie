@@ -69,7 +69,7 @@ Ein zweigleisiges Programm zur strategischen Bildungsdiplomatie:
 | Baseline | **3,8x** | 135.000 |
 | Optimistisch | **6,1x** | 237.000 |
 
-Selbst im pessimistischen Szenario ist das Programm **profitabel**.
+Selbst im pessimistischen Szenario ist das Programm **fiskalisch positiv**.
 
 ### Kritische Erfolgsfaktoren
 
@@ -100,7 +100,7 @@ Soft Power Education ist eine **strategische Investition** in Deutschlands globa
 4. **Handelswirkung**: Langfristige Wirtschaftsbeziehungen
 5. **Entwicklungshilfe**: Bildungstransfer statt nur Geld
 
-**Das Nicht-Handeln** ueberlässt das Feld Konkurrenten wie China und verschenkt geopolitischen Einfluss.
+**Das Nicht-Handeln** ueberlässt das Feld Konkurrenten wie China und verschenkt geopolitischen Einfluss (Einschaetzung basierend auf Modellvergleich).
 
 ---
 

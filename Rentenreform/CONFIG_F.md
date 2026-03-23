@@ -1,121 +1,150 @@
-# Config F — RIG-gehaertete Konfiguration (Final)
+# Config F — finale, gehaertete Konfiguration
 
-## Zusammenfassung
+## Ueberblick
 
-Config F erweitert Config E um die Robotik-Infrastrukturgesellschaft (RIG) und den Solidaritaets-Equity-Swap. Die Kalibrierung basiert auf:
-- 2D-Sweep (56 Kombinationen x 2 Attritions-Modelle x 2.000 MC-Pfade)
-- 5 adversarialen Stresstests
-- Income-Profile-Kombinations-Matrix (11 Konfigurationen x 10.000 MC-Pfade)
-- Rentenalter-Sensitivitaet (4 Stufen x 3 tau-Werte x 10.000 MC-Pfade)
+Config F ist die derzeit robusteste Ausbaustufe des RSSP-Modells. Sie erweitert die fruehere Konfiguration um eine realwirtschaftliche Absicherung ueber die Robotik-Infrastrukturgesellschaft (RIG) sowie um eine Solidaritaetskomponente fuer hoehere Einkommen.
+
+Die Kalibrierung basiert auf:
+
+- einem zweidimensionalen Parametersweep,
+- adversarialen Stresstests,
+- einer Sensitivitaetsanalyse nach Einkommensprofilen,
+- und einer zusaetzlichen Pruefung ueber unterschiedliche Renteneintritts- und Beitragsannahmen.
+
+Die Konfiguration ist nicht als endgueltige Wahrheit zu verstehen, sondern als die bisher belastbarste modellierte Variante.
+
+---
 
 ## Zwei Betriebsmodi
 
-Das System operiert in zwei Modi, abhaengig vom Einkommensverlauf der Berufsgruppe:
+Das System unterscheidet zwei typische Einkommensverlauefe, weil sich daraus unterschiedliche Beitrags- und Sicherungslogiken ergeben.
 
-| | Modus A: Mangelberufe | Modus B: Akademiker/Management |
+| | Modus A: stabile Berufsverlauefe | Modus B: steilere Karriereverlauefe |
 |---|---|---|
-| **Zielgruppe** | Pflege, Handwerk, Einzelhandel, Erziehung | Ingenieure, Juristen, BWL, Medizin |
-| **Einkommensprofil** | Flat (konstant ueber Karriere) | Hump (niedrig→hoch→Plateau) |
-| **tau_high** | 12,25% | 17,50% |
-| **Eff. Gesamtbeitrag** | ~12,6% | ~15,2% |
-| **Rentenalter** | 67 | 68 |
-| **div→Pool** | 80% | 90% |
-| **MC Pass-Rate (8% vol)** | **92,7%** | **90,1%** |
-| **vs. GRV (18,6%)** | -6,0 PP | -3,4 PP |
-| **vs. GRV-Projektion (22%+)** | -9,4 PP | -6,8 PP |
+| Zielgruppe | Pflege, Handwerk, Einzelhandel, Erziehung | Ingenieurwesen, Recht, Medizin, Management |
+| Einkommensprofil | eher konstant | eher ansteigend |
+| tau_high | 12,25% | 17,50% |
+| effektiver Gesamtbeitrag | ca. 12,6% | ca. 15,2% |
+| Renteneintritt | 67 | 68 |
+| Anteil in den Pool | 80% | 90% |
+| Monte-Carlo-Ergebnis (8% Volatilitaet) | 92,7% | 90,1% |
+| gegenueber GRV | deutlich niedriger | niedriger |
 
-**Keine Konfiguration unter 90% Pass-Rate.** Beide Modi liegen unter dem GRV-Beitragssatz.
+Beide Modi bleiben unter dem heutigen GRV-Beitragssatz. Die Konfigurationen unterscheiden sich vor allem darin, wie stark sie auf Stabilitaet, Solidaritaet und reale Absicherung gewichten.
 
-## Der Solidaritaets-Equity-Swap
+---
 
-Der Solidarbeitrag der High-Gruppe wird aufgespalten (Verhaeltnis konstant):
+## Solidaritaets- und Infrastrukturkomponente
 
-| Komponente | Modus A (12,25%) | Modus B (17,50%) | Fluss |
+Der Beitrag der hoeheren Einkommensgruppen wird in zwei Teile aufgeteilt:
+
+| Komponente | Modus A (12,25%) | Modus B (17,50%) | Funktion |
 |---|---|---|---|
-| **Versicherungspraemie** | 8,50 PP | 12,14 PP | → Garantie-Pool (unwiderruflich) |
-| **Infrastruktur-Zertifikat** | 3,75 PP | 5,36 PP | → RIG-Fonds |
+| Versicherungsteil | 8,50 PP | 12,14 PP | Finanzierung der Garantie- und Sicherungsmechanik |
+| Infrastrukturteil | 3,75 PP | 5,36 PP | Aufbau eines realen Vermoegenstocks ueber die RIG |
 
-## RIG-Renditemodell (marktvalidiert 2026)
+Damit wird ein Teil der Belastung nicht nur umverteilt, sondern in reale Werte ueberfuehrt, die das System zusaetzlich stuetzen sollen.
+
+---
+
+## RIG-Modell
+
+Die RIG dient als realwirtschaftlicher Anker des Systems. Sie soll Vermoegenswerte aufbauen, die weniger direkt von kurzfristigen Marktschwankungen abhaengen als rein finanzielle Positionen.
+
+Das zugrunde liegende Renditemodell ist bewusst konservativ kalibriert:
 
 ```
 r_RIG = 0.03 + 0.30 × (r_mkt - 0.03)
 ```
 
-Die Basisrendite von 3% real ist gestuetzt durch:
-- CAGR 7,7% (real ~3-4%) des deutschen Robotik-Marktes (IndexBox/Morgan Stanley)
-- Serienproduktion humanoider Roboter (Agile Robots, Neura Robotics)
-- TUM RoboGym als Validierung des Learning-from-Demonstration-Ansatzes
-- Preisverfall industrieller Humanoide auf ca. USD 27.500 (ROI-Beschleunigung)
+Die Basisrendite von 3% real orientiert sich an der langfristigen Wachstumsrate des deutschen Robotik- und Automatisierungsmarktes. Der Faktor 0,30 begrenzt die Beteiligung an Marktschwankungen — damit bleibt die RIG auch bei fallenden Maerkten im positiven Bereich.
 
-| r_mkt | r_RIG | Interpretation |
+| Marktsituation | RIG-Rendite | Einordnung |
 |---|---|---|
-| -3% | +1,2% | Krisenschutz: Infrastruktur haelt Wert |
-| 0% | +2,1% | Stagflation: RIG liefert positive Realrendite |
-| +1,75% | +2,6% | Normalfall |
-| +5% | +3,6% | Boom: moderate Partizipation |
+| Schwache Maerkte (-3%) | +1,2% | Stabilitaetsfunktion: Infrastruktur haelt Wert |
+| Nullwachstum (0%) | +2,1% | Krisenpuffer: Positive Realrendite bleibt |
+| Normalfall (+1,75%) | +2,6% | Basisszenario |
+| Boomphase (+5%) | +3,6% | Partielle Beteiligung, aber begrenzt |
 
-## Adversariale Stresstests
+Die RIG ist damit nicht als spekulatives Zusatzvehikel gedacht, sondern als dauerhafter realer Anker fuer das Gesamtsystem.
 
-| Angriff | Pass-Rate | Degradation | Bewertung |
+---
+
+## Stresstests
+
+Die Konfiguration wurde gegen mehrere Belastungsszenarien geprueft:
+
+| Szenario | Pass-Rate | Degradation | Einordnung |
 |---|---|---|---|
 | Baseline (kein Angriff) | 93,2% | — | Referenz |
-| 1. Governance-Versagen (r=0%, 15yr) | 93,8% | +0,5 PP | **Nicht-systemisch** |
-| 2. Technologie-Sackgasse (beta=1.0) | 90,0% | -3,3 PP | **Graceful** |
-| 3. Massenflucht (2%/yr Attrition) | 85,0% | -8,3 PP | Systemisch (F schlaegt E um +1,3 PP) |
-| 4. Perfekter Sturm (alle + Regime) | 75,8% | -17,5 PP | Fundamentale Grenze (F schlaegt E) |
-| 5. Wertvernichtung (r=-2%, 15yr) | 93,8% | +0,5 PP | **Nicht-systemisch** |
+| Governance-Versagen (15 Jahre Nullrendite) | 93,8% | +0,5 PP | Vom System absorbiert |
+| Technologie-Verzoegerung (RIG verliert Dekorrelation) | 90,0% | -3,3 PP | Moderat; System bleibt funktionsfaehig |
+| Staerkere Abwanderung (2%/Jahr) | 85,0% | -8,3 PP | Spuerbar; betrifft jedes kapitalgedeckte System |
+| Kombinierter Ausfall (alle Faktoren gleichzeitig) | 75,8% | -17,5 PP | Extremszenario; grundsaetzliche Grenze |
+| Wertvernichtung (-2% Rendite, 15 Jahre) | 93,8% | +0,5 PP | Vom System absorbiert |
 
-**Kernbefund**: Governance-Versagen und Wertvernichtung sind nicht-systemisch. Der einzige relevante Angriff (Massenflucht) betrifft beide Configs gleich — er ist kein RIG-spezifisches Risiko.
+Das Ergebnis ist nicht, dass das System unverwundbar waere. Das Ergebnis ist, dass es in mehreren relevanten Szenarien stabil bleibt und seine Grundfunktion weiterhin erfuellt. Besonders wichtig ist die Unterscheidung zwischen Risiken, die das Modell gut abfedern kann, und Risiken, die grundsaetzlich jedes kapitalgedeckte System belasten wuerden.
 
-## Income-Profile-Sensitivitaet (die "Ehrliche Tabelle")
+---
 
-| Berufsgruppe | Profil | tau_high | Rente | r_base | div→Pool | Pass-Rate |
-|---|---|---|---|---|---|---|
-| Pflege, Handwerk | Flat | 12,25% | 67 | 3% | 80% | **92,7%** |
-| Pflege, Handwerk | Flat | 12,25% | 68 | 3% | 80% | **95,0%** |
-| Mischberufe | Flat | 16,75% | 67 | 3% | 80% | **97,1%** |
-| Akademiker, Manager | Hump | 17,50% | 68 | 3% | 90% | **90,1%** |
-| Akademiker (konservativ) | Hump | 20,75% | 67 | 3% | 80% | **91,8%** |
+## Einkommensprofile
 
-**Interpretation**: Die Berufe mit dem niedrigsten Beitrag (12,6%) sind die Mangelberufe — genau die, die das RSSP am staerksten schuetzt. Akademiker zahlen mehr (15,2-16,8%), aber immer noch unter GRV. Der Equity-Swap stellt sicher, dass ein Teil ihres hoeheren Beitrags in reale Infrastruktur fliesst.
+Die Sensitivitaetsanalyse zeigt, dass sich die Wirkung des Modells je nach Berufs- und Einkommensprofil unterscheidet:
 
-## Politische Argumente
+| Berufsgruppe | Profil | tau_high | Renteneintritt | Pass-Rate |
+|---|---|---|---|---|
+| Pflege, Handwerk | stabil | 12,25% | 67 | 92,7% |
+| Pflege, Handwerk | stabil | 12,25% | 68 | 95,0% |
+| Mischberufe | stabil | 16,75% | 67 | 97,1% |
+| Akademiker, Manager | ansteigend | 17,50% | 68 | 90,1% |
+| Akademiker (konservativ) | ansteigend | 20,75% | 67 | 91,8% |
 
-**Fuer Pfleger/Handwerker**: *"12,6% Beitrag statt 18,6%. Rente fast verdoppelt. Kapital als Banksicherheit fuer Wohneigentum."*
+Die Kernaussage ist nicht, dass ein Profil bevorzugt oder benachteiligt wird, sondern dass das Modell unterschiedliche Einkommensverlauefe gezielt beruecksichtigt. Berufe mit niedrigerem Beitrag sind die, die das System am staerksten entlasten soll.
 
-**Fuer Akademiker**: *"17,5% Beitrag statt 18,6% — und dafuer Infrastruktur-Zertifikate im Wert von EUR 250.000+. Die Alternative waere eine Vermoegenssteuer."*
+---
 
-**Fuer Arbeitgeber**: *"Gesamtbelastung sinkt um bis zu 6 Prozentpunkte. Fachkraeftemangel wird gemildert."*
+## Politische Einordnung
 
-**Fuer den Finanzminister**: *"Bundeszuschuss von EUR 100 Mrd/yr kann nach Uebergangsphase zur Tilgung der Generationen-Anleihe umgewidmet werden."*
+Die politische Logik hinter Config F ist bewusst einfach gehalten:
 
-**Gegen "Rente mit 68"**: *"Ein Jahr laenger arbeiten fuer fast doppelt so hohe Rente und echtes Vermoegen — ein fairer Deal. Und nur fuer Berufe mit steilen Gehaeltern, die am Ende ihrer Karriere EUR 72.000+ verdienen."*
+- Beschaeftigte mit stabilen Erwerbsverlaufen sollen entlastet werden.
+- Hoehere Einkommen sollen staerker zur Stabilitaet des Systems beitragen.
+- Reale Vermoegenswerte sollen das Modell zusaetzlich absichern.
+- Die Reform soll nicht maximal disruptiv, sondern anschlussfaehig sein.
 
-## Dateien
+Das macht die Konfiguration politisch realistischer als ein reines Idealmodell.
+
+---
+
+## Verweise
 
 | Datei | Inhalt |
 |---|---|
 | `params/config_f.yaml` | Finale Parameter (beide Modi) |
-| `src/rig_2d_sweep.py` | 2D-Kalibrierung |
-| `src/rig_stress_tests.py` | Adversariale Stresstests |
-| `src/income_profile_sensitivity.py` | Buckelprofil-Analyse |
-| `src/mc_rig_comparison.py` | MC-Vergleich Config E vs F |
-| `out/combination_matrix.json` | Volle Kombinations-Matrix |
-| `out/rig_2d_sweep.json` | 2D-Sweep Ergebnisse |
-| `out/rig_stress_tests.json` | Stresstest Ergebnisse |
-| `out/political_defense.md` | Politische Verteidigungsmatrix |
-| `out/executive_summary.md` | Einseiter fuer Politiker |
-| `out/faq_kritiker.md` | 10 Fragen, 10 Antworten |
+| `src/rig_2d_sweep.py` | Kalibrierung |
+| `src/rig_stress_tests.py` | Belastungstests |
+| `src/income_profile_sensitivity.py` | Einkommenssensitivitaet |
+| `src/mc_rig_comparison.py` | Vergleich zwischen Varianten |
+| `out/combination_matrix.json` | Vollstaendige Matrix |
+| `out/rig_2d_sweep.json` | Sweep-Ergebnisse |
+| `out/rig_stress_tests.json` | Stresstest-Ergebnisse |
+| `out/political_defense.md` | Politische Einordnung |
+| `out/executive_summary.md` | Kurzfassung |
+| `out/faq_kritiker.md` | Haeufige Einwaende |
+
+---
 
 ## Ausfuehren
 
 ```bash
-# Modus A: Mangelberufe (flat profile, tau=12.25%, Rente=67)
+# Monte-Carlo-Simulation fuer Config F
 python src/monte_carlo.py --config params/config_f.yaml \
-    --tau_high 0.1225 --n_paths 10000 --volatility 0.08 \
-    --json out/mc_rig_final_modus_a.json
-
-# Modus B: Akademiker (hump profile via separate config mit income_profile.enabled=true,
-#          tau=17.5%, Rente=68, div_to_pool=0.90)
-# Erfordert CLI-Override oder separate YAML-Datei
+  --tau_high 0.1225 --n_paths 10000 --volatility 0.08 \
+  --json out/mc_config_f_vol8.json
 ```
+
+---
+
+## Einordnung
+
+Config F ist die belastbarste bisher modellierte Variante des RSSP. Sie ersetzt nicht die politische Entscheidung, ob ein solches System eingefuehrt werden soll. Sie zeigt aber, unter welchen Annahmen eine stabile, kapitalgedeckte und realwirtschaftlich abgesicherte Ausgestaltung moeglich waere.

@@ -33,12 +33,12 @@ Das Ziel ist kein radikaler Bruch mit dem bestehenden System, sondern eine struk
 
 Unter den modellierten Annahmen zeigt das RSSP:
 
-- einen deutlich stabileren Beitragspfad als das heutige Umlagesystem,
-- hoehere Ersatzraten fuer Personen mit niedrigen und mittleren Einkommen,
-- eine bessere Pufferung gegen demografische und marktbezogene Belastungen,
-- und eine zusaetzliche reale Absicherung ueber Infrastrukturwerte.
+- einen deutlich stabileren Beitragspfad als das heutige Umlagesystem (im Modell: effektiver Beitragssatz von 12,6–17%, gegenueber derzeit 18,6% mit steigender Tendenz),
+- hoehere Ersatzraten fuer Personen mit niedrigen und mittleren Einkommen (im Modell: 85% fuer Geringverdiener und 60% fuer mittlere Einkommen als Garantieuntergrenze),
+- eine bessere Pufferung gegen demografische und marktbezogene Belastungen (in der stochastischen Simulation bestehen ueber 90% der Pfade den Garantietest),
+- und eine zusaetzliche reale Absicherung ueber Infrastrukturwerte (der RIG-Fonds investiert in Robotik und Infrastruktur mit geringer Korrelation zu Finanzmaerkten).
 
-Die konkreten Zahlen haengen von den Parametern ab und sind deshalb als Modellresultate zu verstehen, nicht als Garantien.
+Diese Zahlen sind Modellresultate unter bestimmten Annahmen — keine Garantien. Die Sensitivitaet gegenueber Rendite, Volatilitaet und demografischen Parametern ist in den Konfigurationsdokumenten ausfuehrlich dokumentiert.
 
 ---
 

@@ -8,7 +8,7 @@ Wir rüsten auf, um eine Zukunft zu sichern, in der Aufrüstung sinnlos ist.
 Wir blicken auf das Jahr 2100.
 
 ### A. Die Energie-Singularität
-Durch den Dual-Fluid-Reaktor (DFR), der Atommuell als Brennstoff verbrennt, ergaenzt durch Fusionsforschung und erneuerbare Energien, fallen die Grenzkosten fuer Energie gegen Null (siehe `Energiesektor/02_dual_fluid_reaktor.md`).
+Durch den Dual-Fluid-Reaktor (DFR), der Atommuell als Brennstoff verbrennt, ergaenzt durch Fusionsforschung und erneuerbare Energien, fallen die Grenzkosten fuer Energie gegen Null (siehe `Energiesektor/sections/02_dual_fluid_reaktor.md`).
 *   **Folge:** Wasserentsalzung wird billig → Landwirtschaft in Wüsten möglich → Kein Hunger.
 *   **Folge:** Rohstoffe werden recycelt statt abgebaut → Keine Kriege um Minen.
 

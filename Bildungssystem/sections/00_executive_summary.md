@@ -85,10 +85,10 @@ Das deutsche Bildungssystem produziert bei hohen Ausgaben mittelmaeßige Ergebni
 
 | Faktor | Einfluss | Mitigation |
 |--------|----------|------------|
-| Umsetzungsqualitaet | HOCH | Pilotprojekte, Evaluation |
-| Lehrereinbindung | HOCH | Fortbildung, Anreize |
-| Politische Kontinuitaet | HOCH | Parteiuebergreifender Konsens |
-| Technologie | MITTEL | Bewaehrte Systeme |
+| Umsetzungsqualitaet | Hoch | Pilotprojekte, Evaluation |
+| Lehrereinbindung | Hoch | Fortbildung, Anreize |
+| Politische Kontinuitaet | Hoch | Parteiuebergreifender Konsens |
+| Technologie | Mittel | Bewaehrte Systeme |
 
 ### Vergleich mit Finnland
 
@@ -104,7 +104,7 @@ Das deutsche Bildungssystem produziert bei hohen Ausgaben mittelmaeßige Ergebni
 Die Gemeinschaftsschule Plus ist **eine der rentabelsten Investitionen**, die Deutschland taetigen kann:
 
 1. **Hoher Return**: 5,8x Benefit/Cost bei moderatem Risiko
-2. **Loest Lehrermangel**: Differenziertes Personalmodell statt mehr Lehrer
+2. **Adressiert Lehrermangel (Kapazitaetsluecke modellbasiert geschlossen)**: Differenziertes Personalmodell statt mehr Lehrer
 3. **Reduziert Ungleichheit**: SES-Gap -30%, Migranten-Gap -25%
 4. **Verbessert Ergebnisse**: PISA +30 Punkte
 5. **Langfristiger BIP-Effekt**: +0,6%/Jahr (kumuliert ueber Jahrzehnte)
@@ -122,7 +122,8 @@ Die Gemeinschaftsschule Plus ist **eine der rentabelsten Investitionen**, die De
 | 01 | Literaturuebersicht und Datenbasis |
 | 02 | Baseline-Ergebnisse der Simulation |
 | 03 | Sensitivitaetsanalyse |
-| GOUDE | Universitaetsreform (separates Dokument) |
+| 04 | GOUDE — Online-Universitaet (Daten + Vision) |
+| 05 | Vision Gemeinschaftsschule Plus (lesbarer Einstieg) |
 | Model | Python-Simulation (education_reform_model.py) |
 
 ---

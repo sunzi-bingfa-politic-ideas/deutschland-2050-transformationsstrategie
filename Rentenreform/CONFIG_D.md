@@ -37,7 +37,7 @@ Config D ist das Ergebnis einer systematischen Modellanalyse mit 6 Agenten, Para
 | Mid (50%) | EUR 40.000/yr | EUR 433 | EUR 2.000 | Positiv (teilsubventioniert) |
 | High (20%) | EUR 72.000/yr | EUR 735 | EUR 0 | Negativ (Solidarbeitrag) |
 
-High-Earner Lebenszeitbelastung: EUR 735 × 12 × 47 = EUR 414.540 ohne Gegenleistung.
+High-Earner Lebenszeitbelastung: EUR 735 × 12 × 47 = EUR 414.540 als Solidarbeitrag (Gegenleistung: anteilige RIG-Infrastruktur-Zertifikate, vgl. CONFIG_F).
 Zum Vergleich: Aktueller GRV-Arbeitnehmeranteil bei EUR 72k: EUR 558/mo (9.3%).
 
 ## Warum Config D und nicht die Alternativen

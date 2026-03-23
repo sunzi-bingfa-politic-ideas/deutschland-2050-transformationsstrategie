@@ -14,7 +14,7 @@ Die Alternativen sind alle verwundbar:
 | Franzoesischer Atomstrom | Paris | Abhaengigkeit von einem einzelnen Partner; FR-Kapazitaeten fuer eigenen Bedarf knapp |
 | Kohle | Eigene (Braunkohle) | Klimapolitisch tot; Reserven begrenzt |
 
-**Die Konsequenz:** Ohne eigene, unabhaengige Energiequelle ist jede andere Reformsaeule — RSSP, GSP, Drohnen-Doktrin, Karolinger-Pakt — auf Sand gebaut. Wer Deutschlands Energie abschaltet, schaltet Deutschland ab.
+**Die Konsequenz:** Ohne robustere eigene Energieoptionen ruhen die anderen Reformsaeulen — RSSP, GSP, Drohnen-Doktrin, Karolinger-Pakt — auf einer verwundbaren Basis. Eine Unterbrechung der Energieversorgung wuerde alle Module gleichzeitig unter Druck setzen.
 
 ---
 

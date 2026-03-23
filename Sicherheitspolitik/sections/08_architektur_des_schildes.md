@@ -47,6 +47,6 @@ Wir nutzen unseren Reichtum und unsere Industrie, um den Krieg zu automatisieren
 **Querverweise:** Die hier skizzierte Doktrin wird in folgenden Dokumenten detailliert:
 - `09_drohnen_doktrin.md` — Vollstaendige Drohnen-Strategie (Systeme, Kosten, Israel-Kooperation)
 - `10_abschreckungsarchitektur.md` — Universelle Abschreckung (Sensor-Netzwerk, Deep Strike, EDOS, Mobilitaet)
-- `10b_cyber_eskalationsstufe.md` — Cyber als dritte Eskalationsstufe
+- `10a_cyber_eskalationsstufe.md` — Cyber als dritte Eskalationsstufe
 - `07_polen_perspektive.md` — Euro-Stachel-Konsortium (DE/PL/IL) fuer Drohnenproduktion
 - `05b_frankreich_perspektive.md` — Franzoesischer Nuklearschirm (Ring 3)

@@ -77,15 +77,17 @@ Ein datengetriebenes, KI-gestuetztes Integrationssystem:
 
 Selbst im pessimistischen Szenario ist DASDIS **fiskalisch positiv in allen modellierten Szenarien**.
 
+> Alle fiskalischen Kennzahlen sind Simulationsergebnisse unter den dokumentierten Annahmen.
+
 ### Kritische Erfolgsfaktoren
 
 | Faktor | Einfluss | Mitigation |
 |--------|----------|------------|
-| App-Adoption | HOCH | Verpflichtende Nutzung, gute UX |
-| Datenqualitaet | HOCH | Qualitaetssicherung, Validierung |
-| Datenschutz | HOCH | DSGVO-Konformitaet, Transparenz |
-| Personal-Akzeptanz | MITTEL | Schulung, Change-Management |
-| Politische Kontinuitaet | MITTEL | Parteiuebergreifender Konsens |
+| App-Adoption | Hoch | Verpflichtende Nutzung, gute UX |
+| Datenqualitaet | Hoch | Qualitaetssicherung, Validierung |
+| Datenschutz | Hoch | DSGVO-Konformitaet, Transparenz |
+| Personal-Akzeptanz | Mittel | Schulung, Change-Management |
+| Politische Kontinuitaet | Mittel | Parteiuebergreifender Konsens |
 
 ### Vergleich international
 
@@ -98,7 +100,7 @@ Selbst im pessimistischen Szenario ist DASDIS **fiskalisch positiv in allen mode
 
 ### Empfehlung
 
-DASDIS ist eine **hochrentable Investition** in Deutschlands Integrationssystem:
+DASDIS ist eine **unter den dokumentierten Annahmen fiskalisch vorteilhafte Massnahme** fuer Deutschlands Integrationssystem:
 
 1. **Minimale Kosten**: +0,5% der bestehenden Ausgaben
 2. **Massive Wirkung**: 1,5 Jahre schnellere Integration
@@ -116,7 +118,7 @@ DASDIS ist eine **hochrentable Investition** in Deutschlands Integrationssystem:
 |---------|--------|
 | 01 | Literaturuebersicht und Datenbasis |
 | 02 | Baseline-Ergebnisse der Simulation |
-| 03 | Sensitivitaetsanalyse |
+| 03 | Sensitivitaetsanalyse (geplant) |
 | Model | Python-Simulation (dasdis_model.py) |
 
 ---

@@ -42,7 +42,6 @@ GOUDE ist eine vollstaendig online-basierte, staatlich anerkannte MINT-Universit
 |-----------|------|
 | 4x FernUni-Jahresbudget | 550 vs. 150 Mio. |
 | 0,5% eines Bundesbudgets | Minimal |
-| Weniger als ein Kampfjet | ~150 Mio./Stueck |
 
 ## 4.3 Jaehrlicher Betrieb (nach Vollauslastung)
 
@@ -188,7 +187,85 @@ GOUDE ist eine vollstaendig online-basierte, staatlich anerkannte MINT-Universit
 | Anwerbung im Ausland | 20.000 EUR | Variabel | Mittel |
 | Ausbildungsfoerderung | 50.000 EUR | Mittel | Mittel |
 
-## 4.9 Zusammenfassung
+## 4.9 Der Weg durch GOUDE: Drei Stufen, ein Ziel
+
+Die Tabellen in den vorigen Sektionen zeigen Kosten und Effizienz. Dieser Abschnitt beschreibt, wie GOUDE sich fuer eine konkrete Person anfuehlt — denn eine Universitaet ist kein Datensatz, sondern ein Ort an dem Menschen lernen.
+
+### Stufe 1: GOUDE Global — der offene Einstieg
+
+Eine junge Frau in Lagos, ein Techniker in Jakarta, eine Lehrerin in Bogota — sie alle koennen sich auf der GOUDE-Plattform einschreiben. Keine Zugangsbeschraenkung, keine Vorqualifikation, keine Gebuehr fuer den Einstieg. Die Kurse sind auf Englisch und Deutsch verfuegbar, KI-gestuetzte Uebersetzung ergaenzt weitere Sprachen.
+
+Die Studierenden arbeiten sich durch modulare MINT-Kurse: Mathematik, Informatik, Ingenieurwissenschaften, Naturwissenschaften. Die Bewertung erfolgt durch beaufsichtigte Online-Pruefungen und projektbasierte Arbeiten. Wer ein definiertes Modul-Paket abschliesst, erhaelt ein GOUDE-Zertifikat — kein akademischer Grad, aber ein international anerkannter Kompetenznachweis.
+
+Die Gebuehren liegen bei rund 200 EUR pro Jahr. Das ist in vielen Entwicklungslaendern eine substantielle Summe, aber ein Bruchteil dessen, was ein vergleichbares Programm an einer westlichen Universitaet kostet. Stipendien und ein Freemium-Modell senken die Schwelle weiter.
+
+### Stufe 2: GOUDE EU — der vollwertige Abschluss
+
+Wer das Zertifikatsprogramm abschliesst — oder auf anderem Weg gleichwertige Kompetenzen nachweist — kann in das Vollstudium eintreten. GOUDE EU vergibt akkreditierte Bachelor- und Master-Abschluesse in MINT-Faechern, die rechtlich gleichwertig mit Abschluessen deutscher Praesenzuniversitaeten sind.
+
+Das Studium bleibt primaer online, bietet aber optionale Praesenzphasen: Laborsitzungen, Intensivkurse, Pruefungen an GOUDE-Lernzentren in Deutschland und Partnerinstitutionen in der EU. Die Abschlusspruefungen werden von externen Pruefern entwickelt und bewertet — das garantiert die Aequivalenz und verhindert, dass GOUDE als "Billig-Uni" wahrgenommen wird.
+
+Gebuehren: rund 1.000 EUR pro Jahr. Stipendien und Finanzierungshilfen fuer beduerftige Studierende sind eingeplant.
+
+### Stufe 3: GOUDE Deutschland — der Weg nach Deutschland
+
+Fuer Studierende, die einen Aufenthalt in Deutschland anstreben, bietet GOUDE Unterstuetzung bei Visa-Beantragung, Wohnungssuche und kultureller Integration. Absolventen des Zertifikatsprogramms in ausgewaehlten MINT-Bereichen erhalten ein vereinfachtes Visa-Verfahren (Fachkraft/Arbeitssuche). Wer den vollstaendigen GOUDE-Abschluss erwirbt, bekommt einen vereinfachten Zugang zum Daueraufenthalt und qualifiziert sich direkt fuer die Blue Card.
+
+Das ist keine versteckte Einwanderungspolitik — es ist eine transparente Strategie: Wer durch GOUDE dokumentiert, dass er oder sie MINT-Kompetenzen auf deutschem Universitaetsniveau beherrscht, ist genau die Art von Fachkraft, die Deutschland braucht. Die Selektion erfolgt nicht durch Herkunft oder Netzwerk, sondern durch nachgewiesene Leistung.
+
+---
+
+## 4.10 Wirtschaftskooperation: GOUDE und die Industrie
+
+GOUDE ist keine akademische Insel. Die Verbindung zur Wirtschaft ist strukturell eingebaut:
+
+**Partnerschaften fuer Forschung und Lehre:** Unternehmen koennen Lehrbeauftragte stellen, Forschungsprojekte gemeinsam mit GOUDE-Studierenden durchfuehren und Praktikumsplaetze anbieten. Das bringt aktuelle Industriepraxis in die Lehre und gibt Studierenden frueh Kontakt zur Berufswelt.
+
+**Anonymisierte Personalvermittlung:** GOUDE bietet eine Schnittstelle, ueber die Unternehmen gezielt MINT-Absolventen ansprechen koennen — anonymisiert und nur mit Zustimmung der Studierenden. Das reduziert Diskriminierung im Bewerbungsprozess und gibt Unternehmen Zugang zu einem globalen Talentpool.
+
+**Joint Degree Programs:** Kooperationen mit Universitaeten in anderen EU-Laendern ermoeglichen gemeinsame Studiengaenge — ein GOUDE-Absolvent kann gleichzeitig einen deutschen und einen franzoesischen Abschluss erwerben. Das staerkt die europaeische Dimension und macht GOUDE attraktiver fuer Studierende, die nicht nur Deutschland, sondern den EU-Arbeitsmarkt im Blick haben.
+
+---
+
+## 4.11 Outreach: Wie GOUDE seine Studierenden findet
+
+Eine Online-Universitaet, von der niemand weiss, hat keine Studierenden. GOUDE braucht eine aktive Ansprache — insbesondere in Entwicklungslaendern, wo das Angebot den groessten Unterschied macht.
+
+### Kernbotschaften
+
+Die Kommunikation folgt einer klaren Logik: nicht "Deutschland hilft euch", sondern "Hier ist eine Leiter — du entscheidest, wie hoch du steigst."
+
+- **Qualitaet:** Deutsche MINT-Ausbildung, global anerkannt
+- **Zugaenglichkeit:** Von ueberall, zu geringen Kosten, ohne Voraussetzungen
+- **Weg nach oben:** Zertifikat → Abschluss → Visum → Karriere — ein transparenter Pfad
+- **Keine Einbahnstrasse:** Absolventen koennen zurueckkehren und das Gelernte in ihrem Heimatland einsetzen
+
+### Kanaele
+
+**Digital (primaer):** Gezielte Social-Media-Kampagnen in Laendern mit hoher MINT-Nachfrage. Mobile-first — in vielen Ziellaendern ist das Smartphone der einzige Internetzugang. Partnerschaften mit bestehenden Online-Lernplattformen.
+
+**Institutionell:** Zusammenarbeit mit deutschen Botschaften und Konsulaten, mit lokalen Schulen und Universitaeten, mit Organisationen wie dem DAAD und dem Goethe-Institut. GOUDE ergaenzt deren Arbeit, konkurriert nicht mit ihr.
+
+**Alumni-Netzwerk:** Fruehe Absolventen werden zu Botschaftern in ihren Heimatlaendern. Das ist die glaubwuerdigste Form der Werbung: Menschen die den Weg gegangen sind und davon berichten.
+
+### Ethische Leitlinien
+
+Die Ansprache vermeidet ueberzogene Versprechen. GOUDE ist ein Bildungsangebot, keine Garantie fuer ein Visum oder einen Arbeitsplatz. Die Kommunikation benennt ehrlich, was GOUDE leisten kann und was nicht. "Brain Drain"-Bedenken werden ernst genommen: GOUDE foerdert ausdruecklich die Rueckkehr von Absolventen und den Aufbau von Kapazitaeten in den Heimatlaendern — unter anderem durch die Franchise-Schulen und GOUDE-Campuses im Ausland (siehe `Aussenpolitik/sections/04_bildungsdiplomatie_detail.md`).
+
+---
+
+## 4.12 GOUDE als Baustein im Gesamtsystem
+
+GOUDE steht nicht isoliert. Es ist das Bindeglied zwischen der Bildungsreform im Inland und der Bildungsdiplomatie im Ausland:
+
+- **Nach innen:** GOUDE ergaenzt die Gemeinschaftsschule Plus. Absolventen des reformierten Schulsystems haben einen nahtlosen Uebergang in MINT-Studiengaenge — online, flexibel, kompetenzbasiert.
+- **Nach aussen:** GOUDE ist das Eingangstor fuer internationale Talente. Wer im Ausland ein GOUDE-Zertifikat erwirbt, kann ueber Franchise-Schulen, Exchange-Develop-Programme oder direkt ueber GOUDE EU den Weg nach Deutschland finden.
+- **Fuer die Fachkraeftesicherung:** 6.000 MINT-Zuwanderer pro Jahr ueber GOUDE sind kein Ersatz fuer die inlaendische Ausbildung, aber eine substantielle Ergaenzung — mit 136 Mio. EUR jaehrlichen Steuereinnahmen bei 170 Mio. EUR Zuschuss.
+- **Fuer die Soft Power:** 500.000 Studierende weltweit, die mit deutscher MINT-Technologie und deutschen Standards arbeiten, entstehen Verbindungen, die durch diplomatische Kanaele allein kaum zu erzielen waeren.
+
+---
+
+## 4.13 Zusammenfassung
 
 | Erkenntnis | Detail |
 |------------|--------|
@@ -200,7 +277,7 @@ GOUDE ist eine vollstaendig online-basierte, staatlich anerkannte MINT-Universit
 | Steuereffekt | 136 Mio. EUR/Jahr |
 | Netto-Kosten | ~34 Mio. EUR/Jahr |
 
-**Zentrale Erkenntnis**: GOUDE ist eine kosteneffiziente Strategie zur MINT-Fachkraeftesicherung und globalen Bildungs-Soft-Power. Die Netto-Kosten von 34 Mio. EUR/Jahr sind minimal fuer 600.000 Studierende und 6.000 Fachkraefte-Zuwanderer jaehrlich.
+**Zentrale Einordnung**: GOUDE erscheint unter den dokumentierten Modellannahmen als kosteneffiziente Strategie zur MINT-Fachkraeftesicherung und globalen Bildungs-Soft-Power. Die Netto-Kosten von 34 Mio. EUR/Jahr sind minimal fuer 600.000 Studierende und 6.000 Fachkraefte-Zuwanderer jaehrlich.
 
 ---
 

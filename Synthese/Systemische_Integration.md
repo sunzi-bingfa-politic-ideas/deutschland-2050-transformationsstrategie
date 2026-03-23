@@ -30,7 +30,7 @@ Einige Verbindungen die das Modell explizit abbildet:
 
 **Gesundheit entlastet die Rente.** Ein kapitalgedecktes Gesundheitskonto (GSP) senkt langfristig die GKV-Beitragslast. Niedrigere Lohnnebenkosten erhoehen die Wettbewerbsfaehigkeit der Wirtschaft — und damit die Lohnbasis, auf der auch die Rentenbeitraege berechnet werden.
 
-**Energie sichert die Industrie.** Eine eigene Energiequelle (langfristig ueber einen neuartigen Reaktortyp der existierenden Atommuell als Brennstoff nutzt, mittelfristig ueber franzoesische Nuklearkooperation) schuetzt die industrielle Basis vor Preisschocks und politischer Erpressung. Stabile Industrie bedeutet stabile Beschaeftigung, und stabile Beschaeftigung bedeutet stabile Beitraege in den Kapitalstock.
+**Energie sichert die Industrie.** Eine eigene Energiequelle (langfristig ueber einen neuartigen Reaktortyp der existierenden Atommuell als Brennstoff nutzt, mittelfristig ueber franzoesische Nuklearkooperation) schuetzt die industrielle Basis vor Preisschocks und energiepolitischer Abhaengigkeit. Stabile Industrie bedeutet stabile Beschaeftigung, und stabile Beschaeftigung bedeutet stabile Beitraege in den Kapitalstock.
 
 **Bildung ermoeglicht Technologie.** Eine reformierte Online-Universitaet (GOUDE — ein digitales Bildungsangebot nach dem Vorbild der Open University) und verbesserte Grundschulen produzieren die Fachkraefte, die fuer die KI-gestuetzte Materialforschung, die technologische Modernisierung der Verteidigung und die digitale Verwaltung benoetigt werden.
 

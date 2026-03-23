@@ -2,9 +2,9 @@
 
 ## Die Kernthese
 
-Deutschlands Vermoegensposition in der Eurozone ist ein **asymmetrisches Spiel**: Als "Naiver Glaeubieger" (Status Quo) verliert Deutschland in jedem Instabilitaets-Szenario (1.100 Mrd. EUR Target2 → wertlos). Als "Smarter Investor" (RSSP-Strategie) gewinnt Deutschland in **jedem** Szenario — Euro stabil ODER instabil.
+Deutschlands Vermoegensposition in der Eurozone ist ein **asymmetrisches Spiel**: Als "passiver Glaeubieger" (Status Quo) verliert Deutschland in jedem Instabilitaets-Szenario (1.100 Mrd. EUR Target2 → wertlos). Als "Smarter Investor" (RSSP-Strategie) zeigt Deutschland unter den dokumentierten Annahmen in allen acht Szenarien einen positiven Erwartungswert — Euro stabil oder instabil.
 
-Die Transformation: Euro-denominierte Schulden aufnehmen → in Realwerte tauschen (globale Aktien, Gold, Infrastruktur, RIG) → wenn Euro stabil: Zins-Arbitrage-Gewinn; wenn Euro kollabiert: Schulden entwertet, Assets explodieren.
+Die Transformation: Euro-denominierte Schulden aufnehmen → in Realwerte tauschen (globale Aktien, Gold, Infrastruktur, RIG (Robotik-Infrastrukturgesellschaft)) → wenn Euro stabil: Zins-Arbitrage-Gewinn; wenn Euro kollabiert: Schulden entwertet, Assets explodieren.
 
 ## Quantitative Ergebnisse (aktualisiert mit RSSP-Modell v2)
 
@@ -44,4 +44,4 @@ RSSP (7,5 Bio.)  ──→  Finanziert Verteidigung (85 Mrd./10J)
 ## Rigor Statement
 
 **Confidence: Medium** fuer quantitative Ergebnisse (Szenarien sind stilisiert; Groessenordnungen empirisch fundiert).
-**Confidence: Medium-High** fuer die strategische Logik ("Smart Investor" dominiert "Naiver Glaeubieger" in spieltheoretischer Analyse).
+**Confidence: Medium-High** fuer die strategische Logik ("Smart Investor" dominiert "passiver Glaeubieger" in spieltheoretischer Analyse).

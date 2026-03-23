@@ -1,8 +1,8 @@
 # Energiesektor: Executive Summary
 
-## Die existenzielle Frage
+## Die strukturelle Energieabhaengigkeit
 
-Deutschland importiert ~70% seiner Energie. Ohne eigene Quelle ist jede andere Reform — RSSP, GSP, Drohnen, Karolinger — auf fragilem Fundament gebaut. Wer Deutschlands Energie abschaltet, schaltet Deutschland ab.
+Deutschland importiert ~70% seiner Energie. Ohne eigene Quelle ist jede andere Reform — RSSP, GSP, Drohnen, Karolinger — auf fragilem Fundament gebaut. Eine Unterbrechung der Energieversorgung wuerde die industrielle Basis aller anderen Reformmodule unter Druck setzen.
 
 ## Die Strategie: Zwei Saeulen
 

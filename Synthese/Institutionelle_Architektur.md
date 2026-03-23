@@ -4,7 +4,7 @@
 
 ## Das Problem: Demokratie vs. Langfristigkeit
 
-Demokratische 4-Jahres-Zyklen konfligieren fundamental mit einem 50-Jahres-Generationenprojekt. Jede neue Regierung reisst ab was die vorherige aufgebaut hat. Ohne institutionellen Schutz wird der RSSP gepluendert bevor er wirken kann.
+Demokratische 4-Jahres-Zyklen stehen strukturell im Widerspruch zu einem 50-Jahres-Generationenprojekt. Neue Regierungen neigen dazu, Prioritaeten ihrer Vorgaenger umzugewichten — ein strukturelles Spannungsfeld fuer langfristige Investitionsprogramme. Ohne institutionellen Schutz fliessen RSSP-Mittel ab, bevor der Kapitalstock eine kritische Groesse erreicht.
 
 **Loesung:** Ein verfassungsrechtlich geschuetztes Bundesamt — unabhaengig wie die Bundesbank vor dem Euro — das die Transformation gegen politische Zyklen absichert.
 
@@ -47,7 +47,7 @@ Authority  Authority    AG       Agency     AG
 
 | Dimension | Spezifikation |
 |-----------|---------------|
-| Assets (Ziel 50 Jahre) | ~7.500 Mrd. EUR |
+| Assets (Ziel 25 Jahre, 2025-2050) | ~7.500 Mrd. EUR |
 | Portfolio | Gemaess RSSP-Modell Config F: Globale Aktien, RIG, Gold, Infrastruktur |
 | Personal | ~500 FTE (ex-Sovereign-Wealth, Assetmanagement) |
 | KPI | Realrendite ≥ 1,7% p.a.; Ersatzrate Low ≥ 85% |
@@ -115,7 +115,7 @@ Die kritischen Vermoegen (RSSP, GSP, Infrastruktur) werden in einer **Societas C
 | Schnelle Pluenderung | EU-Kommission muss genehmigen; EuGH kann angerufen werden; Prozess dauert Jahre |
 | Verstaatlichung | Buerger sind Miteigentuemer (via Rentenansprueche) — Enteignung von 74 Mio. Buergern? |
 
-**Der Lock-In-Effekt:** Selbst wenn eine Regierung den Fonds aufloesen WILL, ist es innerhalb einer Legislaturperiode **praktisch unmoeglich**. Die SCE-Struktur verwandelt politische Traegheit von einem Problem in einen Vorteil.
+**Der Lock-In-Effekt:** Selbst wenn eine Regierung den Fonds aufloesen *wollte*, ist es innerhalb einer Legislaturperiode **praktisch unmoeglich**. Die SCE-Struktur verwandelt politische Traegheit von einem Problem in einen Vorteil.
 
 ### Governance der SCE
 
@@ -152,12 +152,12 @@ Die kritischen Vermoegen (RSSP, GSP, Infrastruktur) werden in einer **Societas C
 
 ## 7. Verbindung zum Karolinger-Pakt
 
-Die SCE-Struktur ist **identisch** mit dem institutionellen Rahmen des Karolinger-Pakts (siehe `Sicherheitspolitik/03_option_omega.md`):
+Die SCE-Struktur ist **identisch** mit dem institutionellen Rahmen des Karolinger-Pakts (siehe `Sicherheitspolitik/sections/03_option_omega.md`):
 
 - Karolinger-Eurobonds werden ueber die SCE emittiert
 - FR/IT/PL sind im Aufsichtsrat der SCE vertreten (4 EU-Partner-Sitze)
 - Die industrielle Verflechtung (Euro-Stachel, FCAS, EDOS) laeuft ueber SCE-Tochtergesellschaften
-- **Ergebnis:** Die institutionelle Architektur des Reformprojekts IST die institutionelle Architektur des Karolinger-Pakts. Beides ist dasselbe.
+- **Ergebnis:** Die institutionelle Architektur des Reformprojekts entspricht strukturell der institutionellen Architektur des Karolinger-Pakts. Beides ist dasselbe.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Warum Frankreich die schwierigste Variable ist
 
-In der Karolinger-Strategie ist Frankreich nicht irgendein Partner — Frankreich ist die **Saule ohne die alles einstuerzt**. Ohne franzoesische Nuklearwaffen gibt es keinen europaeischen Nuklearschirm. Ohne franzoesische Zustimmung gibt es keine Fiskalunion. Ohne franzoesische Industrie kein FCAS, kein EDOS, keinen europaeischen Ruestungssektor.
+In der Karolinger-Strategie ist Frankreich nicht irgendein Partner — Frankreich ist die **Saule ohne die alles einstuerzt**. Ohne franzoesische Nuklearwaffen gibt es keinen europaeischen Nuklearschirm. Ohne franzoesische Zustimmung gibt es keine Fiskalunion. Ohne franzoesische Industrie kein FCAS (Future Combat Air System — deutsch-franzoesisches Kampfflugzeugprogramm), kein EDOS (European Defence OS — europaeisches Waffenbetriebssystem), keinen europaeischen Ruestungssektor.
 
 Aber: Frankreich ist kein wohlwollender Partner der auf deutsche Vorschlaege wartet. Frankreich hat eigene Interessen, eigene Traumata, ein eigenes Selbstverstaendnis — und eine politische Landschaft die jederzeit einen Le-Pen-Nachfolger an die Macht bringen kann.
 

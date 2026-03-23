@@ -18,7 +18,7 @@ Alle Ergebnisse berechnet mit `euro_strategie_model.py` v2.0.
 | H: US-Sanktionen gegen EU | 5% | +132 Mrd. | +231 Mrd. | +99 Mrd. |
 | **Erwartungswert** | **100%** | **+23 Mrd.** | **+1.330 Mrd.** | **+1.307 Mrd.** |
 
-**Kernergebnis:** RSSP dominiert in **jedem einzelnen Szenario**. Der Erwartungswert-Vorteil betraegt +1.307 Mrd. EUR — das ist keine Rundung, das ist ein Unterschied von ueber einer Billion Euro.
+**Kernergebnis:** RSSP zeigt in allen acht Szenarien einen positiven Erwartungswert. Der Erwartungswert-Vorteil betraegt +1.307 Mrd. EUR (Differenz: 1.307 Mrd. EUR).
 
 **Warum der Status Quo fast null Erwartungswert hat:** Die Target2-Verluste in Krisen-Szenarien (D, E) fressen die Gewinne aus Schuldenentlastung (C, E, G) nahezu auf. Status Quo ist ein Nullsummenspiel mit hoher Varianz.
 
@@ -84,7 +84,7 @@ Mit RSSP:    Breite Verteilung, stark rechts-verschoben
 
 ## 4. Die kontraintuitive Einsicht: Mehr Schulden = Bessere Position
 
-Die Tornado-Analyse zeigt: Hoehere Staatsschulden **verbessern** den RSSP-Erwartungswert. Das widerspricht der "Schwaebischen Hausfrau"-Intuition, ist aber mathematisch zwingend:
+Die Tornado-Analyse zeigt: Hoehere Staatsschulden **verbessern** den RSSP-Erwartungswert. Das widerspricht der "Schwaebischen Hausfrau"-Intuition, ist aber modellkonsistent:
 
 1. Schulden sind in Euro denominiert
 2. Bei Euro-Schwaeche werden Schulden real entwertet
@@ -117,8 +117,8 @@ Die Tornado-Analyse zeigt: Hoehere Staatsschulden **verbessern** den RSSP-Erwart
 
 | Aussage | Robustheit | Begruendung |
 |---------|-----------|-------------|
-| RSSP dominiert Status Quo (Erwartungswert) | **Sehr hoch** | In 92% der Monte-Carlo-Laeufe; mathematisch zwingend bei diversifiziertem Portfolio |
-| RSSP dominiert in JEDEM Szenario | **Hoch** | Alle 8 deterministischen Szenarien zeigen Vorteil |
+| RSSP dominiert Status Quo (Erwartungswert) | **Sehr hoch** | In 92% der Monte-Carlo-Laeufe; modellkonsistent bei diversifiziertem Portfolio |
+| RSSP zeigt in allen acht Szenarien einen positiven Erwartungswert | **Hoch** | Alle 8 deterministischen Szenarien zeigen Vorteil |
 | Vorteil >1 Bio. EUR Erwartungswert | **Mittel** | Abhaengig von Szenario-Wahrscheinlichkeiten (subjektiv geschaetzt) |
 | RSSP-Worst-Case besser als SQ-Worst-Case | **Nein** | RSSP P5 = -527 vs. SQ P5 = -378 — RSSP hat hoehere Varianz |
 

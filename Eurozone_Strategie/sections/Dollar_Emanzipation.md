@@ -2,7 +2,7 @@
 
 ## Warum dieses Kapitel jetzt noetig ist
 
-Die urspruengliche Eurozone-Strategie (2024) analysierte das Euro-Risiko als internes europaeisches Problem — Divergenz zwischen Nord und Sued, Target2, Fiskalunion. Seit 2025 ist eine **zweite Front** aufgegangen: Die USA setzen den Dollar aktiv als Waffe gegen europaeische Interessen ein (siehe `Sicherheitspolitik/05_usa_neupositionierung.md`).
+Die urspruengliche Eurozone-Strategie (2024) analysierte das Euro-Risiko als internes europaeisches Problem — Divergenz zwischen Nord und Sued, Target2, Fiskalunion. Seit 2025 ist eine **zweite Front** aufgegangen: Die USA setzen den Dollar aktiv als Waffe gegen europaeische Interessen ein (siehe `Sicherheitspolitik/sections/05_usa_neupositionierung.md`).
 
 Das veraendert die Kalkulation fundamental: Deutschland braucht nicht nur einen Hedge gegen Euro-Instabilitaet, sondern auch einen **Schutzschild gegen Dollar-Dominanz**.
 
@@ -186,7 +186,7 @@ Der RIG (Robotik-Infrastrukturgesellschaft) aus dem RSSP-Modell investiert in de
 
 ## 6. Die China-Dimension: De-Risking erfordert Finanzautonomie
 
-Aus der China-Analyse (`Sicherheitspolitik/06_china_strategie.md`) folgt:
+Aus der China-Analyse (`Sicherheitspolitik/sections/06_china_strategie.md`) folgt:
 - Europa muss kritische Lieferketten diversifizieren (Seltene Erden, Batterien, Chips)
 - Das kostet ~15-20 Mrd. EUR/Jahr ueber 10 Jahre
 - Diese Investitionen muessen **in Euro** finanzierbar sein — ohne Dollar-Abhaengigkeit
@@ -212,7 +212,7 @@ Aus der China-Analyse (`Sicherheitspolitik/06_china_strategie.md`) folgt:
 
 ## Rigor Statement
 
-**Confidence: Medium-High** fuer die RSSP-Waehrungs-Hedge-Logik (mathematisch zwingend: diversifiziertes Portfolio gewinnt bei Heimatwaehrungs-Schwaeche).
+**Confidence: Medium-High** fuer die RSSP-Waehrungs-Hedge-Logik (modellkonsistent: diversifiziertes Portfolio profitiert bei Heimatwaehrungs-Schwaeche).
 **Confidence: Medium** fuer die Dollar-Emanzipations-Strategie (Digitaler Euro ist real, aber politische Umsetzung unsicher).
 **Confidence: Medium** fuer die Fiskalunion-RSSP-Verbindung (logisch koharent, aber abhaengig von Frankreichs Kooperationsbereitschaft — siehe 2027-Deadline).
 

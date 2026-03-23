@@ -33,7 +33,7 @@ Ein **Hybridmodell** aus asiatischen Best Practices, angepasst an deutsche Gegeb
 
 **Kernproblem:** 60-80 Mrd. EUR/Jahr strukturelle Ineffizienz = Einkommen organisierter Lobby-Gruppen (Kassen, Pharma, Kliniken). Jede Reform bedroht jemandes Einkommen.
 
-**Loesung: Sequenzielle Einfuehrung (Salamitaktik)**
+**Loesung: Sequenzielle Einfuehrung**
 
 | Phase | Jahre | Massnahme | Lobby-Widerstand |
 |-------|-------|-----------|------------------|

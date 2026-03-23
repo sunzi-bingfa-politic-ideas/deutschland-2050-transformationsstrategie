@@ -1,5 +1,7 @@
 # Kommunikationsstrategie: Das Narrativ der Erneuerung
 
+> **Hinweis:** Dieses Dokument enthaelt politische Kommunikationsbausteine. Begriffe und Framings dienen der oeffentlichen Vermittlung, nicht der analytischen Bewertung. Die analytische Grundlage findet sich in den jeweiligen Bereichsdokumenten.
+
 **Stand: Maerz 2026 — Bereinigt und aktualisiert**
 
 ## 1. Partei-spezifische Argumente
@@ -80,8 +82,8 @@ A: "Glauben Sie nicht uns — glauben Sie Mathematik. Norwegen: 1,5 Billionen Do
 
 | Phase | Zeitraum | Kernbotschaft | Quick Wins |
 |-------|----------|---------------|-----------|
-| **1: Schock-Diagnose** | Monat 1-3 | "Ohne Reform kollabiert das System. Rente: 48%→40%. Beitraege: 19,5%→25%. Das ist Mathematik." | Schonungsloser Bericht (Wirtschaftsweise) |
-| **2: Loesung als Befreiungsschlag** | Monat 4-6 | "Der Deutschland-Plan: 7,5 Bio. EUR Volksvermoegen bis 2050. Jeder Buerger wird Eigentuemer." | Praesentation mit 9 Saeulen |
+| **1: Schock-Diagnose** | Monat 1-3 | "Ohne strukturelle Anpassung verliert das System erheblich an Handlungsspielraum. Rente: 48%→40%. Beitraege: 19,5%→25%. Das ist Mathematik." | Sachstandsbericht mit klarer Problemdarstellung (Wirtschaftsweise) |
+| **2: Gesamtkonzept** | Monat 4-6 | "Der Deutschland-Plan: 7,5 Bio. EUR Volksvermoegen bis 2050. Jeder Buerger wird Eigentuemer." | Praesentation mit 9 Saeulen |
 | **3: Pilotprojekte** | Jahr 1-2 | "Es funktioniert — schau her." | GOUDE startet; Erste GSP-Konten; Euro-Stachel-Fabrik Grundstein |
 | **4: Skalierung** | Jahr 3-10 | "Der Deutschland-Fonds waechst: X Mrd. EUR." | Jaehrliche Fortschrittsberichte; DFR-Demonstrator |
 | **5: Ernte** | Jahr 10+ | "Ohne Reform haetten Sie X. Mit Reform: Y." | Erste RSSP-Auszahlungen; Internationales Branding |

@@ -6,7 +6,7 @@ Die gesetzliche Rentenversicherung (GRV) steht unter zunehmendem demografischem 
 
 ## Der Vorschlag
 
-Das RSSP ergaenzt das bestehende System um eine kapitalgedeckte Komponente:
+Das RSSP (Renten-Spar- und Sicherungsprogramm) ergaenzt das bestehende System um eine kapitalgedeckte Komponente:
 
 1. **Individuelle Kapitalkonten.** Beitraege werden nicht sofort umverteilt, sondern auf persoenlichen Konten langfristig angelegt. Ueber ein Berufsleben entsteht ein individueller Vermoegensstock.
 

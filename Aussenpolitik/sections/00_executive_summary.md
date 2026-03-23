@@ -75,17 +75,17 @@ Selbst im pessimistischen Szenario ist das Programm **fiskalisch positiv**.
 
 | Faktor | Einfluss | Mitigation |
 |--------|----------|------------|
-| Partnerlaender-Kooperation | HOCH | Diplomatische Vorbereitung |
-| Stipendiaten-Qualitaet | HOCH | Strenge Auswahlverfahren |
-| Curriculum-Aequivalenz | MITTEL | Akkreditierung, Standards |
-| Politische Kontinuitaet | MITTEL | Parteiuebergreifender Konsens |
-| Rueckkehr-Rate | MITTEL | Alumni-Netzwerke, Bindung |
+| Partnerlaender-Kooperation | Hoch | Diplomatische Vorbereitung |
+| Stipendiaten-Qualitaet | Hoch | Strenge Auswahlverfahren |
+| Curriculum-Aequivalenz | Mittel | Akkreditierung, Standards |
+| Politische Kontinuitaet | Mittel | Parteiuebergreifender Konsens |
+| Rueckkehr-Rate | Mittel | Alumni-Netzwerke, Bindung |
 
 ### Vergleich international
 
 | Land | Programm | Budget | Strategie |
 |------|----------|--------|-----------|
-| **China** | Konfuzius-Institute | 500 Mio.+ USD | Aggressive Expansion |
+| **China** | Konfuzius-Institute | 500 Mio.+ USD | starke Expansion |
 | **UK** | British Council | 1,3 Mrd. GBP | Sprache + Kultur |
 | **Frankreich** | Alliance Francaise | 350 Mio. EUR | Frankophonie |
 | **Deutschland (neu)** | Soft Power Education | 286 Mio. EUR | Bildung + Fachkraefte |
@@ -100,7 +100,7 @@ Soft Power Education ist eine **strategische Investition** in Deutschlands globa
 4. **Handelswirkung**: Langfristige Wirtschaftsbeziehungen
 5. **Entwicklungshilfe**: Bildungstransfer statt nur Geld
 
-**Das Nicht-Handeln** ueberlässt das Feld Konkurrenten wie China und verschenkt geopolitischen Einfluss (Einschaetzung basierend auf Modellvergleich).
+**Das Nicht-Handeln** ueberlässt das Feld Konkurrenten wie China und ueberlässt strategisches Terrain an Wettbewerber (Einschaetzung basierend auf Modellvergleich).
 
 ---
 
@@ -111,7 +111,10 @@ Soft Power Education ist eine **strategische Investition** in Deutschlands globa
 | 01 | Literaturuebersicht und Datenbasis |
 | 02 | Baseline-Ergebnisse der Simulation |
 | 03 | Sensitivitaetsanalyse |
+| 04 | Bildungsdiplomatie im Detail (lesbarer Einstieg) |
 | Model | Python-Simulation (soft_power_education_model.py) |
+
+> Alle ROI-Angaben sind Simulationsergebnisse unter den dokumentierten Annahmen.
 
 ---
 
